@@ -4,7 +4,7 @@ name: collect
 # Cron в UTC: 40-я минута каждого часа (в Астане тоже :40), чтобы окно брони начиналось в начале часа.
 on:
   schedule:
-    - cron: "40 * * * *"
+    - cron: "37 * * * *"
   workflow_dispatch:
 
 permissions:
