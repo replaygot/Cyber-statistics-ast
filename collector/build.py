@@ -1,6 +1,8 @@
 """Пересобирает occupancy.csv и SUMMARY.md из всех сохранённых ответов API (data/<клуб>/raw).
 
-Так любые правки в разборе сразу применяются ко всей истории.
+Каждый ответ — снимок: на каких местах идёт игра в момент замера. Замер относится к часу,
+в котором он сделан (замер в 15:35 — это час 15:00–16:00). Если в один час попало
+несколько замеров, берётся последний. Так любые правки в разборе сразу применяются ко всей истории.
 Запуск: python3 collector/build.py [код_клуба]
 """
 import csv
@@ -32,7 +34,9 @@ def num(name: str):
 
 
 def parse(raw: dict, on_map: set) -> tuple[datetime, dict]:
-    start = datetime.strptime(raw["window"]["start_at"], "%Y-%m-%d %H:%M")
+    """Время замера (время клуба) и места по зонам: busy — идёт игра, booked — свободно,
+    но забронировано на ближайший час, unavailable — выключено, free — свободно."""
+    measured = datetime.fromisoformat(raw["server_now"]).replace(tzinfo=None)
     zones: dict[str, dict] = defaultdict(lambda: {"seats": 0, "busy": [], "booked": [], "unavailable": [], "free": []})
     for s in as_list((raw["seats_response"].get("data") or {}).get("seats")):
         if on_map and s.get("device_uuid") not in on_map:
@@ -44,7 +48,7 @@ def parse(raw: dict, on_map: set) -> tuple[datetime, dict]:
             z["unavailable"].append(name)
         elif state == "BUSY":
             z["busy"].append(name)
-        elif s.get("occupied"):  # свободно сейчас, но в окне есть бронь
+        elif s.get("occupied"):
             z["booked"].append(name)
         else:
             z["free"].append(name)
@@ -55,33 +59,38 @@ def parse(raw: dict, on_map: set) -> tuple[datetime, dict]:
             total[k] += z[k]
     zones = dict(zones)
     zones[ALL] = total
-    return start, zones
+    return measured, zones
 
 
 def build(club: str) -> None:
     base = ROOT / "data" / club
     scheme_path = base / "scheme.json"
     on_map = seat_uuids(json.loads(scheme_path.read_text(encoding="utf-8"))) if scheme_path.exists() else set()
-    rows, club_name = [], club
+    latest, club_name = {}, club
     for f in sorted((base / "raw").glob("*/*.json")):
         raw = json.loads(f.read_text(encoding="utf-8"))
         club_name = raw.get("club_name") or club_name
-        start, zones = parse(raw, on_map)
+        measured, zones = parse(raw, on_map)
+        key = measured.strftime("%Y-%m-%d %H")
+        if key not in latest or measured >= latest[key][0]:
+            latest[key] = (measured, zones)
+    rows = []
+    for measured, zones in latest.values():
         for zone, z in zones.items():
-            occ = len(z["busy"]) + len(z["booked"])
+            occ = len(z["busy"])
             rows.append({
-                "window_start": start.strftime("%Y-%m-%d %H:%M"), "date": start.strftime("%Y-%m-%d"),
-                "weekday": WEEKDAYS[start.weekday()], "hour": start.hour, "zone": zone, "seats": z["seats"],
-                "occupied": occ, "busy": len(z["busy"]), "booked": len(z["booked"]),
-                "unavailable": len(z["unavailable"]), "free": len(z["free"]),
+                "measured_at": measured.strftime("%Y-%m-%d %H:%M"), "date": measured.strftime("%Y-%m-%d"),
+                "weekday": WEEKDAYS[measured.weekday()], "hour": measured.hour, "zone": zone, "seats": z["seats"],
+                "occupied": occ, "free": len(z["free"]) + len(z["booked"]), "unavailable": len(z["unavailable"]),
                 "occupied_pct": round(100 * occ / z["seats"]) if z["seats"] else "",
-                "busy_seats": " ".join(sorted(z["busy"], key=num)),
+                "booked_next_hour": len(z["booked"]),
+                "occupied_seats": " ".join(sorted(z["busy"], key=num)),
                 "booked_seats": " ".join(sorted(z["booked"], key=num)),
                 "unavailable_seats": " ".join(sorted(z["unavailable"], key=num)),
             })
-    rows.sort(key=lambda r: (r["window_start"], r["zone"] == ALL, r["zone"]))
+    rows.sort(key=lambda r: (r["measured_at"], r["zone"] == ALL, r["zone"]))
     with (base / "occupancy.csv").open("w", newline="", encoding="utf-8") as fh:
-        w = csv.DictWriter(fh, fieldnames=list(rows[0].keys()) if rows else ["window_start"])
+        w = csv.DictWriter(fh, fieldnames=list(rows[0].keys()) if rows else ["measured_at"])
         w.writeheader()
         w.writerows(rows)
     (base / "SUMMARY.md").write_text(summary(rows, club_name), encoding="utf-8")
@@ -94,8 +103,9 @@ def summary(rows: list, club_name: str) -> str:
     out = [
         f"# Загрузка {club_name} по часам",
         "",
-        f"Обновлено: {now}. Замеров: {len(total)}. Значение — % мест, занятых сессией или бронью "
-        "в течение часа, начиная с указанного (время клуба, UTC+5). Пусто — замера ещё не было.",
+        f"Обновлено: {now}. Замеров: {len(total)}. Значение — % мест, на которых шла игра в момент замера. "
+        "Замер раз в час, около :35 по времени клуба (UTC+5): строка «15:00» — замер между 15:00 и 15:59. "
+        "Пусто — замера не было.",
         "",
     ]
     days = sorted({r["date"] for r in total})
@@ -119,7 +129,8 @@ def summary(rows: list, club_name: str) -> str:
     unavailable = [r for r in total if r["unavailable"]]
     if unavailable:
         out += ["", f"Замеров, где были места со статусом «недоступно» (выключены или на обслуживании): "
-                f"{len(unavailable)} из {len(total)}. Такие места не считаются занятыми."]
+                f"{len(unavailable)} из {len(total)}. Занятыми они не считаются, а процент загрузки считается "
+                "от всех мест зала, включая выключенные."]
     return "\n".join(out) + "\n"
 
 

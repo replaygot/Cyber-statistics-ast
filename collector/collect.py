@@ -1,8 +1,8 @@
-"""Раз в час: берёт занятость мест клуба из API онлайн-бронирования Langame,
-сохраняет ответ в data/<клуб>/raw и пересобирает occupancy.csv и SUMMARY.md.
+"""Раз в час: берёт из API онлайн-бронирования Langame, на каких местах клуба сейчас идёт игра,
+сохраняет ответ в data/<клуб>/raw/<дата>/<время замера>.json и пересобирает occupancy.csv и SUMMARY.md.
 
-Занятым считается место, у которого идёт сессия или есть бронь в ближайшем окне
-длиной 60 минут (так же страница бронирования решает, можно ли его занять).
+Запрос тот же, что делает страница бронирования для ближайшего часа: в ответе состояние каждого
+места на момент запроса, время окончания текущих сессий, будущие брони и брони на этот час.
 
 Запуск: python3 collector/collect.py
 Переменные окружения:
@@ -135,13 +135,13 @@ def main() -> int:
         scheme_path.write_text(json.dumps(api("GET", "/api/seats/scheme/full", token), ensure_ascii=False, indent=1),
                                encoding="utf-8")
 
-    raw_path = DATA / "raw" / start.strftime("%Y-%m-%d") / f"{start.strftime('%H%M')}.json"
+    raw_path = DATA / "raw" / server_now.strftime("%Y-%m-%d") / f"{server_now.strftime('%H%M')}.json"
     raw_path.parent.mkdir(parents=True, exist_ok=True)
     raw_path.write_text(json.dumps(raw, ensure_ascii=False), encoding="utf-8")
 
     build.build(CLUB_HASH)
-    _, zones = build.parse(raw, build.seat_uuids(json.loads(scheme_path.read_text(encoding="utf-8"))))
-    print(window, {z: f"{len(v['busy']) + len(v['booked'])}/{v['seats']}" for z, v in zones.items()})
+    measured, zones = build.parse(raw, build.seat_uuids(json.loads(scheme_path.read_text(encoding="utf-8"))))
+    print(f"замер {measured:%Y-%m-%d %H:%M}, идёт игра:", {z: f"{len(v['busy'])}/{v['seats']}" for z, v in zones.items()})
     return 0
 
 
