@@ -4,11 +4,6 @@ name: discover
 # Результат публикуется в ветку discovery-output.
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - "discover/**"
-      - ".github/workflows/discover.yml"
 
 permissions:
   contents: write

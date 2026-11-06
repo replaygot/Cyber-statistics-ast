@@ -1,15 +1,14 @@
-"""Раз в час: берёт занятость мест клуба из API онлайн-бронирования Langame
-и дописывает строку в data/occupancy.csv.
+"""Раз в час: берёт занятость мест клуба из API онлайн-бронирования Langame,
+сохраняет ответ в data/<клуб>/raw и пересобирает occupancy.csv и SUMMARY.md.
 
-Занятым считается место, у которого есть сессия или бронь в ближайшем окне
-длиной 60 минут (так же страница бронирования решает, можно ли его забронировать).
+Занятым считается место, у которого идёт сессия или есть бронь в ближайшем окне
+длиной 60 минут (так же страница бронирования решает, можно ли его занять).
 
 Запуск: python3 collector/collect.py
 Переменные окружения:
   CLUB_HASH      — код клуба из ссылки booking.langame.ru/<код> (по умолчанию LORAN)
   COLLECT_UNTIL  — после этого момента (ISO, с часовым поясом) сбор не выполняется
 """
-import csv
 import json
 import math
 import os
@@ -21,13 +20,14 @@ import urllib.request
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import build  # noqa: E402
+
 BASE = "https://booking.langame.ru"
 CLUB_HASH = os.environ.get("CLUB_HASH", "1jelye8o")
 COLLECT_UNTIL = os.environ.get("COLLECT_UNTIL", "")
-ROOT = Path(__file__).resolve().parent.parent
-DATA = ROOT / "data" / CLUB_HASH
+DATA = build.ROOT / "data" / CLUB_HASH
 WINDOW_MIN = 60
-WEEKDAYS = ["пн", "вт", "ср", "чт", "пт", "сб", "вс"]
 UA = ("Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 "
       "(KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1")
 
@@ -49,8 +49,7 @@ def api(method: str, path: str, token: str | None = None, body: dict | None = No
             with urllib.request.urlopen(req, timeout=30) as resp:
                 return json.loads(resp.read().decode("utf-8"))
         except urllib.error.HTTPError as e:
-            text = e.read().decode("utf-8", "replace")[:2000]
-            last = RuntimeError(f"{method} {path} -> HTTP {e.code}: {text}")
+            last = RuntimeError(f"{method} {path} -> HTTP {e.code}: {e.read().decode('utf-8', 'replace')[:2000]}")
             if e.code < 500:
                 break
         except (urllib.error.URLError, TimeoutError) as e:
@@ -59,15 +58,8 @@ def api(method: str, path: str, token: str | None = None, body: dict | None = No
     raise last
 
 
-def as_list(x):
-    if x is None:
-        return []
-    return x if isinstance(x, list) else list(x.values())
-
-
 def main() -> int:
-    now_utc = datetime.now(timezone.utc)
-    if COLLECT_UNTIL and now_utc > datetime.fromisoformat(COLLECT_UNTIL):
+    if COLLECT_UNTIL and datetime.now(timezone.utc) > datetime.fromisoformat(COLLECT_UNTIL):
         print(f"Сбор завершён ({COLLECT_UNTIL}), ничего не делаю")
         return 0
 
@@ -86,85 +78,37 @@ def main() -> int:
     # Ближайшее время начала, как его предлагает страница: не раньше чем через offset минут, кратно step
     earliest = server_now + timedelta(minutes=offset)
     minutes = earliest.hour * 60 + earliest.minute + (1 if earliest.second or earliest.microsecond else 0)
-    slot = math.ceil(minutes / step) * step
-    start = earliest.replace(hour=0, minute=0, second=0, microsecond=0) + timedelta(minutes=slot)
+    start = earliest.replace(hour=0, minute=0, second=0, microsecond=0) + timedelta(minutes=math.ceil(minutes / step) * step)
     stop = start + timedelta(minutes=WINDOW_MIN)
-    fmt = lambda d: d.strftime("%Y-%m-%d %H:%M")  # noqa: E731  местное время клуба, как шлёт страница
-    window = {"start_at": fmt(start), "stop_at": fmt(stop)}
+    window = {"start_at": start.strftime("%Y-%m-%d %H:%M"), "stop_at": stop.strftime("%Y-%m-%d %H:%M")}
 
-    raw = {"server_now": server_now.isoformat(), "window": window}
+    raw = {"collected_utc": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+           "club_name": (config.get("club_info") or {}).get("name") or CLUB_HASH,
+           "server_now": server_now.isoformat(), "window": window}
     if config.get("booking_calculator"):
-        seats_resp = api("POST", "/api/booking/seats/calculator", token, window)
         raw["mode"] = "calculator"
+        raw["seats_response"] = api("POST", "/api/booking/seats/calculator", token, window)
     else:
-        tariffs = api("GET", "/api/tariff", token, query=f"?start_at={urllib.parse.quote(window['start_at'])}")
-        basic = next(t for t in as_list(tariffs["data"]["tariffs"]) if t.get("type") != "packet")
-        seats_resp = api("POST", "/api/booking/seats/packet", token, {"start_at": window["start_at"], "tariff_id": basic["id"]})
         raw["mode"] = "packet"
-    raw["seats_response"] = seats_resp
+        tariffs = api("GET", "/api/tariff", token, query="?start_at=" + urllib.parse.quote(window["start_at"]))
+        basic = next(t for t in build.as_list(tariffs["data"]["tariffs"]) if t.get("type") != "packet")
+        raw["seats_response"] = api("POST", "/api/booking/seats/packet", token,
+                                    {"start_at": window["start_at"], "tariff_id": basic["id"]})
 
     DATA.mkdir(parents=True, exist_ok=True)
     scheme_path = DATA / "scheme.json"
-    if not scheme_path.exists() or start.hour == 12 and start.minute < 15:
-        scheme = api("GET", "/api/seats/scheme/full", token)
-        scheme_path.write_text(json.dumps(scheme, ensure_ascii=False, indent=1), encoding="utf-8")
-    scheme = json.loads(scheme_path.read_text(encoding="utf-8"))
-    zone_of = load_zones(scheme)
+    if not scheme_path.exists() or (start.hour == 12 and start.minute == 0):
+        scheme_path.write_text(json.dumps(api("GET", "/api/seats/scheme/full", token), ensure_ascii=False, indent=1),
+                               encoding="utf-8")
 
-    raw_dir = DATA / "raw" / start.strftime("%Y-%m-%d")
-    raw_dir.mkdir(parents=True, exist_ok=True)
-    (raw_dir / f"{start.strftime('%H%M')}.json").write_text(json.dumps(raw, ensure_ascii=False), encoding="utf-8")
+    raw_path = DATA / "raw" / start.strftime("%Y-%m-%d") / f"{start.strftime('%H%M')}.json"
+    raw_path.parent.mkdir(parents=True, exist_ok=True)
+    raw_path.write_text(json.dumps(raw, ensure_ascii=False), encoding="utf-8")
 
-    seats = as_list((seats_resp.get("data") or {}).get("seats"))
-    by_zone: dict[str, dict] = {}
-    for s in seats:
-        uuid = s.get("device_uuid") or s.get("uuid")
-        zone, name = zone_of.get(uuid, ("?", uuid))
-        z = by_zone.setdefault(zone, {"total": 0, "occupied": 0, "names": []})
-        z["total"] += 1
-        if s.get("occupied"):
-            z["occupied"] += 1
-            z["names"].append(str(name))
-    total = sum(z["total"] for z in by_zone.values())
-    occupied = sum(z["occupied"] for z in by_zone.values())
-    by_zone["ВСЕ"] = {"total": total, "occupied": occupied, "names": []}
-
-    csv_path = DATA / "occupancy.csv"
-    new = not csv_path.exists()
-    with csv_path.open("a", newline="", encoding="utf-8") as f:
-        w = csv.writer(f)
-        if new:
-            w.writerow(["collected_utc", "window_start", "date", "weekday", "hour", "zone", "seats", "occupied", "occupied_pct", "occupied_seats"])
-        for zone, z in sorted(by_zone.items(), key=lambda kv: (kv[0] == "ВСЕ", kv[0])):
-            pct = round(100 * z["occupied"] / z["total"]) if z["total"] else ""
-            w.writerow([now_utc.strftime("%Y-%m-%dT%H:%M:%SZ"), window["start_at"], start.strftime("%Y-%m-%d"),
-                        WEEKDAYS[start.weekday()], start.hour, zone, z["total"], z["occupied"], pct, " ".join(sorted(z["names"], key=natural))])
-    print(json.dumps({"window": window, "zones": {k: {kk: v for kk, v in z.items() if kk != "names"} for k, z in by_zone.items()}}, ensure_ascii=False))
+    build.build(CLUB_HASH)
+    _, zones = build.parse(raw, build.seat_uuids(json.loads(scheme_path.read_text(encoding="utf-8"))))
+    print(window, {z: f"{len(v['busy']) + len(v['booked'])}/{v['seats']}" for z, v in zones.items()})
     return 0
-
-
-def natural(s: str):
-    return (len(s), s)
-
-
-def load_zones(scheme: dict) -> dict:
-    """uuid места -> (зона, название места). Схема хранит места и подписи зон для разных экранов."""
-    items = as_list((scheme.get("data") or scheme).get("items") if isinstance(scheme.get("data") or scheme, dict) else None)
-    if not items:
-        items = as_list(scheme.get("items"))
-    out = {}
-    for it in items:
-        if not isinstance(it, dict):
-            continue
-        uuid = it.get("device_uuid") or it.get("uuid")
-        if not uuid:
-            continue
-        zone = it.get("zone_name") or it.get("group_name") or it.get("zone") or it.get("group") or "?"
-        if isinstance(zone, dict):
-            zone = zone.get("name") or zone.get("title") or "?"
-        name = it.get("name") or it.get("title") or it.get("number") or it.get("label") or uuid
-        out.setdefault(uuid, (str(zone), name))
-    return out
 
 
 if __name__ == "__main__":
