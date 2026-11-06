@@ -24,8 +24,10 @@ ROOT = Path(__file__).resolve().parent.parent
 WEEKDAYS = ["пн", "вт", "ср", "чт", "пт", "сб", "вс"]
 ALL = "ВСЕ"
 KINDS = ("playing", "paid", "soon", "free", "unavailable")
-BUFFER = timedelta(minutes=30)  # сервис показывает место занятым ещё 30 минут после конца сессии или брони
-TOLERANCE = timedelta(minutes=2)
+# Сервис показывает место занятым ещё некоторое время после конца сессии или брони (у LORAN — 30 минут;
+# у других клубов настройка может отличаться, поэтому точное значение в разборе не используется).
+HOLD_MAX = timedelta(minutes=90)
+ENDED_BUFFER_MAX = timedelta(minutes=32)
 
 
 def as_list(x):
@@ -69,10 +71,13 @@ def classify(seat: dict, now: datetime) -> str:
         return "paid"
     if seat.get("seat_state") == "BUSY":
         busy_until = when(seat.get("stop_at"))
-        for start, stop in books:
-            if busy_until and abs(busy_until - (stop + BUFFER)) <= TOLERANCE:
-                # «Занято до» совпадает с концом брони + 30 минут: место занято бронью, а не сессией
-                return "soon" if start > now else "free"
+        for start, stop in books if busy_until else []:
+            if start > now and stop <= busy_until <= stop + HOLD_MAX:
+                # «Занято до» накрывает будущую бронь целиком: сессия гостя без брони не может идти поверх
+                # чужой брони, значит место придержано под бронь (у LORAN «занято до» = конец брони + 30 мин)
+                return "soon"
+            if stop <= now and stop <= busy_until <= stop + ENDED_BUFFER_MAX:
+                return "free"  # бронь уже кончилась, идёт запас после неё
         return "playing"
     return "soon" if seat.get("occupied") and any(start > now for start, _ in books) else "free"
 

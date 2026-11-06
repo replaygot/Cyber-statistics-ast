@@ -32,15 +32,27 @@ DATA = build.ROOT / "data" / CLUB_HASH
 WINDOW_MIN = 60
 UA = ("Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 "
       "(KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1")
-# Сервис иногда минутами не отвечает: повторяем запросы, пока не выйдет ~6 минут
-# (шаг workflow ограничен 10 минутами).
+# Сервис иногда минутами не отвечает: повторяем запросы, пока не выйдет бюджет на клуб
+# (RETRY_BUDGET_S, по умолчанию 6 минут). Между запросами — пауза, чтобы не нагружать сервис.
 START = time.monotonic()
-BUDGET_S = 6 * 60
+BUDGET_S = int(os.environ.get("RETRY_BUDGET_S", "360"))
+REQUEST_PAUSE_S = float(os.environ.get("REQUEST_PAUSE_S", "2"))
 REQUEST_TIMEOUT_S = 30
 DELAYS_S = (10, 20, 30, 45, 60)
+_last_request = None
 
 
 def api(method: str, path: str, token: str | None = None, body: dict | None = None, query: str = "") -> dict:
+    global _last_request
+    if _last_request is not None:
+        time.sleep(max(0.0, REQUEST_PAUSE_S - (time.monotonic() - _last_request)))
+    try:
+        return _api(method, path, token, body, query)
+    finally:
+        _last_request = time.monotonic()
+
+
+def _api(method: str, path: str, token: str | None, body: dict | None, query: str) -> dict:
     headers = {"Accept": "application/json", "User-Agent": UA, "Referer": f"{BASE}/{CLUB_HASH}"}
     if token:
         headers["X-AUTH-TOKEN"] = token
