@@ -16,7 +16,7 @@
 import csv
 import json
 import sys
-from collections import defaultdict
+from collections import Counter, defaultdict
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -62,36 +62,110 @@ def bookings(seat: dict) -> list:
     return out
 
 
-def classify(seat: dict, now: datetime) -> str:
+def minutes(delta: timedelta) -> int:
+    return round(delta.total_seconds() / 60)
+
+
+def club_profile(snapshots: list) -> dict:
+    """Как сервис ведёт себя у этого клуба, по всем замерам [(время, места)] в порядке времени.
+    buffer — сколько минут место числится занятым после конца брони (по местам, придержанным под будущую бронь);
+    keeps  — во время идущей брони на месте видна сессия, которая кончается не так, как бронь: значит,
+             бронь остаётся в списке и после запуска сессии, и по списку нельзя понять, пришёл ли гость;
+    drops  — идущая бронь пропадала из списка, а на месте появлялась сессия (как у LORAN после кода брони)."""
+    holds, current, drops, prev = Counter(), [], False, None
+    for now, seats in snapshots:
+        by_uuid = {s.get("device_uuid"): s for s in seats}
+        for s in seats:
+            busy_until = when(s.get("stop_at"))
+            if s.get("seat_state") != "BUSY" or not busy_until:
+                continue
+            for start, stop in bookings(s):
+                d = minutes(busy_until - stop)
+                if start > now and 0 <= d <= minutes(HOLD_MAX):
+                    holds[d] += 1
+                elif start <= now < stop:
+                    current.append(d)
+        if prev:
+            prev_now, prev_seats = prev
+            for uuid, ps in prev_seats.items():
+                s = by_uuid.get(uuid)
+                if not s or s.get("seat_state") != "BUSY":
+                    continue
+                for start, stop in bookings(ps):
+                    if start <= prev_now < stop and stop > now and (start, stop) not in bookings(s):
+                        drops = True
+        prev = (now, by_uuid)
+    buffer = holds.most_common(1)[0][0] if sum(holds.values()) >= 3 else None
+    keeps = any(d < -2 for d in current) or (buffer is not None and any(abs(d - buffer) > 2 for d in current))
+    return {"buffer": buffer, "keeps": keeps, "drops": drops, "holds_seen": sum(holds.values())}
+
+
+def no_shows_visible(profile: dict | None) -> bool:
+    """Можно ли по списку броней понять, что гость не пришёл: бронь пропадает после запуска сессии,
+    не висит во время сессии, и запас после брони заметный (у LORAN 30 минут)."""
+    p = profile or {}
+    return p.get("buffer") is not None and p["buffer"] >= 15 and p.get("drops") and not p.get("keeps")
+
+
+def classify(seat: dict, now: datetime, profile: dict | None = None) -> str:
     if seat.get("seat_state") == "UNAVAILABLE":
         return "unavailable"
     books = bookings(seat)
-    if any(start <= now < stop for start, stop in books):
-        # Бронь идёт, а в списке она есть только пока гость не запустил по ней сессию кодом брони
-        return "paid"
-    if seat.get("seat_state") == "BUSY":
-        busy_until = when(seat.get("stop_at"))
+    busy = seat.get("seat_state") == "BUSY"
+    busy_until = when(seat.get("stop_at"))
+    current = [(start, stop) for start, stop in books if start <= now < stop]
+    if current:
+        if not busy:
+            return "paid"
+        if no_shows_visible(profile) and busy_until and any(
+                abs(minutes(busy_until - (stop + timedelta(minutes=profile["buffer"])))) <= 2 for _, stop in current):
+            return "paid"  # бронь идёт, «занято до» = конец брони + запас: сессию по брони не запускали
+        return "playing"  # бронь идёт, на месте сессия (или по данным клуба этого не различить)
+    if busy:
         for start, stop in books if busy_until else []:
             if start > now and stop <= busy_until <= stop + HOLD_MAX:
                 # «Занято до» накрывает будущую бронь целиком: сессия гостя без брони не может идти поверх
                 # чужой брони, значит место придержано под бронь (у LORAN «занято до» = конец брони + 30 мин)
                 return "soon"
-            if stop <= now and stop <= busy_until <= stop + ENDED_BUFFER_MAX:
+            ended_buffer = timedelta(minutes=(profile or {}).get("buffer") or 30) + timedelta(minutes=2)
+            if stop <= now and stop <= busy_until <= stop + ended_buffer:
                 return "free"  # бронь уже кончилась, идёт запас после неё
         return "playing"
     return "soon" if seat.get("occupied") and any(start > now for start, _ in books) else "free"
 
 
-def parse(raw: dict, on_map: set) -> tuple[datetime, dict]:
+def seats_of(raw: dict, on_map: set) -> list:
+    seats = as_list((raw["seats_response"].get("data") or {}).get("seats"))
+    return [s for s in seats if not on_map or s.get("device_uuid") in on_map]
+
+
+def load(club: str) -> tuple[list, set, str]:
+    """Все замеры клуба [(время, raw)] по порядку, места на схеме и название клуба."""
+    base = ROOT / "data" / club
+    scheme_path = base / "scheme.json"
+    on_map = seat_uuids(json.loads(scheme_path.read_text(encoding="utf-8"))) if scheme_path.exists() else set()
+    snaps, club_name = [], club
+    for f in sorted((base / "raw").glob("*/*.json")):
+        raw = json.loads(f.read_text(encoding="utf-8"))
+        club_name = raw.get("club_name") or club_name
+        snaps.append((datetime.fromisoformat(raw["server_now"]).replace(tzinfo=None), raw))
+    snaps.sort(key=lambda x: x[0])
+    return snaps, on_map, club_name
+
+
+def profile_of(club: str) -> dict:
+    snaps, on_map, _ = load(club)
+    return club_profile([(now, seats_of(raw, on_map)) for now, raw in snaps])
+
+
+def parse(raw: dict, on_map: set, profile: dict | None = None) -> tuple[datetime, dict]:
     """Время замера (время клуба) и номера мест по зонам и категориям (см. KINDS)."""
     measured = datetime.fromisoformat(raw["server_now"]).replace(tzinfo=None)
     zones: dict[str, dict] = defaultdict(lambda: {"seats": 0, **{k: [] for k in KINDS}})
-    for s in as_list((raw["seats_response"].get("data") or {}).get("seats")):
-        if on_map and s.get("device_uuid") not in on_map:
-            continue
+    for s in seats_of(raw, on_map):
         z = zones[s.get("zone_name") or "?"]
         z["seats"] += 1
-        z[classify(s, measured)].append(str(s.get("name")))
+        z[classify(s, measured, profile)].append(str(s.get("name")))
     total = {"seats": 0, **{k: [] for k in KINDS}}
     for z in zones.values():
         total["seats"] += z["seats"]
@@ -104,13 +178,11 @@ def parse(raw: dict, on_map: set) -> tuple[datetime, dict]:
 
 def build(club: str) -> None:
     base = ROOT / "data" / club
-    scheme_path = base / "scheme.json"
-    on_map = seat_uuids(json.loads(scheme_path.read_text(encoding="utf-8"))) if scheme_path.exists() else set()
-    latest, club_name = {}, club
-    for f in sorted((base / "raw").glob("*/*.json")):
-        raw = json.loads(f.read_text(encoding="utf-8"))
-        club_name = raw.get("club_name") or club_name
-        measured, zones = parse(raw, on_map)
+    snaps, on_map, club_name = load(club)
+    profile = club_profile([(now, seats_of(raw, on_map)) for now, raw in snaps])
+    latest = {}
+    for _, raw in snaps:
+        measured, zones = parse(raw, on_map, profile)
         key = measured.strftime("%Y-%m-%d %H")
         if key not in latest or measured >= latest[key][0]:
             latest[key] = (measured, zones)
@@ -133,10 +205,10 @@ def build(club: str) -> None:
         w = csv.DictWriter(fh, fieldnames=list(rows[0].keys()) if rows else ["measured_at"])
         w.writeheader()
         w.writerows(rows)
-    (base / "SUMMARY.md").write_text(summary(rows, club_name), encoding="utf-8")
+    (base / "SUMMARY.md").write_text(summary(rows, club_name, profile), encoding="utf-8")
 
 
-def summary(rows: list, club_name: str) -> str:
+def summary(rows: list, club_name: str, profile: dict | None = None) -> str:
     total = [r for r in rows if r["zone"] == ALL]
     zones = sorted({r["zone"] for r in rows} - {ALL})
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
@@ -177,6 +249,19 @@ def summary(rows: list, club_name: str) -> str:
         out += ["", f"Замеров, где были места со статусом «недоступно» (выключены или на обслуживании): "
                 f"{len(unavailable)} из {len(total)}. Занятыми они не считаются, а процент загрузки считается "
                 "от всех мест зала, включая выключенные."]
+    p = profile or {}
+    if no_shows_visible(p):
+        note = (f"Брони без прихода видны: идущая бронь пропадает из списка, когда гость запускает сессию, "
+                f"а место числится занятым ещё {p['buffer']} мин после конца брони.")
+    else:
+        note = ("Брони без прихода у этого клуба по данным сервиса не различить: идущая бронь считается занятым "
+                "местом, но пришёл ли гость, не видно")
+        if p.get("keeps"):
+            note += " (бронь остаётся в списке и во время сессии)"
+        note += "."
+    if p.get("buffer") is not None:
+        note += f" Запас после конца брони: {p['buffer']} мин (по {p.get('holds_seen')} случаям)."
+    out += ["", note]
     return "\n".join(out) + "\n"
 
 

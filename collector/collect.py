@@ -166,7 +166,8 @@ def main() -> int:
             print(f"Тарифы не сохранены: {e!r}", file=sys.stderr)
 
     build.build(CLUB_HASH)
-    measured, zones = build.parse(raw, build.seat_uuids(json.loads(scheme_path.read_text(encoding="utf-8"))))
+    measured, zones = build.parse(raw, build.seat_uuids(json.loads(scheme_path.read_text(encoding="utf-8"))),
+                                  build.profile_of(CLUB_HASH))
     a = zones[build.ALL]
     print(f"замер {measured:%Y-%m-%d %H:%M}: играют {len(a['playing'])}, бронь идёт без игры {len(a['paid'])}, "
           f"придержано под бронь {len(a['soon'])}, свободно {len(a['free'])}, выключено {len(a['unavailable'])} "
