@@ -1,0 +1,5 @@
+measured_at,date,weekday,hour,zone,seats,occupied,occupied_pct,playing,paid_not_playing,booked_soon,free,unavailable,playing_seats,paid_not_playing_seats,booked_soon_seats,unavailable_seats
+2026-11-07 01:44,2026-11-07,сб,1,Bootcamp,10,10,100,9,1,0,0,0,26 27 28 29 30 31 32 33 34,25,,
+2026-11-07 01:44,2026-11-07,сб,1,Open Space,22,13,59,13,0,0,8,1,4 5 6 7 8 9 10 11 12 18 19 20 22,,,2
+2026-11-07 01:44,2026-11-07,сб,1,VIP,10,9,90,9,0,0,1,0,35 36 37 38 39 40 41 42 44,,,
+2026-11-07 01:44,2026-11-07,сб,1,ВСЕ,42,32,76,31,1,0,9,1,4 5 6 7 8 9 10 11 12 18 19 20 22 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 44,25,,2
