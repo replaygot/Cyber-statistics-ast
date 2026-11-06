@@ -1,0 +1,53 @@
+name: prices
+
+# Разово: цены всех тарифов и пакетов клубов по зонам (только расчёт стоимости, без брони и оплаты).
+# Клубы — те же, что в collect.yml. Результат — data/<код>/prices.json, PRICES.md и data/PRICES.md.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: prices
+  cancel-in-progress: false
+
+env:
+  CLUBS: "1jelye8o 1JB6NB4A 16Xp6Rly bKqXNKEG 1JB6N7pB kywedwxo"
+  CLUB_PAUSE_S: "30"
+  REQUEST_PAUSE_S: "2"
+  RETRY_BUDGET_S: "300"
+
+jobs:
+  prices:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Prices
+        run: |
+          failed=0
+          first=1
+          for club in $CLUBS; do
+            [ "$first" = 1 ] || sleep "$CLUB_PAUSE_S"
+            first=0
+            echo "== $club"
+            CLUB_HASH="$club" python3 collector/prices.py || failed=1
+          done
+          python3 collector/prices.py --summary
+          exit $failed
+
+      - name: Commit prices
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898099+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then echo "Нет новых данных"; exit 0; fi
+          git commit -q -m "prices: $(date -u +%FT%TZ)"
+          for i in 1 2 3 4 5; do
+            git pull -q --rebase origin main && git push -q origin HEAD:main && exit 0
+            sleep 10
+          done
+          exit 1
