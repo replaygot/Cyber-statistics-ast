@@ -1,3 +1,5 @@
 measured_at,date,weekday,hour,zone,seats,occupied,occupied_pct,playing,paid_not_playing,booked_soon,free,unavailable,playing_seats,paid_not_playing_seats,booked_soon_seats,unavailable_seats
 2026-11-07 01:43,2026-11-07,сб,1,Main,22,14,64,14,0,0,8,0,1 2 4 5 6 7 8 10 11 12 16 17 18 22,,,
 2026-11-07 01:43,2026-11-07,сб,1,ВСЕ,22,14,64,14,0,0,8,0,1 2 4 5 6 7 8 10 11 12 16 17 18 22,,,
+2026-11-07 02:38,2026-11-07,сб,2,Main,22,6,27,6,0,0,16,0,6 7 11 12 16 22,,,
+2026-11-07 02:38,2026-11-07,сб,2,ВСЕ,22,6,27,6,0,0,16,0,6 7 11 12 16 22,,,
