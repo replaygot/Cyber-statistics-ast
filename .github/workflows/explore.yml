@@ -1,0 +1,35 @@
+name: explore
+
+# Разовая проверка API бронирования (только чтение). Результат — в ветке explore-output.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: explore
+  cancel-in-progress: false
+
+jobs:
+  explore:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Explore
+        run: python3 explore/explore.py out
+
+      - name: Publish output to explore-output branch
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898099+github-actions[bot]@users.noreply.github.com"
+          mkdir -p out
+          echo "run: ${{ github.run_id }} at $(date -u +%FT%TZ)" > out/RUN.txt
+          git checkout --orphan explore-output
+          git rm -r -q --cached .
+          git add -f out
+          git commit -q -m "Explore output, run ${{ github.run_id }}"
+          git push -f origin explore-output
