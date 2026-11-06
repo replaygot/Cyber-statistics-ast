@@ -9,9 +9,11 @@
   CLUB_HASH      — код клуба из ссылки booking.langame.ru/<код> (по умолчанию LORAN)
   COLLECT_UNTIL  — после этого момента (ISO, с часовым поясом) сбор не выполняется
 """
+import http.client
 import json
 import math
 import os
+import socket
 import sys
 import time
 import urllib.error
@@ -30,6 +32,12 @@ DATA = build.ROOT / "data" / CLUB_HASH
 WINDOW_MIN = 60
 UA = ("Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 "
       "(KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1")
+# Сервис иногда минутами не отвечает: повторяем запросы, пока не выйдет ~6 минут
+# (шаг workflow ограничен 10 минутами).
+START = time.monotonic()
+BUDGET_S = 6 * 60
+REQUEST_TIMEOUT_S = 30
+DELAYS_S = (10, 20, 30, 45, 60)
 
 
 def api(method: str, path: str, token: str | None = None, body: dict | None = None, query: str = "") -> dict:
@@ -43,19 +51,45 @@ def api(method: str, path: str, token: str | None = None, body: dict | None = No
         data = json.dumps(body).encode()
         headers["Content-Type"] = "application/json"
     req = urllib.request.Request(f"{BASE}{path}{query}", data=data, headers=headers, method=method)
-    last = None
-    for attempt in range(3):
+    attempt = 0
+    while True:
         try:
-            with urllib.request.urlopen(req, timeout=30) as resp:
+            with urllib.request.urlopen(req, timeout=REQUEST_TIMEOUT_S) as resp:
                 return json.loads(resp.read().decode("utf-8"))
         except urllib.error.HTTPError as e:
-            last = RuntimeError(f"{method} {path} -> HTTP {e.code}: {e.read().decode('utf-8', 'replace')[:2000]}")
-            if e.code < 500:
-                break
-        except (urllib.error.URLError, TimeoutError) as e:
-            last = RuntimeError(f"{method} {path} -> {e!r}")
-        time.sleep(5 * (attempt + 1))
-    raise last
+            err = RuntimeError(f"{method} {path} -> HTTP {e.code}: {e.read().decode('utf-8', 'replace')[:2000]}")
+            if e.code < 500 and e.code != 429:
+                raise err from None
+        except (OSError, http.client.HTTPException, ValueError) as e:  # таймаут, обрыв, не-JSON
+            err = RuntimeError(f"{method} {path} -> {e!r}")
+        delay = DELAYS_S[min(attempt, len(DELAYS_S) - 1)]
+        if time.monotonic() - START + delay + REQUEST_TIMEOUT_S > BUDGET_S:
+            raise err
+        attempt += 1
+        print(f"{err}; повтор {attempt} через {delay} с", file=sys.stderr, flush=True)
+        time.sleep(delay)
+
+
+def diagnose() -> None:
+    """После неудачи печатает, доступен ли сервер из сети раннера, чтобы по логу было видно причину."""
+    host = urllib.parse.urlsplit(BASE).hostname
+    try:
+        ips = sorted({a[4][0] for a in socket.getaddrinfo(host, 443, proto=socket.IPPROTO_TCP)})
+    except OSError as e:
+        print(f"DNS {host}: {e!r}")
+        return
+    for ip in ips[:4]:
+        t = time.monotonic()
+        try:
+            socket.create_connection((ip, 443), timeout=10).close()
+            print(f"TCP {ip}:443 — соединение есть, {time.monotonic() - t:.1f} с")
+        except OSError as e:
+            print(f"TCP {ip}:443 — {e!r}")
+    try:
+        with urllib.request.urlopen("https://api.ipify.org", timeout=10) as resp:
+            print("IP раннера:", resp.read().decode())
+    except OSError as e:
+        print(f"IP раннера не узнать: {e!r}")
 
 
 def main() -> int:
@@ -112,4 +146,8 @@ def main() -> int:
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    try:
+        sys.exit(main())
+    except Exception:
+        diagnose()
+        raise
