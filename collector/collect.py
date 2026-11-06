@@ -89,7 +89,7 @@ def main() -> int:
     slot = math.ceil(minutes / step) * step
     start = earliest.replace(hour=0, minute=0, second=0, microsecond=0) + timedelta(minutes=slot)
     stop = start + timedelta(minutes=WINDOW_MIN)
-    fmt = lambda d: d.strftime("%Y-%m-%dT%H:%M:00") + st["tz"]  # noqa: E731
+    fmt = lambda d: d.strftime("%Y-%m-%d %H:%M")  # noqa: E731  местное время клуба, как шлёт страница
     window = {"start_at": fmt(start), "stop_at": fmt(stop)}
 
     raw = {"server_now": server_now.isoformat(), "window": window}
