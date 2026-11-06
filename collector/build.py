@@ -1,6 +1,7 @@
 """Пересобирает occupancy.csv и SUMMARY.md из всех сохранённых ответов API (data/<клуб>/raw).
 
-Каждый ответ — снимок: на каких местах идёт игра в момент замера. Замер относится к часу,
+Каждый ответ — снимок: на каких местах в момент замера идёт игра или идёт оплаченная бронь
+(место продано, даже если человек не пришёл). Замер относится к часу,
 в котором он сделан (замер в 15:35 — это час 15:00–16:00). Если в один час попало
 несколько замеров, берётся последний. Так любые правки в разборе сразу применяются ко всей истории.
 Запуск: python3 collector/build.py [код_клуба]
@@ -33,11 +34,27 @@ def num(name: str):
     return (0, int(name)) if str(name).isdigit() else (1, str(name))
 
 
+KINDS = ("busy", "paid", "booked", "unavailable", "free")
+
+
+def booked_at(seat: dict, moment: datetime) -> bool:
+    """Есть ли у места бронь, которая идёт в этот момент. В Langame бронь оплачивается
+    заранее на 100%, так что это время продано, даже если человек ещё не пришёл."""
+    for b in seat.get("nearest_bookings") or []:
+        try:
+            if datetime.fromisoformat(b["start_at"]) <= moment < datetime.fromisoformat(b["stop_at"]):
+                return True
+        except (KeyError, TypeError, ValueError):
+            continue
+    return False
+
+
 def parse(raw: dict, on_map: set) -> tuple[datetime, dict]:
-    """Время замера (время клуба) и места по зонам: busy — идёт игра, booked — свободно,
-    но забронировано на ближайший час, unavailable — выключено, free — свободно."""
+    """Время замера (время клуба) и места по зонам: busy — идёт игра; paid — игры нет, но время
+    оплачено бронью; booked — свободно, но забронировано на ближайший час; unavailable — выключено;
+    free — свободно."""
     measured = datetime.fromisoformat(raw["server_now"]).replace(tzinfo=None)
-    zones: dict[str, dict] = defaultdict(lambda: {"seats": 0, "busy": [], "booked": [], "unavailable": [], "free": []})
+    zones: dict[str, dict] = defaultdict(lambda: {"seats": 0, **{k: [] for k in KINDS}})
     for s in as_list((raw["seats_response"].get("data") or {}).get("seats")):
         if on_map and s.get("device_uuid") not in on_map:
             continue
@@ -48,14 +65,16 @@ def parse(raw: dict, on_map: set) -> tuple[datetime, dict]:
             z["unavailable"].append(name)
         elif state == "BUSY":
             z["busy"].append(name)
+        elif booked_at(s, measured):
+            z["paid"].append(name)
         elif s.get("occupied"):
             z["booked"].append(name)
         else:
             z["free"].append(name)
-    total = {"seats": 0, "busy": [], "booked": [], "unavailable": [], "free": []}
+    total = {"seats": 0, **{k: [] for k in KINDS}}
     for z in zones.values():
         total["seats"] += z["seats"]
-        for k in ("busy", "booked", "unavailable", "free"):
+        for k in KINDS:
             total[k] += z[k]
     zones = dict(zones)
     zones[ALL] = total
@@ -77,16 +96,17 @@ def build(club: str) -> None:
     rows = []
     for measured, zones in latest.values():
         for zone, z in zones.items():
-            occ = len(z["busy"])
+            occ = len(z["busy"]) + len(z["paid"])
+            seats = lambda k: " ".join(sorted(z[k], key=num))  # noqa: E731
             rows.append({
                 "measured_at": measured.strftime("%Y-%m-%d %H:%M"), "date": measured.strftime("%Y-%m-%d"),
                 "weekday": WEEKDAYS[measured.weekday()], "hour": measured.hour, "zone": zone, "seats": z["seats"],
-                "occupied": occ, "free": len(z["free"]) + len(z["booked"]), "unavailable": len(z["unavailable"]),
-                "occupied_pct": round(100 * occ / z["seats"]) if z["seats"] else "",
+                "occupied": occ, "occupied_pct": round(100 * occ / z["seats"]) if z["seats"] else "",
+                "playing": len(z["busy"]), "paid_not_playing": len(z["paid"]),
+                "free": len(z["free"]) + len(z["booked"]), "unavailable": len(z["unavailable"]),
                 "booked_next_hour": len(z["booked"]),
-                "occupied_seats": " ".join(sorted(z["busy"], key=num)),
-                "booked_seats": " ".join(sorted(z["booked"], key=num)),
-                "unavailable_seats": " ".join(sorted(z["unavailable"], key=num)),
+                "playing_seats": seats("busy"), "paid_not_playing_seats": seats("paid"),
+                "booked_next_hour_seats": seats("booked"), "unavailable_seats": seats("unavailable"),
             })
     rows.sort(key=lambda r: (r["measured_at"], r["zone"] == ALL, r["zone"]))
     with (base / "occupancy.csv").open("w", newline="", encoding="utf-8") as fh:
@@ -103,9 +123,10 @@ def summary(rows: list, club_name: str) -> str:
     out = [
         f"# Загрузка {club_name} по часам",
         "",
-        f"Обновлено: {now}. Замеров: {len(total)}. Значение — % мест, на которых шла игра в момент замера. "
-        "Замер раз в час, около :35 по времени клуба (UTC+5): строка «15:00» — замер между 15:00 и 15:59. "
-        "Пусто — замера не было.",
+        f"Обновлено: {now}. Замеров: {len(total)}. Значение — % мест, занятых в момент замера: идёт игра "
+        "или время оплачено бронью (в Langame бронь оплачивается заранее, поэтому время продано, даже если "
+        "человек не пришёл). Замер раз в час, около :35 по времени клуба (UTC+5): строка «15:00» — замер "
+        "между 15:00 и 15:59. Пусто — замера не было.",
         "",
     ]
     days = sorted({r["date"] for r in total})

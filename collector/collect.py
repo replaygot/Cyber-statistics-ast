@@ -141,7 +141,8 @@ def main() -> int:
 
     build.build(CLUB_HASH)
     measured, zones = build.parse(raw, build.seat_uuids(json.loads(scheme_path.read_text(encoding="utf-8"))))
-    print(f"замер {measured:%Y-%m-%d %H:%M}, идёт игра:", {z: f"{len(v['busy'])}/{v['seats']}" for z, v in zones.items()})
+    print(f"замер {measured:%Y-%m-%d %H:%M}, занято (игра + оплаченная бронь):",
+          {z: f"{len(v['busy']) + len(v['paid'])}/{v['seats']}" for z, v in zones.items()})
     return 0
 
 
