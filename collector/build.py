@@ -1,21 +1,31 @@
 """Пересобирает occupancy.csv и SUMMARY.md из всех сохранённых ответов API (data/<клуб>/raw).
 
-Каждый ответ — снимок: на каких местах в момент замера идёт игра или идёт оплаченная бронь
-(место продано, даже если человек не пришёл). Замер относится к часу,
-в котором он сделан (замер в 15:35 — это час 15:00–16:00). Если в один час попало
-несколько замеров, берётся последний. Так любые правки в разборе сразу применяются ко всей истории.
+Как сервис бронирования Langame показывает места (проверено, см. README):
+- статус места дан не на «сейчас», а на окно брони — ближайший час, начиная через 15–30 минут;
+- «занято» в этом окне — это либо идущая сессия, либо бронь, которая начнётся в ближайшие ~1,5 часа;
+- «занято до» = конец сессии или брони + 30 минут.
+Поэтому каждое место раскладывается по времени замера и броням из ответа:
+  playing — идёт сессия (кто-то играет);
+  paid    — идёт оплаченная бронь, но сессию по ней ещё не начали (место продано, за ПК никого);
+  soon    — место свободно, но придержано под бронь, которая ещё не началась;
+  free    — свободно; unavailable — выключено или на обслуживании.
+Замер относится к часу, в котором он сделан (замер в 15:35 — час 15:00–16:00). Если в один час
+попало несколько замеров, берётся последний. Так любые правки разбора применяются ко всей истории.
 Запуск: python3 collector/build.py [код_клуба]
 """
 import csv
 import json
 import sys
 from collections import defaultdict
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 WEEKDAYS = ["пн", "вт", "ср", "чт", "пт", "сб", "вс"]
 ALL = "ВСЕ"
+KINDS = ("playing", "paid", "soon", "free", "unavailable")
+BUFFER = timedelta(minutes=30)  # сервис показывает место занятым ещё 30 минут после конца сессии или брони
+TOLERANCE = timedelta(minutes=2)
 
 
 def as_list(x):
@@ -34,25 +44,41 @@ def num(name: str):
     return (0, int(name)) if str(name).isdigit() else (1, str(name))
 
 
-KINDS = ("busy", "paid", "booked", "unavailable", "free")
+def when(value):
+    try:
+        return datetime.fromisoformat(value).replace(tzinfo=None) if value else None
+    except (TypeError, ValueError):
+        return None
 
 
-def booked_at(seat: dict, moment: datetime) -> bool:
-    """Есть ли у места бронь, которая идёт в этот момент. В Langame бронь оплачивается
-    заранее на 100%, так что это время продано, даже если человек ещё не пришёл."""
-    for b in seat.get("nearest_bookings") or []:
-        try:
-            if datetime.fromisoformat(b["start_at"]) <= moment < datetime.fromisoformat(b["stop_at"]):
-                return True
-        except (KeyError, TypeError, ValueError):
-            continue
-    return False
+def bookings(seat: dict) -> list:
+    out = []
+    for b in as_list(seat.get("nearest_bookings")):
+        start, stop = when(b.get("start_at")), when(b.get("stop_at"))
+        if start and stop:
+            out.append((start, stop))
+    return out
+
+
+def classify(seat: dict, now: datetime) -> str:
+    if seat.get("seat_state") == "UNAVAILABLE":
+        return "unavailable"
+    books = bookings(seat)
+    if any(start <= now < stop for start, stop in books):
+        # Бронь идёт, а в списке она есть только пока гость не запустил по ней сессию кодом брони
+        return "paid"
+    if seat.get("seat_state") == "BUSY":
+        busy_until = when(seat.get("stop_at"))
+        for start, stop in books:
+            if busy_until and abs(busy_until - (stop + BUFFER)) <= TOLERANCE:
+                # «Занято до» совпадает с концом брони + 30 минут: место занято бронью, а не сессией
+                return "soon" if start > now else "free"
+        return "playing"
+    return "soon" if seat.get("occupied") and any(start > now for start, _ in books) else "free"
 
 
 def parse(raw: dict, on_map: set) -> tuple[datetime, dict]:
-    """Время замера (время клуба) и места по зонам: busy — идёт игра; paid — игры нет, но время
-    оплачено бронью; booked — свободно, но забронировано на ближайший час; unavailable — выключено;
-    free — свободно."""
+    """Время замера (время клуба) и номера мест по зонам и категориям (см. KINDS)."""
     measured = datetime.fromisoformat(raw["server_now"]).replace(tzinfo=None)
     zones: dict[str, dict] = defaultdict(lambda: {"seats": 0, **{k: [] for k in KINDS}})
     for s in as_list((raw["seats_response"].get("data") or {}).get("seats")):
@@ -60,17 +86,7 @@ def parse(raw: dict, on_map: set) -> tuple[datetime, dict]:
             continue
         z = zones[s.get("zone_name") or "?"]
         z["seats"] += 1
-        state, name = s.get("seat_state"), str(s.get("name"))
-        if state == "UNAVAILABLE":
-            z["unavailable"].append(name)
-        elif state == "BUSY":
-            z["busy"].append(name)
-        elif booked_at(s, measured):
-            z["paid"].append(name)
-        elif s.get("occupied"):
-            z["booked"].append(name)
-        else:
-            z["free"].append(name)
+        z[classify(s, measured)].append(str(s.get("name")))
     total = {"seats": 0, **{k: [] for k in KINDS}}
     for z in zones.values():
         total["seats"] += z["seats"]
@@ -96,17 +112,16 @@ def build(club: str) -> None:
     rows = []
     for measured, zones in latest.values():
         for zone, z in zones.items():
-            occ = len(z["busy"]) + len(z["paid"])
+            occ = len(z["playing"]) + len(z["paid"])
             seats = lambda k: " ".join(sorted(z[k], key=num))  # noqa: E731
             rows.append({
                 "measured_at": measured.strftime("%Y-%m-%d %H:%M"), "date": measured.strftime("%Y-%m-%d"),
                 "weekday": WEEKDAYS[measured.weekday()], "hour": measured.hour, "zone": zone, "seats": z["seats"],
                 "occupied": occ, "occupied_pct": round(100 * occ / z["seats"]) if z["seats"] else "",
-                "playing": len(z["busy"]), "paid_not_playing": len(z["paid"]),
-                "free": len(z["free"]) + len(z["booked"]), "unavailable": len(z["unavailable"]),
-                "booked_next_hour": len(z["booked"]),
-                "playing_seats": seats("busy"), "paid_not_playing_seats": seats("paid"),
-                "booked_next_hour_seats": seats("booked"), "unavailable_seats": seats("unavailable"),
+                "playing": len(z["playing"]), "paid_not_playing": len(z["paid"]),
+                "booked_soon": len(z["soon"]), "free": len(z["free"]), "unavailable": len(z["unavailable"]),
+                "playing_seats": seats("playing"), "paid_not_playing_seats": seats("paid"),
+                "booked_soon_seats": seats("soon"), "unavailable_seats": seats("unavailable"),
             })
     rows.sort(key=lambda r: (r["measured_at"], r["zone"] == ALL, r["zone"]))
     with (base / "occupancy.csv").open("w", newline="", encoding="utf-8") as fh:
@@ -124,9 +139,10 @@ def summary(rows: list, club_name: str) -> str:
         f"# Загрузка {club_name} по часам",
         "",
         f"Обновлено: {now}. Замеров: {len(total)}. Значение — % мест, занятых в момент замера: идёт игра "
-        "или время оплачено бронью (в Langame бронь оплачивается заранее, поэтому время продано, даже если "
-        "человек не пришёл). Замер раз в час, около :35 по времени клуба (UTC+5): строка «15:00» — замер "
-        "между 15:00 и 15:59. Пусто — замера не было.",
+        "или идёт оплаченная бронь, по которой сессию ещё не начали (в Langame бронь оплачивается заранее, "
+        "время продано, даже если гость не пришёл). Места, придержанные под бронь, которая ещё не началась, "
+        "занятыми не считаются. Замер раз в час, около :35 по времени клуба (UTC+5): строка «15:00» — "
+        "замер между 15:00 и 15:59. Пусто — замера не было.",
         "",
     ]
     days = sorted({r["date"] for r in total})
@@ -147,6 +163,10 @@ def summary(rows: list, club_name: str) -> str:
         if zr:
             avg = sum(r["occupied"] / r["seats"] for r in zr) / len(zr)
             out.append(f"| {zone} | {zr[-1]['seats']} | {avg:.0%} | {len(zr)} |")
+    paid = [r for r in total if r["paid_not_playing"]]
+    if paid:
+        out += ["", f"Замеров, где бронь уже шла, а за ПК никого не было: {len(paid)} из {len(total)} "
+                f"(всего {sum(r['paid_not_playing'] for r in paid)} мест). Такие места считаются занятыми."]
     unavailable = [r for r in total if r["unavailable"]]
     if unavailable:
         out += ["", f"Замеров, где были места со статусом «недоступно» (выключены или на обслуживании): "

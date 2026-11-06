@@ -139,10 +139,26 @@ def main() -> int:
     raw_path.parent.mkdir(parents=True, exist_ok=True)
     raw_path.write_text(json.dumps(raw, ensure_ascii=False), encoding="utf-8")
 
+    # Тарифы и пакеты клуба на завтра (раз в день): по ним видно цены и окна пакетов
+    tomorrow = (server_now + timedelta(days=1)).replace(minute=0, second=0, microsecond=0)
+    tariffs_path = DATA / "tariffs" / f"{tomorrow:%Y-%m-%d}.json"
+    if not tariffs_path.exists():
+        try:
+            tariffs = {}
+            for hour in (8, 12, 18, 23):
+                key = tomorrow.replace(hour=hour).strftime("%Y-%m-%d %H:%M")
+                tariffs[key] = api("GET", "/api/tariff", token, query="?start_at=" + urllib.parse.quote(key))
+            tariffs_path.parent.mkdir(parents=True, exist_ok=True)
+            tariffs_path.write_text(json.dumps(tariffs, ensure_ascii=False, indent=1), encoding="utf-8")
+        except Exception as e:  # тарифы — дополнение, сбор занятости из-за них не должен падать
+            print(f"Тарифы не сохранены: {e!r}", file=sys.stderr)
+
     build.build(CLUB_HASH)
     measured, zones = build.parse(raw, build.seat_uuids(json.loads(scheme_path.read_text(encoding="utf-8"))))
-    print(f"замер {measured:%Y-%m-%d %H:%M}, занято (игра + оплаченная бронь):",
-          {z: f"{len(v['busy']) + len(v['paid'])}/{v['seats']}" for z, v in zones.items()})
+    a = zones[build.ALL]
+    print(f"замер {measured:%Y-%m-%d %H:%M}: играют {len(a['playing'])}, бронь идёт без игры {len(a['paid'])}, "
+          f"придержано под бронь {len(a['soon'])}, свободно {len(a['free'])}, выключено {len(a['unavailable'])} "
+          f"из {a['seats']}")
     return 0
 
 
