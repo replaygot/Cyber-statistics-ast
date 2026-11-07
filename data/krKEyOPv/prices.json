@@ -1,0 +1,3609 @@
+{
+ "club": "krKEyOPv",
+ "club_name": "Epsilon",
+ "fetched_at": "2026-11-07 14:10",
+ "days": [
+  "2026-11-09",
+  "2026-11-14"
+ ],
+ "zones": {
+  "DUO": 1,
+  "TRIO": 3,
+  "Общий зал": 25,
+  "VIP": 10
+ },
+ "booking_rules": "<p>Правила клуба<br><br>Нажимая «Принимаю правила», вы подтверждаете согласие со следующими условиями:<br><br>Бронирование можно изменить или отменить не позднее чем за 24 часа до начала забронированного времени.&nbsp;<br><br>Просим внимательно выбирать дату и время. Оплаченная бронь закрепляется за вами на весь выбранный период. Возврат средств при ошибочном выборе не осуществляется.&nbsp;<br><br>Посещение клуба в ночное время (с 22:00 до 06:00) допускается только для лиц старше 18 лет при наличии удостоверяющего документа.&nbsp;<br>⸻&nbsp;<br>Хорошего вам дня! Будем рады видеть вас у нас!</p>",
+ "tariffs": [
+  {
+   "discount_percent": null,
+   "minutes_default_duration": 60,
+   "default_price": 1100,
+   "id": 1,
+   "tariff_name": "Базовый тариф",
+   "type": "basic",
+   "minutes_duration": null,
+   "available_from": [
+    "2026-11-09 00:00",
+    "2026-11-09 01:00",
+    "2026-11-09 02:00",
+    "2026-11-09 03:00",
+    "2026-11-09 04:00",
+    "2026-11-09 05:00",
+    "2026-11-09 06:00",
+    "2026-11-09 07:00",
+    "2026-11-09 08:00",
+    "2026-11-09 09:00",
+    "2026-11-09 10:00",
+    "2026-11-09 11:00",
+    "2026-11-09 12:00",
+    "2026-11-09 13:00",
+    "2026-11-09 14:00",
+    "2026-11-09 15:00",
+    "2026-11-09 16:00",
+    "2026-11-09 17:00",
+    "2026-11-09 18:00",
+    "2026-11-09 19:00",
+    "2026-11-09 20:00",
+    "2026-11-09 21:00",
+    "2026-11-09 22:00",
+    "2026-11-09 23:00",
+    "2026-11-14 00:00",
+    "2026-11-14 01:00",
+    "2026-11-14 02:00",
+    "2026-11-14 03:00",
+    "2026-11-14 04:00",
+    "2026-11-14 05:00",
+    "2026-11-14 06:00",
+    "2026-11-14 07:00",
+    "2026-11-14 08:00",
+    "2026-11-14 09:00",
+    "2026-11-14 10:00",
+    "2026-11-14 11:00",
+    "2026-11-14 12:00",
+    "2026-11-14 13:00",
+    "2026-11-14 14:00",
+    "2026-11-14 15:00",
+    "2026-11-14 16:00",
+    "2026-11-14 17:00",
+    "2026-11-14 18:00",
+    "2026-11-14 19:00",
+    "2026-11-14 20:00",
+    "2026-11-14 21:00",
+    "2026-11-14 22:00",
+    "2026-11-14 23:00"
+   ]
+  },
+  {
+   "discount_percent": 21,
+   "minutes_default_duration": 180,
+   "default_price": 2600,
+   "id": 2,
+   "tariff_name": "3 часа",
+   "type": "packet",
+   "minutes_duration": 180,
+   "available_from": [
+    "2026-11-09 00:00",
+    "2026-11-09 01:00",
+    "2026-11-09 02:00",
+    "2026-11-09 03:00",
+    "2026-11-09 04:00",
+    "2026-11-09 05:00",
+    "2026-11-09 06:00",
+    "2026-11-09 07:00",
+    "2026-11-09 08:00",
+    "2026-11-09 09:00",
+    "2026-11-09 10:00",
+    "2026-11-09 11:00",
+    "2026-11-09 12:00",
+    "2026-11-09 13:00",
+    "2026-11-09 14:00",
+    "2026-11-09 15:00",
+    "2026-11-09 16:00",
+    "2026-11-09 17:00",
+    "2026-11-09 18:00",
+    "2026-11-09 19:00",
+    "2026-11-09 20:00",
+    "2026-11-09 21:00",
+    "2026-11-09 22:00",
+    "2026-11-09 23:00",
+    "2026-11-14 00:00",
+    "2026-11-14 01:00",
+    "2026-11-14 02:00",
+    "2026-11-14 03:00",
+    "2026-11-14 04:00",
+    "2026-11-14 05:00",
+    "2026-11-14 06:00",
+    "2026-11-14 07:00",
+    "2026-11-14 08:00",
+    "2026-11-14 09:00",
+    "2026-11-14 10:00",
+    "2026-11-14 11:00",
+    "2026-11-14 12:00",
+    "2026-11-14 13:00",
+    "2026-11-14 14:00",
+    "2026-11-14 15:00",
+    "2026-11-14 16:00",
+    "2026-11-14 17:00",
+    "2026-11-14 18:00",
+    "2026-11-14 19:00",
+    "2026-11-14 20:00",
+    "2026-11-14 21:00",
+    "2026-11-14 22:00",
+    "2026-11-14 23:00"
+   ]
+  },
+  {
+   "discount_percent": 21,
+   "minutes_default_duration": 180,
+   "default_price": 2600,
+   "id": 21,
+   "tariff_name": "3 часа СГОРАЕМЫЕ",
+   "type": "packet",
+   "minutes_duration": 180,
+   "available_from": [
+    "2026-11-09 00:00",
+    "2026-11-09 01:00",
+    "2026-11-09 02:00",
+    "2026-11-09 03:00",
+    "2026-11-09 04:00",
+    "2026-11-09 05:00",
+    "2026-11-09 06:00",
+    "2026-11-09 07:00",
+    "2026-11-09 08:00",
+    "2026-11-09 09:00",
+    "2026-11-09 10:00",
+    "2026-11-09 11:00",
+    "2026-11-09 12:00",
+    "2026-11-09 13:00",
+    "2026-11-09 14:00",
+    "2026-11-09 15:00",
+    "2026-11-09 16:00",
+    "2026-11-09 17:00",
+    "2026-11-09 18:00",
+    "2026-11-09 19:00",
+    "2026-11-09 20:00",
+    "2026-11-09 21:00",
+    "2026-11-09 22:00",
+    "2026-11-09 23:00",
+    "2026-11-14 00:00",
+    "2026-11-14 01:00",
+    "2026-11-14 02:00",
+    "2026-11-14 03:00",
+    "2026-11-14 04:00",
+    "2026-11-14 05:00",
+    "2026-11-14 06:00",
+    "2026-11-14 07:00",
+    "2026-11-14 08:00",
+    "2026-11-14 09:00",
+    "2026-11-14 10:00",
+    "2026-11-14 11:00",
+    "2026-11-14 12:00",
+    "2026-11-14 13:00",
+    "2026-11-14 14:00",
+    "2026-11-14 15:00",
+    "2026-11-14 16:00",
+    "2026-11-14 17:00",
+    "2026-11-14 18:00",
+    "2026-11-14 19:00",
+    "2026-11-14 20:00",
+    "2026-11-14 21:00",
+    "2026-11-14 22:00",
+    "2026-11-14 23:00"
+   ]
+  },
+  {
+   "discount_percent": 37,
+   "minutes_default_duration": 300,
+   "default_price": 3900,
+   "id": 3,
+   "tariff_name": "5 часов",
+   "type": "packet",
+   "minutes_duration": 300,
+   "available_from": [
+    "2026-11-09 00:00",
+    "2026-11-09 01:00",
+    "2026-11-09 02:00",
+    "2026-11-09 03:00",
+    "2026-11-09 04:00",
+    "2026-11-09 05:00",
+    "2026-11-09 06:00",
+    "2026-11-09 07:00",
+    "2026-11-09 08:00",
+    "2026-11-09 09:00",
+    "2026-11-09 10:00",
+    "2026-11-09 11:00",
+    "2026-11-09 12:00",
+    "2026-11-09 13:00",
+    "2026-11-09 14:00",
+    "2026-11-09 15:00",
+    "2026-11-09 16:00",
+    "2026-11-09 17:00",
+    "2026-11-09 18:00",
+    "2026-11-09 19:00",
+    "2026-11-09 20:00",
+    "2026-11-09 21:00",
+    "2026-11-09 22:00",
+    "2026-11-09 23:00",
+    "2026-11-14 00:00",
+    "2026-11-14 01:00",
+    "2026-11-14 02:00",
+    "2026-11-14 03:00",
+    "2026-11-14 04:00",
+    "2026-11-14 05:00",
+    "2026-11-14 06:00",
+    "2026-11-14 07:00",
+    "2026-11-14 08:00",
+    "2026-11-14 09:00",
+    "2026-11-14 10:00",
+    "2026-11-14 11:00",
+    "2026-11-14 12:00",
+    "2026-11-14 13:00",
+    "2026-11-14 14:00",
+    "2026-11-14 15:00",
+    "2026-11-14 16:00",
+    "2026-11-14 17:00",
+    "2026-11-14 18:00",
+    "2026-11-14 19:00",
+    "2026-11-14 20:00",
+    "2026-11-14 21:00",
+    "2026-11-14 22:00",
+    "2026-11-14 23:00"
+   ]
+  },
+  {
+   "discount_percent": 58,
+   "minutes_default_duration": 0,
+   "default_price": 4100,
+   "id": 6,
+   "tariff_name": "Пакет Ночь (22:00-8:00)",
+   "type": "packet",
+   "minutes_duration": 480,
+   "available_from": [
+    "2026-11-09 00:00",
+    "2026-11-09 01:00",
+    "2026-11-09 02:00",
+    "2026-11-09 03:00",
+    "2026-11-09 04:00",
+    "2026-11-09 05:00",
+    "2026-11-09 06:00",
+    "2026-11-09 07:00",
+    "2026-11-09 22:00",
+    "2026-11-09 23:00",
+    "2026-11-14 00:00",
+    "2026-11-14 01:00",
+    "2026-11-14 02:00",
+    "2026-11-14 03:00",
+    "2026-11-14 04:00",
+    "2026-11-14 05:00",
+    "2026-11-14 06:00",
+    "2026-11-14 07:00",
+    "2026-11-14 22:00",
+    "2026-11-14 23:00"
+   ]
+  },
+  {
+   "discount_percent": 82,
+   "minutes_default_duration": 0,
+   "default_price": 1800,
+   "id": 18,
+   "tariff_name": "Nova",
+   "type": "packet",
+   "minutes_duration": 540,
+   "available_from": [
+    "2026-11-09 01:00",
+    "2026-11-09 02:00",
+    "2026-11-09 03:00",
+    "2026-11-09 04:00",
+    "2026-11-09 05:00",
+    "2026-11-09 06:00",
+    "2026-11-09 07:00",
+    "2026-11-09 08:00",
+    "2026-11-09 09:00",
+    "2026-11-14 01:00",
+    "2026-11-14 02:00",
+    "2026-11-14 03:00",
+    "2026-11-14 04:00",
+    "2026-11-14 05:00",
+    "2026-11-14 06:00",
+    "2026-11-14 07:00",
+    "2026-11-14 08:00",
+    "2026-11-14 09:00"
+   ]
+  },
+  {
+   "discount_percent": 74,
+   "minutes_default_duration": 0,
+   "default_price": 3200,
+   "id": 16,
+   "tariff_name": "Atlas",
+   "type": "packet",
+   "minutes_duration": 600,
+   "available_from": [
+    "2026-11-09 08:00",
+    "2026-11-09 09:00",
+    "2026-11-09 10:00",
+    "2026-11-09 11:00",
+    "2026-11-09 12:00",
+    "2026-11-09 13:00",
+    "2026-11-09 14:00",
+    "2026-11-09 15:00",
+    "2026-11-09 16:00",
+    "2026-11-09 17:00",
+    "2026-11-14 08:00",
+    "2026-11-14 09:00",
+    "2026-11-14 10:00",
+    "2026-11-14 11:00",
+    "2026-11-14 12:00",
+    "2026-11-14 13:00",
+    "2026-11-14 14:00",
+    "2026-11-14 15:00",
+    "2026-11-14 16:00",
+    "2026-11-14 17:00"
+   ]
+  }
+ ],
+ "tariffs_by_start": {
+  "2026-11-09 00:00": [
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 60,
+    "default_price": 1100,
+    "id": 1,
+    "tariff_name": "Базовый тариф",
+    "type": "basic",
+    "minutes_duration": null
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 2,
+    "tariff_name": "3 часа",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 21,
+    "tariff_name": "3 часа СГОРАЕМЫЕ",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 37,
+    "minutes_default_duration": 300,
+    "default_price": 3900,
+    "id": 3,
+    "tariff_name": "5 часов",
+    "type": "packet",
+    "minutes_duration": 300
+   },
+   {
+    "discount_percent": 58,
+    "minutes_default_duration": 0,
+    "default_price": 4100,
+    "id": 6,
+    "tariff_name": "Пакет Ночь (22:00-8:00)",
+    "type": "packet",
+    "minutes_duration": 480
+   }
+  ],
+  "2026-11-09 01:00": [
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 60,
+    "default_price": 1100,
+    "id": 1,
+    "tariff_name": "Базовый тариф",
+    "type": "basic",
+    "minutes_duration": null
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 2,
+    "tariff_name": "3 часа",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 21,
+    "tariff_name": "3 часа СГОРАЕМЫЕ",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 37,
+    "minutes_default_duration": 300,
+    "default_price": 3900,
+    "id": 3,
+    "tariff_name": "5 часов",
+    "type": "packet",
+    "minutes_duration": 300
+   },
+   {
+    "discount_percent": 51,
+    "minutes_default_duration": 0,
+    "default_price": 4100,
+    "id": 6,
+    "tariff_name": "Пакет Ночь (22:00-8:00)",
+    "type": "packet",
+    "minutes_duration": 420
+   },
+   {
+    "discount_percent": 82,
+    "minutes_default_duration": 0,
+    "default_price": 1800,
+    "id": 18,
+    "tariff_name": "Nova",
+    "type": "packet",
+    "minutes_duration": 540
+   }
+  ],
+  "2026-11-09 02:00": [
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 60,
+    "default_price": 1100,
+    "id": 1,
+    "tariff_name": "Базовый тариф",
+    "type": "basic",
+    "minutes_duration": null
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 2,
+    "tariff_name": "3 часа",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 21,
+    "tariff_name": "3 часа СГОРАЕМЫЕ",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 37,
+    "minutes_default_duration": 300,
+    "default_price": 3900,
+    "id": 3,
+    "tariff_name": "5 часов",
+    "type": "packet",
+    "minutes_duration": 300
+   },
+   {
+    "discount_percent": 43,
+    "minutes_default_duration": 0,
+    "default_price": 4100,
+    "id": 6,
+    "tariff_name": "Пакет Ночь (22:00-8:00)",
+    "type": "packet",
+    "minutes_duration": 360
+   },
+   {
+    "discount_percent": 80,
+    "minutes_default_duration": 0,
+    "default_price": 1800,
+    "id": 18,
+    "tariff_name": "Nova",
+    "type": "packet",
+    "minutes_duration": 480
+   }
+  ],
+  "2026-11-09 03:00": [
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 60,
+    "default_price": 1100,
+    "id": 1,
+    "tariff_name": "Базовый тариф",
+    "type": "basic",
+    "minutes_duration": null
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 2,
+    "tariff_name": "3 часа",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 21,
+    "tariff_name": "3 часа СГОРАЕМЫЕ",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 37,
+    "minutes_default_duration": 300,
+    "default_price": 3900,
+    "id": 3,
+    "tariff_name": "5 часов",
+    "type": "packet",
+    "minutes_duration": 300
+   },
+   {
+    "discount_percent": 32,
+    "minutes_default_duration": 0,
+    "default_price": 4100,
+    "id": 6,
+    "tariff_name": "Пакет Ночь (22:00-8:00)",
+    "type": "packet",
+    "minutes_duration": 300
+   },
+   {
+    "discount_percent": 77,
+    "minutes_default_duration": 0,
+    "default_price": 1800,
+    "id": 18,
+    "tariff_name": "Nova",
+    "type": "packet",
+    "minutes_duration": 420
+   }
+  ],
+  "2026-11-09 04:00": [
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 60,
+    "default_price": 1100,
+    "id": 1,
+    "tariff_name": "Базовый тариф",
+    "type": "basic",
+    "minutes_duration": null
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 2,
+    "tariff_name": "3 часа",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 21,
+    "tariff_name": "3 часа СГОРАЕМЫЕ",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 37,
+    "minutes_default_duration": 300,
+    "default_price": 3900,
+    "id": 3,
+    "tariff_name": "5 часов",
+    "type": "packet",
+    "minutes_duration": 300
+   },
+   {
+    "discount_percent": 15,
+    "minutes_default_duration": 0,
+    "default_price": 4100,
+    "id": 6,
+    "tariff_name": "Пакет Ночь (22:00-8:00)",
+    "type": "packet",
+    "minutes_duration": 240
+   },
+   {
+    "discount_percent": 73,
+    "minutes_default_duration": 0,
+    "default_price": 1800,
+    "id": 18,
+    "tariff_name": "Nova",
+    "type": "packet",
+    "minutes_duration": 360
+   }
+  ],
+  "2026-11-09 05:00": [
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 60,
+    "default_price": 1100,
+    "id": 1,
+    "tariff_name": "Базовый тариф",
+    "type": "basic",
+    "minutes_duration": null
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 2,
+    "tariff_name": "3 часа",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 21,
+    "tariff_name": "3 часа СГОРАЕМЫЕ",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 37,
+    "minutes_default_duration": 300,
+    "default_price": 3900,
+    "id": 3,
+    "tariff_name": "5 часов",
+    "type": "packet",
+    "minutes_duration": 300
+   },
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 0,
+    "default_price": 4100,
+    "id": 6,
+    "tariff_name": "Пакет Ночь (22:00-8:00)",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 67,
+    "minutes_default_duration": 0,
+    "default_price": 1800,
+    "id": 18,
+    "tariff_name": "Nova",
+    "type": "packet",
+    "minutes_duration": 300
+   }
+  ],
+  "2026-11-09 06:00": [
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 60,
+    "default_price": 1100,
+    "id": 1,
+    "tariff_name": "Базовый тариф",
+    "type": "basic",
+    "minutes_duration": null
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 2,
+    "tariff_name": "3 часа",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 21,
+    "tariff_name": "3 часа СГОРАЕМЫЕ",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 37,
+    "minutes_default_duration": 300,
+    "default_price": 3900,
+    "id": 3,
+    "tariff_name": "5 часов",
+    "type": "packet",
+    "minutes_duration": 300
+   },
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 0,
+    "default_price": 4100,
+    "id": 6,
+    "tariff_name": "Пакет Ночь (22:00-8:00)",
+    "type": "packet",
+    "minutes_duration": 120
+   },
+   {
+    "discount_percent": 59,
+    "minutes_default_duration": 0,
+    "default_price": 1800,
+    "id": 18,
+    "tariff_name": "Nova",
+    "type": "packet",
+    "minutes_duration": 240
+   }
+  ],
+  "2026-11-09 07:00": [
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 60,
+    "default_price": 1100,
+    "id": 1,
+    "tariff_name": "Базовый тариф",
+    "type": "basic",
+    "minutes_duration": null
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 2,
+    "tariff_name": "3 часа",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 21,
+    "tariff_name": "3 часа СГОРАЕМЫЕ",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 37,
+    "minutes_default_duration": 300,
+    "default_price": 3900,
+    "id": 3,
+    "tariff_name": "5 часов",
+    "type": "packet",
+    "minutes_duration": 300
+   },
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 0,
+    "default_price": 4100,
+    "id": 6,
+    "tariff_name": "Пакет Ночь (22:00-8:00)",
+    "type": "packet",
+    "minutes_duration": 60
+   },
+   {
+    "discount_percent": 45,
+    "minutes_default_duration": 0,
+    "default_price": 1800,
+    "id": 18,
+    "tariff_name": "Nova",
+    "type": "packet",
+    "minutes_duration": 180
+   }
+  ],
+  "2026-11-09 08:00": [
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 60,
+    "default_price": 1100,
+    "id": 1,
+    "tariff_name": "Базовый тариф",
+    "type": "basic",
+    "minutes_duration": null
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 2,
+    "tariff_name": "3 часа",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 21,
+    "tariff_name": "3 часа СГОРАЕМЫЕ",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 37,
+    "minutes_default_duration": 300,
+    "default_price": 3900,
+    "id": 3,
+    "tariff_name": "5 часов",
+    "type": "packet",
+    "minutes_duration": 300
+   },
+   {
+    "discount_percent": 74,
+    "minutes_default_duration": 0,
+    "default_price": 3200,
+    "id": 16,
+    "tariff_name": "Atlas",
+    "type": "packet",
+    "minutes_duration": 600
+   },
+   {
+    "discount_percent": 18,
+    "minutes_default_duration": 0,
+    "default_price": 1800,
+    "id": 18,
+    "tariff_name": "Nova",
+    "type": "packet",
+    "minutes_duration": 120
+   }
+  ],
+  "2026-11-09 09:00": [
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 60,
+    "default_price": 1100,
+    "id": 1,
+    "tariff_name": "Базовый тариф",
+    "type": "basic",
+    "minutes_duration": null
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 2,
+    "tariff_name": "3 часа",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 21,
+    "tariff_name": "3 часа СГОРАЕМЫЕ",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 37,
+    "minutes_default_duration": 300,
+    "default_price": 3900,
+    "id": 3,
+    "tariff_name": "5 часов",
+    "type": "packet",
+    "minutes_duration": 300
+   },
+   {
+    "discount_percent": 71,
+    "minutes_default_duration": 0,
+    "default_price": 3200,
+    "id": 16,
+    "tariff_name": "Atlas",
+    "type": "packet",
+    "minutes_duration": 540
+   },
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 0,
+    "default_price": 1800,
+    "id": 18,
+    "tariff_name": "Nova",
+    "type": "packet",
+    "minutes_duration": 60
+   }
+  ],
+  "2026-11-09 10:00": [
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 60,
+    "default_price": 1100,
+    "id": 1,
+    "tariff_name": "Базовый тариф",
+    "type": "basic",
+    "minutes_duration": null
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 2,
+    "tariff_name": "3 часа",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 21,
+    "tariff_name": "3 часа СГОРАЕМЫЕ",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 37,
+    "minutes_default_duration": 300,
+    "default_price": 3900,
+    "id": 3,
+    "tariff_name": "5 часов",
+    "type": "packet",
+    "minutes_duration": 300
+   },
+   {
+    "discount_percent": 68,
+    "minutes_default_duration": 0,
+    "default_price": 3200,
+    "id": 16,
+    "tariff_name": "Atlas",
+    "type": "packet",
+    "minutes_duration": 480
+   }
+  ],
+  "2026-11-09 11:00": [
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 60,
+    "default_price": 1100,
+    "id": 1,
+    "tariff_name": "Базовый тариф",
+    "type": "basic",
+    "minutes_duration": null
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 2,
+    "tariff_name": "3 часа",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 21,
+    "tariff_name": "3 часа СГОРАЕМЫЕ",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 37,
+    "minutes_default_duration": 300,
+    "default_price": 3900,
+    "id": 3,
+    "tariff_name": "5 часов",
+    "type": "packet",
+    "minutes_duration": 300
+   },
+   {
+    "discount_percent": 63,
+    "minutes_default_duration": 0,
+    "default_price": 3200,
+    "id": 16,
+    "tariff_name": "Atlas",
+    "type": "packet",
+    "minutes_duration": 420
+   }
+  ],
+  "2026-11-09 12:00": [
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 60,
+    "default_price": 1100,
+    "id": 1,
+    "tariff_name": "Базовый тариф",
+    "type": "basic",
+    "minutes_duration": null
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 2,
+    "tariff_name": "3 часа",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 21,
+    "tariff_name": "3 часа СГОРАЕМЫЕ",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 37,
+    "minutes_default_duration": 300,
+    "default_price": 3900,
+    "id": 3,
+    "tariff_name": "5 часов",
+    "type": "packet",
+    "minutes_duration": 300
+   },
+   {
+    "discount_percent": 57,
+    "minutes_default_duration": 0,
+    "default_price": 3200,
+    "id": 16,
+    "tariff_name": "Atlas",
+    "type": "packet",
+    "minutes_duration": 360
+   }
+  ],
+  "2026-11-09 13:00": [
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 60,
+    "default_price": 1100,
+    "id": 1,
+    "tariff_name": "Базовый тариф",
+    "type": "basic",
+    "minutes_duration": null
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 2,
+    "tariff_name": "3 часа",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 21,
+    "tariff_name": "3 часа СГОРАЕМЫЕ",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 37,
+    "minutes_default_duration": 300,
+    "default_price": 3900,
+    "id": 3,
+    "tariff_name": "5 часов",
+    "type": "packet",
+    "minutes_duration": 300
+   },
+   {
+    "discount_percent": 48,
+    "minutes_default_duration": 0,
+    "default_price": 3200,
+    "id": 16,
+    "tariff_name": "Atlas",
+    "type": "packet",
+    "minutes_duration": 300
+   }
+  ],
+  "2026-11-09 14:00": [
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 60,
+    "default_price": 1100,
+    "id": 1,
+    "tariff_name": "Базовый тариф",
+    "type": "basic",
+    "minutes_duration": null
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 2,
+    "tariff_name": "3 часа",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 21,
+    "tariff_name": "3 часа СГОРАЕМЫЕ",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 37,
+    "minutes_default_duration": 300,
+    "default_price": 3900,
+    "id": 3,
+    "tariff_name": "5 часов",
+    "type": "packet",
+    "minutes_duration": 300
+   },
+   {
+    "discount_percent": 35,
+    "minutes_default_duration": 0,
+    "default_price": 3200,
+    "id": 16,
+    "tariff_name": "Atlas",
+    "type": "packet",
+    "minutes_duration": 240
+   }
+  ],
+  "2026-11-09 15:00": [
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 60,
+    "default_price": 1100,
+    "id": 1,
+    "tariff_name": "Базовый тариф",
+    "type": "basic",
+    "minutes_duration": null
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 2,
+    "tariff_name": "3 часа",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 21,
+    "tariff_name": "3 часа СГОРАЕМЫЕ",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 37,
+    "minutes_default_duration": 300,
+    "default_price": 3900,
+    "id": 3,
+    "tariff_name": "5 часов",
+    "type": "packet",
+    "minutes_duration": 300
+   },
+   {
+    "discount_percent": 13,
+    "minutes_default_duration": 0,
+    "default_price": 3200,
+    "id": 16,
+    "tariff_name": "Atlas",
+    "type": "packet",
+    "minutes_duration": 180
+   }
+  ],
+  "2026-11-09 16:00": [
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 60,
+    "default_price": 1100,
+    "id": 1,
+    "tariff_name": "Базовый тариф",
+    "type": "basic",
+    "minutes_duration": null
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 2,
+    "tariff_name": "3 часа",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 21,
+    "tariff_name": "3 часа СГОРАЕМЫЕ",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 37,
+    "minutes_default_duration": 300,
+    "default_price": 3900,
+    "id": 3,
+    "tariff_name": "5 часов",
+    "type": "packet",
+    "minutes_duration": 300
+   },
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 0,
+    "default_price": 3200,
+    "id": 16,
+    "tariff_name": "Atlas",
+    "type": "packet",
+    "minutes_duration": 120
+   }
+  ],
+  "2026-11-09 17:00": [
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 60,
+    "default_price": 1100,
+    "id": 1,
+    "tariff_name": "Базовый тариф",
+    "type": "basic",
+    "minutes_duration": null
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 2,
+    "tariff_name": "3 часа",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 21,
+    "tariff_name": "3 часа СГОРАЕМЫЕ",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 37,
+    "minutes_default_duration": 300,
+    "default_price": 3900,
+    "id": 3,
+    "tariff_name": "5 часов",
+    "type": "packet",
+    "minutes_duration": 300
+   },
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 0,
+    "default_price": 3200,
+    "id": 16,
+    "tariff_name": "Atlas",
+    "type": "packet",
+    "minutes_duration": 60
+   }
+  ],
+  "2026-11-09 18:00": [
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 60,
+    "default_price": 1100,
+    "id": 1,
+    "tariff_name": "Базовый тариф",
+    "type": "basic",
+    "minutes_duration": null
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 2,
+    "tariff_name": "3 часа",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 21,
+    "tariff_name": "3 часа СГОРАЕМЫЕ",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 37,
+    "minutes_default_duration": 300,
+    "default_price": 3900,
+    "id": 3,
+    "tariff_name": "5 часов",
+    "type": "packet",
+    "minutes_duration": 300
+   }
+  ],
+  "2026-11-09 19:00": [
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 60,
+    "default_price": 1100,
+    "id": 1,
+    "tariff_name": "Базовый тариф",
+    "type": "basic",
+    "minutes_duration": null
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 2,
+    "tariff_name": "3 часа",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 21,
+    "tariff_name": "3 часа СГОРАЕМЫЕ",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 37,
+    "minutes_default_duration": 300,
+    "default_price": 3900,
+    "id": 3,
+    "tariff_name": "5 часов",
+    "type": "packet",
+    "minutes_duration": 300
+   }
+  ],
+  "2026-11-09 20:00": [
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 60,
+    "default_price": 1100,
+    "id": 1,
+    "tariff_name": "Базовый тариф",
+    "type": "basic",
+    "minutes_duration": null
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 2,
+    "tariff_name": "3 часа",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 21,
+    "tariff_name": "3 часа СГОРАЕМЫЕ",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 37,
+    "minutes_default_duration": 300,
+    "default_price": 3900,
+    "id": 3,
+    "tariff_name": "5 часов",
+    "type": "packet",
+    "minutes_duration": 300
+   }
+  ],
+  "2026-11-09 21:00": [
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 60,
+    "default_price": 1100,
+    "id": 1,
+    "tariff_name": "Базовый тариф",
+    "type": "basic",
+    "minutes_duration": null
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 2,
+    "tariff_name": "3 часа",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 21,
+    "tariff_name": "3 часа СГОРАЕМЫЕ",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 37,
+    "minutes_default_duration": 300,
+    "default_price": 3900,
+    "id": 3,
+    "tariff_name": "5 часов",
+    "type": "packet",
+    "minutes_duration": 300
+   }
+  ],
+  "2026-11-09 22:00": [
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 60,
+    "default_price": 1100,
+    "id": 1,
+    "tariff_name": "Базовый тариф",
+    "type": "basic",
+    "minutes_duration": null
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 2,
+    "tariff_name": "3 часа",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 21,
+    "tariff_name": "3 часа СГОРАЕМЫЕ",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 37,
+    "minutes_default_duration": 300,
+    "default_price": 3900,
+    "id": 3,
+    "tariff_name": "5 часов",
+    "type": "packet",
+    "minutes_duration": 300
+   },
+   {
+    "discount_percent": 66,
+    "minutes_default_duration": 0,
+    "default_price": 4100,
+    "id": 6,
+    "tariff_name": "Пакет Ночь (22:00-8:00)",
+    "type": "packet",
+    "minutes_duration": 600
+   }
+  ],
+  "2026-11-09 23:00": [
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 60,
+    "default_price": 1100,
+    "id": 1,
+    "tariff_name": "Базовый тариф",
+    "type": "basic",
+    "minutes_duration": null
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 2,
+    "tariff_name": "3 часа",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 21,
+    "tariff_name": "3 часа СГОРАЕМЫЕ",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 37,
+    "minutes_default_duration": 300,
+    "default_price": 3900,
+    "id": 3,
+    "tariff_name": "5 часов",
+    "type": "packet",
+    "minutes_duration": 300
+   },
+   {
+    "discount_percent": 62,
+    "minutes_default_duration": 0,
+    "default_price": 4100,
+    "id": 6,
+    "tariff_name": "Пакет Ночь (22:00-8:00)",
+    "type": "packet",
+    "minutes_duration": 540
+   }
+  ],
+  "2026-11-14 00:00": [
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 60,
+    "default_price": 1100,
+    "id": 1,
+    "tariff_name": "Базовый тариф",
+    "type": "basic",
+    "minutes_duration": null
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 2,
+    "tariff_name": "3 часа",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 21,
+    "tariff_name": "3 часа СГОРАЕМЫЕ",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 37,
+    "minutes_default_duration": 300,
+    "default_price": 3900,
+    "id": 3,
+    "tariff_name": "5 часов",
+    "type": "packet",
+    "minutes_duration": 300
+   },
+   {
+    "discount_percent": 58,
+    "minutes_default_duration": 0,
+    "default_price": 4100,
+    "id": 6,
+    "tariff_name": "Пакет Ночь (22:00-8:00)",
+    "type": "packet",
+    "minutes_duration": 480
+   }
+  ],
+  "2026-11-14 01:00": [
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 60,
+    "default_price": 1100,
+    "id": 1,
+    "tariff_name": "Базовый тариф",
+    "type": "basic",
+    "minutes_duration": null
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 2,
+    "tariff_name": "3 часа",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 21,
+    "tariff_name": "3 часа СГОРАЕМЫЕ",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 37,
+    "minutes_default_duration": 300,
+    "default_price": 3900,
+    "id": 3,
+    "tariff_name": "5 часов",
+    "type": "packet",
+    "minutes_duration": 300
+   },
+   {
+    "discount_percent": 51,
+    "minutes_default_duration": 0,
+    "default_price": 4100,
+    "id": 6,
+    "tariff_name": "Пакет Ночь (22:00-8:00)",
+    "type": "packet",
+    "minutes_duration": 420
+   },
+   {
+    "discount_percent": 82,
+    "minutes_default_duration": 0,
+    "default_price": 1800,
+    "id": 18,
+    "tariff_name": "Nova",
+    "type": "packet",
+    "minutes_duration": 540
+   }
+  ],
+  "2026-11-14 02:00": [
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 60,
+    "default_price": 1100,
+    "id": 1,
+    "tariff_name": "Базовый тариф",
+    "type": "basic",
+    "minutes_duration": null
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 2,
+    "tariff_name": "3 часа",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 21,
+    "tariff_name": "3 часа СГОРАЕМЫЕ",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 37,
+    "minutes_default_duration": 300,
+    "default_price": 3900,
+    "id": 3,
+    "tariff_name": "5 часов",
+    "type": "packet",
+    "minutes_duration": 300
+   },
+   {
+    "discount_percent": 43,
+    "minutes_default_duration": 0,
+    "default_price": 4100,
+    "id": 6,
+    "tariff_name": "Пакет Ночь (22:00-8:00)",
+    "type": "packet",
+    "minutes_duration": 360
+   },
+   {
+    "discount_percent": 80,
+    "minutes_default_duration": 0,
+    "default_price": 1800,
+    "id": 18,
+    "tariff_name": "Nova",
+    "type": "packet",
+    "minutes_duration": 480
+   }
+  ],
+  "2026-11-14 03:00": [
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 60,
+    "default_price": 1100,
+    "id": 1,
+    "tariff_name": "Базовый тариф",
+    "type": "basic",
+    "minutes_duration": null
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 2,
+    "tariff_name": "3 часа",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 21,
+    "tariff_name": "3 часа СГОРАЕМЫЕ",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 37,
+    "minutes_default_duration": 300,
+    "default_price": 3900,
+    "id": 3,
+    "tariff_name": "5 часов",
+    "type": "packet",
+    "minutes_duration": 300
+   },
+   {
+    "discount_percent": 32,
+    "minutes_default_duration": 0,
+    "default_price": 4100,
+    "id": 6,
+    "tariff_name": "Пакет Ночь (22:00-8:00)",
+    "type": "packet",
+    "minutes_duration": 300
+   },
+   {
+    "discount_percent": 77,
+    "minutes_default_duration": 0,
+    "default_price": 1800,
+    "id": 18,
+    "tariff_name": "Nova",
+    "type": "packet",
+    "minutes_duration": 420
+   }
+  ],
+  "2026-11-14 04:00": [
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 60,
+    "default_price": 1100,
+    "id": 1,
+    "tariff_name": "Базовый тариф",
+    "type": "basic",
+    "minutes_duration": null
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 2,
+    "tariff_name": "3 часа",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 21,
+    "tariff_name": "3 часа СГОРАЕМЫЕ",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 37,
+    "minutes_default_duration": 300,
+    "default_price": 3900,
+    "id": 3,
+    "tariff_name": "5 часов",
+    "type": "packet",
+    "minutes_duration": 300
+   },
+   {
+    "discount_percent": 15,
+    "minutes_default_duration": 0,
+    "default_price": 4100,
+    "id": 6,
+    "tariff_name": "Пакет Ночь (22:00-8:00)",
+    "type": "packet",
+    "minutes_duration": 240
+   },
+   {
+    "discount_percent": 73,
+    "minutes_default_duration": 0,
+    "default_price": 1800,
+    "id": 18,
+    "tariff_name": "Nova",
+    "type": "packet",
+    "minutes_duration": 360
+   }
+  ],
+  "2026-11-14 05:00": [
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 60,
+    "default_price": 1100,
+    "id": 1,
+    "tariff_name": "Базовый тариф",
+    "type": "basic",
+    "minutes_duration": null
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 2,
+    "tariff_name": "3 часа",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 21,
+    "tariff_name": "3 часа СГОРАЕМЫЕ",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 37,
+    "minutes_default_duration": 300,
+    "default_price": 3900,
+    "id": 3,
+    "tariff_name": "5 часов",
+    "type": "packet",
+    "minutes_duration": 300
+   },
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 0,
+    "default_price": 4100,
+    "id": 6,
+    "tariff_name": "Пакет Ночь (22:00-8:00)",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 67,
+    "minutes_default_duration": 0,
+    "default_price": 1800,
+    "id": 18,
+    "tariff_name": "Nova",
+    "type": "packet",
+    "minutes_duration": 300
+   }
+  ],
+  "2026-11-14 06:00": [
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 60,
+    "default_price": 1100,
+    "id": 1,
+    "tariff_name": "Базовый тариф",
+    "type": "basic",
+    "minutes_duration": null
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 2,
+    "tariff_name": "3 часа",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 21,
+    "tariff_name": "3 часа СГОРАЕМЫЕ",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 37,
+    "minutes_default_duration": 300,
+    "default_price": 3900,
+    "id": 3,
+    "tariff_name": "5 часов",
+    "type": "packet",
+    "minutes_duration": 300
+   },
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 0,
+    "default_price": 4100,
+    "id": 6,
+    "tariff_name": "Пакет Ночь (22:00-8:00)",
+    "type": "packet",
+    "minutes_duration": 120
+   },
+   {
+    "discount_percent": 59,
+    "minutes_default_duration": 0,
+    "default_price": 1800,
+    "id": 18,
+    "tariff_name": "Nova",
+    "type": "packet",
+    "minutes_duration": 240
+   }
+  ],
+  "2026-11-14 07:00": [
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 60,
+    "default_price": 1100,
+    "id": 1,
+    "tariff_name": "Базовый тариф",
+    "type": "basic",
+    "minutes_duration": null
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 2,
+    "tariff_name": "3 часа",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 21,
+    "tariff_name": "3 часа СГОРАЕМЫЕ",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 37,
+    "minutes_default_duration": 300,
+    "default_price": 3900,
+    "id": 3,
+    "tariff_name": "5 часов",
+    "type": "packet",
+    "minutes_duration": 300
+   },
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 0,
+    "default_price": 4100,
+    "id": 6,
+    "tariff_name": "Пакет Ночь (22:00-8:00)",
+    "type": "packet",
+    "minutes_duration": 60
+   },
+   {
+    "discount_percent": 45,
+    "minutes_default_duration": 0,
+    "default_price": 1800,
+    "id": 18,
+    "tariff_name": "Nova",
+    "type": "packet",
+    "minutes_duration": 180
+   }
+  ],
+  "2026-11-14 08:00": [
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 60,
+    "default_price": 1100,
+    "id": 1,
+    "tariff_name": "Базовый тариф",
+    "type": "basic",
+    "minutes_duration": null
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 2,
+    "tariff_name": "3 часа",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 21,
+    "tariff_name": "3 часа СГОРАЕМЫЕ",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 37,
+    "minutes_default_duration": 300,
+    "default_price": 3900,
+    "id": 3,
+    "tariff_name": "5 часов",
+    "type": "packet",
+    "minutes_duration": 300
+   },
+   {
+    "discount_percent": 74,
+    "minutes_default_duration": 0,
+    "default_price": 3200,
+    "id": 16,
+    "tariff_name": "Atlas",
+    "type": "packet",
+    "minutes_duration": 600
+   },
+   {
+    "discount_percent": 18,
+    "minutes_default_duration": 0,
+    "default_price": 1800,
+    "id": 18,
+    "tariff_name": "Nova",
+    "type": "packet",
+    "minutes_duration": 120
+   }
+  ],
+  "2026-11-14 09:00": [
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 60,
+    "default_price": 1100,
+    "id": 1,
+    "tariff_name": "Базовый тариф",
+    "type": "basic",
+    "minutes_duration": null
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 2,
+    "tariff_name": "3 часа",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 21,
+    "tariff_name": "3 часа СГОРАЕМЫЕ",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 37,
+    "minutes_default_duration": 300,
+    "default_price": 3900,
+    "id": 3,
+    "tariff_name": "5 часов",
+    "type": "packet",
+    "minutes_duration": 300
+   },
+   {
+    "discount_percent": 71,
+    "minutes_default_duration": 0,
+    "default_price": 3200,
+    "id": 16,
+    "tariff_name": "Atlas",
+    "type": "packet",
+    "minutes_duration": 540
+   },
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 0,
+    "default_price": 1800,
+    "id": 18,
+    "tariff_name": "Nova",
+    "type": "packet",
+    "minutes_duration": 60
+   }
+  ],
+  "2026-11-14 10:00": [
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 60,
+    "default_price": 1100,
+    "id": 1,
+    "tariff_name": "Базовый тариф",
+    "type": "basic",
+    "minutes_duration": null
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 2,
+    "tariff_name": "3 часа",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 21,
+    "tariff_name": "3 часа СГОРАЕМЫЕ",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 37,
+    "minutes_default_duration": 300,
+    "default_price": 3900,
+    "id": 3,
+    "tariff_name": "5 часов",
+    "type": "packet",
+    "minutes_duration": 300
+   },
+   {
+    "discount_percent": 68,
+    "minutes_default_duration": 0,
+    "default_price": 3200,
+    "id": 16,
+    "tariff_name": "Atlas",
+    "type": "packet",
+    "minutes_duration": 480
+   }
+  ],
+  "2026-11-14 11:00": [
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 60,
+    "default_price": 1100,
+    "id": 1,
+    "tariff_name": "Базовый тариф",
+    "type": "basic",
+    "minutes_duration": null
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 2,
+    "tariff_name": "3 часа",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 21,
+    "tariff_name": "3 часа СГОРАЕМЫЕ",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 37,
+    "minutes_default_duration": 300,
+    "default_price": 3900,
+    "id": 3,
+    "tariff_name": "5 часов",
+    "type": "packet",
+    "minutes_duration": 300
+   },
+   {
+    "discount_percent": 63,
+    "minutes_default_duration": 0,
+    "default_price": 3200,
+    "id": 16,
+    "tariff_name": "Atlas",
+    "type": "packet",
+    "minutes_duration": 420
+   }
+  ],
+  "2026-11-14 12:00": [
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 60,
+    "default_price": 1100,
+    "id": 1,
+    "tariff_name": "Базовый тариф",
+    "type": "basic",
+    "minutes_duration": null
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 2,
+    "tariff_name": "3 часа",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 21,
+    "tariff_name": "3 часа СГОРАЕМЫЕ",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 37,
+    "minutes_default_duration": 300,
+    "default_price": 3900,
+    "id": 3,
+    "tariff_name": "5 часов",
+    "type": "packet",
+    "minutes_duration": 300
+   },
+   {
+    "discount_percent": 57,
+    "minutes_default_duration": 0,
+    "default_price": 3200,
+    "id": 16,
+    "tariff_name": "Atlas",
+    "type": "packet",
+    "minutes_duration": 360
+   }
+  ],
+  "2026-11-14 13:00": [
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 60,
+    "default_price": 1100,
+    "id": 1,
+    "tariff_name": "Базовый тариф",
+    "type": "basic",
+    "minutes_duration": null
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 2,
+    "tariff_name": "3 часа",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 21,
+    "tariff_name": "3 часа СГОРАЕМЫЕ",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 37,
+    "minutes_default_duration": 300,
+    "default_price": 3900,
+    "id": 3,
+    "tariff_name": "5 часов",
+    "type": "packet",
+    "minutes_duration": 300
+   },
+   {
+    "discount_percent": 48,
+    "minutes_default_duration": 0,
+    "default_price": 3200,
+    "id": 16,
+    "tariff_name": "Atlas",
+    "type": "packet",
+    "minutes_duration": 300
+   }
+  ],
+  "2026-11-14 14:00": [
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 60,
+    "default_price": 1100,
+    "id": 1,
+    "tariff_name": "Базовый тариф",
+    "type": "basic",
+    "minutes_duration": null
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 2,
+    "tariff_name": "3 часа",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 21,
+    "tariff_name": "3 часа СГОРАЕМЫЕ",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 37,
+    "minutes_default_duration": 300,
+    "default_price": 3900,
+    "id": 3,
+    "tariff_name": "5 часов",
+    "type": "packet",
+    "minutes_duration": 300
+   },
+   {
+    "discount_percent": 35,
+    "minutes_default_duration": 0,
+    "default_price": 3200,
+    "id": 16,
+    "tariff_name": "Atlas",
+    "type": "packet",
+    "minutes_duration": 240
+   }
+  ],
+  "2026-11-14 15:00": [
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 60,
+    "default_price": 1100,
+    "id": 1,
+    "tariff_name": "Базовый тариф",
+    "type": "basic",
+    "minutes_duration": null
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 2,
+    "tariff_name": "3 часа",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 21,
+    "tariff_name": "3 часа СГОРАЕМЫЕ",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 37,
+    "minutes_default_duration": 300,
+    "default_price": 3900,
+    "id": 3,
+    "tariff_name": "5 часов",
+    "type": "packet",
+    "minutes_duration": 300
+   },
+   {
+    "discount_percent": 13,
+    "minutes_default_duration": 0,
+    "default_price": 3200,
+    "id": 16,
+    "tariff_name": "Atlas",
+    "type": "packet",
+    "minutes_duration": 180
+   }
+  ],
+  "2026-11-14 16:00": [
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 60,
+    "default_price": 1100,
+    "id": 1,
+    "tariff_name": "Базовый тариф",
+    "type": "basic",
+    "minutes_duration": null
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 2,
+    "tariff_name": "3 часа",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 21,
+    "tariff_name": "3 часа СГОРАЕМЫЕ",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 37,
+    "minutes_default_duration": 300,
+    "default_price": 3900,
+    "id": 3,
+    "tariff_name": "5 часов",
+    "type": "packet",
+    "minutes_duration": 300
+   },
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 0,
+    "default_price": 3200,
+    "id": 16,
+    "tariff_name": "Atlas",
+    "type": "packet",
+    "minutes_duration": 120
+   }
+  ],
+  "2026-11-14 17:00": [
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 60,
+    "default_price": 1100,
+    "id": 1,
+    "tariff_name": "Базовый тариф",
+    "type": "basic",
+    "minutes_duration": null
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 2,
+    "tariff_name": "3 часа",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 21,
+    "tariff_name": "3 часа СГОРАЕМЫЕ",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 37,
+    "minutes_default_duration": 300,
+    "default_price": 3900,
+    "id": 3,
+    "tariff_name": "5 часов",
+    "type": "packet",
+    "minutes_duration": 300
+   },
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 0,
+    "default_price": 3200,
+    "id": 16,
+    "tariff_name": "Atlas",
+    "type": "packet",
+    "minutes_duration": 60
+   }
+  ],
+  "2026-11-14 18:00": [
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 60,
+    "default_price": 1100,
+    "id": 1,
+    "tariff_name": "Базовый тариф",
+    "type": "basic",
+    "minutes_duration": null
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 2,
+    "tariff_name": "3 часа",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 21,
+    "tariff_name": "3 часа СГОРАЕМЫЕ",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 37,
+    "minutes_default_duration": 300,
+    "default_price": 3900,
+    "id": 3,
+    "tariff_name": "5 часов",
+    "type": "packet",
+    "minutes_duration": 300
+   }
+  ],
+  "2026-11-14 19:00": [
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 60,
+    "default_price": 1100,
+    "id": 1,
+    "tariff_name": "Базовый тариф",
+    "type": "basic",
+    "minutes_duration": null
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 2,
+    "tariff_name": "3 часа",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 21,
+    "tariff_name": "3 часа СГОРАЕМЫЕ",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 37,
+    "minutes_default_duration": 300,
+    "default_price": 3900,
+    "id": 3,
+    "tariff_name": "5 часов",
+    "type": "packet",
+    "minutes_duration": 300
+   }
+  ],
+  "2026-11-14 20:00": [
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 60,
+    "default_price": 1100,
+    "id": 1,
+    "tariff_name": "Базовый тариф",
+    "type": "basic",
+    "minutes_duration": null
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 2,
+    "tariff_name": "3 часа",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 21,
+    "tariff_name": "3 часа СГОРАЕМЫЕ",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 37,
+    "minutes_default_duration": 300,
+    "default_price": 3900,
+    "id": 3,
+    "tariff_name": "5 часов",
+    "type": "packet",
+    "minutes_duration": 300
+   }
+  ],
+  "2026-11-14 21:00": [
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 60,
+    "default_price": 1100,
+    "id": 1,
+    "tariff_name": "Базовый тариф",
+    "type": "basic",
+    "minutes_duration": null
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 2,
+    "tariff_name": "3 часа",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 21,
+    "tariff_name": "3 часа СГОРАЕМЫЕ",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 37,
+    "minutes_default_duration": 300,
+    "default_price": 3900,
+    "id": 3,
+    "tariff_name": "5 часов",
+    "type": "packet",
+    "minutes_duration": 300
+   }
+  ],
+  "2026-11-14 22:00": [
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 60,
+    "default_price": 1100,
+    "id": 1,
+    "tariff_name": "Базовый тариф",
+    "type": "basic",
+    "minutes_duration": null
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 2,
+    "tariff_name": "3 часа",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 21,
+    "tariff_name": "3 часа СГОРАЕМЫЕ",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 37,
+    "minutes_default_duration": 300,
+    "default_price": 3900,
+    "id": 3,
+    "tariff_name": "5 часов",
+    "type": "packet",
+    "minutes_duration": 300
+   },
+   {
+    "discount_percent": 66,
+    "minutes_default_duration": 0,
+    "default_price": 4100,
+    "id": 6,
+    "tariff_name": "Пакет Ночь (22:00-8:00)",
+    "type": "packet",
+    "minutes_duration": 600
+   }
+  ],
+  "2026-11-14 23:00": [
+   {
+    "discount_percent": null,
+    "minutes_default_duration": 60,
+    "default_price": 1100,
+    "id": 1,
+    "tariff_name": "Базовый тариф",
+    "type": "basic",
+    "minutes_duration": null
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 2,
+    "tariff_name": "3 часа",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 21,
+    "minutes_default_duration": 180,
+    "default_price": 2600,
+    "id": 21,
+    "tariff_name": "3 часа СГОРАЕМЫЕ",
+    "type": "packet",
+    "minutes_duration": 180
+   },
+   {
+    "discount_percent": 37,
+    "minutes_default_duration": 300,
+    "default_price": 3900,
+    "id": 3,
+    "tariff_name": "5 часов",
+    "type": "packet",
+    "minutes_duration": 300
+   },
+   {
+    "discount_percent": 62,
+    "minutes_default_duration": 0,
+    "default_price": 4100,
+    "id": 6,
+    "tariff_name": "Пакет Ночь (22:00-8:00)",
+    "type": "packet",
+    "minutes_duration": 540
+   }
+  ]
+ },
+ "hourly": [
+  {
+   "start": "2026-11-09 11:00",
+   "zone": "DUO",
+   "seat": "1",
+   "error": "POST /api/booking/calculator/calculate -> HTTP 400: {\"status\":false,\"status_text\":\"\\u041a\\u0430\\u043b\\u044c\\u043a\\u0443\\u043b\\u044f\\u0442\\u043e\\u0440 \\u0431\\u0440\\u043e\\u043d\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u044f \\u043d\\u0435 \\u0430\\u043a\\u0442\\u0438\\u0432\\u0438\\u0440\\u043e\\u0432\\u0430\\u04"
+  },
+  {
+   "start": "2026-11-09 11:00",
+   "zone": "TRIO",
+   "seat": "5",
+   "error": "POST /api/booking/calculator/calculate -> HTTP 400: {\"status\":false,\"status_text\":\"\\u041a\\u0430\\u043b\\u044c\\u043a\\u0443\\u043b\\u044f\\u0442\\u043e\\u0440 \\u0431\\u0440\\u043e\\u043d\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u044f \\u043d\\u0435 \\u0430\\u043a\\u0442\\u0438\\u0432\\u0438\\u0440\\u043e\\u0432\\u0430\\u04"
+  },
+  {
+   "start": "2026-11-09 11:00",
+   "zone": "Общий зал",
+   "seat": "9",
+   "error": "POST /api/booking/calculator/calculate -> HTTP 400: {\"status\":false,\"status_text\":\"\\u041a\\u0430\\u043b\\u044c\\u043a\\u0443\\u043b\\u044f\\u0442\\u043e\\u0440 \\u0431\\u0440\\u043e\\u043d\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u044f \\u043d\\u0435 \\u0430\\u043a\\u0442\\u0438\\u0432\\u0438\\u0440\\u043e\\u0432\\u0430\\u04"
+  },
+  {
+   "start": "2026-11-09 11:00",
+   "zone": "VIP",
+   "seat": "33",
+   "error": "POST /api/booking/calculator/calculate -> HTTP 400: {\"status\":false,\"status_text\":\"\\u041a\\u0430\\u043b\\u044c\\u043a\\u0443\\u043b\\u044f\\u0442\\u043e\\u0440 \\u0431\\u0440\\u043e\\u043d\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u044f \\u043d\\u0435 \\u0430\\u043a\\u0442\\u0438\\u0432\\u0438\\u0440\\u043e\\u0432\\u0430\\u04"
+  },
+  {
+   "start": "2026-11-09 19:00",
+   "zone": "DUO",
+   "seat": "1",
+   "error": "POST /api/booking/calculator/calculate -> HTTP 400: {\"status\":false,\"status_text\":\"\\u041a\\u0430\\u043b\\u044c\\u043a\\u0443\\u043b\\u044f\\u0442\\u043e\\u0440 \\u0431\\u0440\\u043e\\u043d\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u044f \\u043d\\u0435 \\u0430\\u043a\\u0442\\u0438\\u0432\\u0438\\u0440\\u043e\\u0432\\u0430\\u04"
+  },
+  {
+   "start": "2026-11-09 19:00",
+   "zone": "TRIO",
+   "seat": "5",
+   "error": "POST /api/booking/calculator/calculate -> HTTP 400: {\"status\":false,\"status_text\":\"\\u041a\\u0430\\u043b\\u044c\\u043a\\u0443\\u043b\\u044f\\u0442\\u043e\\u0440 \\u0431\\u0440\\u043e\\u043d\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u044f \\u043d\\u0435 \\u0430\\u043a\\u0442\\u0438\\u0432\\u0438\\u0440\\u043e\\u0432\\u0430\\u04"
+  },
+  {
+   "start": "2026-11-09 19:00",
+   "zone": "Общий зал",
+   "seat": "9",
+   "error": "POST /api/booking/calculator/calculate -> HTTP 400: {\"status\":false,\"status_text\":\"\\u041a\\u0430\\u043b\\u044c\\u043a\\u0443\\u043b\\u044f\\u0442\\u043e\\u0440 \\u0431\\u0440\\u043e\\u043d\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u044f \\u043d\\u0435 \\u0430\\u043a\\u0442\\u0438\\u0432\\u0438\\u0440\\u043e\\u0432\\u0430\\u04"
+  },
+  {
+   "start": "2026-11-09 19:00",
+   "zone": "VIP",
+   "seat": "33",
+   "error": "POST /api/booking/calculator/calculate -> HTTP 400: {\"status\":false,\"status_text\":\"\\u041a\\u0430\\u043b\\u044c\\u043a\\u0443\\u043b\\u044f\\u0442\\u043e\\u0440 \\u0431\\u0440\\u043e\\u043d\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u044f \\u043d\\u0435 \\u0430\\u043a\\u0442\\u0438\\u0432\\u0438\\u0440\\u043e\\u0432\\u0430\\u04"
+  },
+  {
+   "start": "2026-11-09 23:00",
+   "zone": "DUO",
+   "seat": "1",
+   "error": "POST /api/booking/calculator/calculate -> HTTP 400: {\"status\":false,\"status_text\":\"\\u041a\\u0430\\u043b\\u044c\\u043a\\u0443\\u043b\\u044f\\u0442\\u043e\\u0440 \\u0431\\u0440\\u043e\\u043d\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u044f \\u043d\\u0435 \\u0430\\u043a\\u0442\\u0438\\u0432\\u0438\\u0440\\u043e\\u0432\\u0430\\u04"
+  },
+  {
+   "start": "2026-11-09 23:00",
+   "zone": "TRIO",
+   "seat": "5",
+   "error": "POST /api/booking/calculator/calculate -> HTTP 400: {\"status\":false,\"status_text\":\"\\u041a\\u0430\\u043b\\u044c\\u043a\\u0443\\u043b\\u044f\\u0442\\u043e\\u0440 \\u0431\\u0440\\u043e\\u043d\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u044f \\u043d\\u0435 \\u0430\\u043a\\u0442\\u0438\\u0432\\u0438\\u0440\\u043e\\u0432\\u0430\\u04"
+  },
+  {
+   "start": "2026-11-09 23:00",
+   "zone": "Общий зал",
+   "seat": "9",
+   "error": "POST /api/booking/calculator/calculate -> HTTP 400: {\"status\":false,\"status_text\":\"\\u041a\\u0430\\u043b\\u044c\\u043a\\u0443\\u043b\\u044f\\u0442\\u043e\\u0440 \\u0431\\u0440\\u043e\\u043d\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u044f \\u043d\\u0435 \\u0430\\u043a\\u0442\\u0438\\u0432\\u0438\\u0440\\u043e\\u0432\\u0430\\u04"
+  },
+  {
+   "start": "2026-11-09 23:00",
+   "zone": "VIP",
+   "seat": "33",
+   "error": "POST /api/booking/calculator/calculate -> HTTP 400: {\"status\":false,\"status_text\":\"\\u041a\\u0430\\u043b\\u044c\\u043a\\u0443\\u043b\\u044f\\u0442\\u043e\\u0440 \\u0431\\u0440\\u043e\\u043d\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u044f \\u043d\\u0435 \\u0430\\u043a\\u0442\\u0438\\u0432\\u0438\\u0440\\u043e\\u0432\\u0430\\u04"
+  },
+  {
+   "start": "2026-11-14 11:00",
+   "zone": "DUO",
+   "seat": "1",
+   "error": "POST /api/booking/calculator/calculate -> HTTP 400: {\"status\":false,\"status_text\":\"\\u041a\\u0430\\u043b\\u044c\\u043a\\u0443\\u043b\\u044f\\u0442\\u043e\\u0440 \\u0431\\u0440\\u043e\\u043d\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u044f \\u043d\\u0435 \\u0430\\u043a\\u0442\\u0438\\u0432\\u0438\\u0440\\u043e\\u0432\\u0430\\u04"
+  },
+  {
+   "start": "2026-11-14 11:00",
+   "zone": "TRIO",
+   "seat": "5",
+   "error": "POST /api/booking/calculator/calculate -> HTTP 400: {\"status\":false,\"status_text\":\"\\u041a\\u0430\\u043b\\u044c\\u043a\\u0443\\u043b\\u044f\\u0442\\u043e\\u0440 \\u0431\\u0440\\u043e\\u043d\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u044f \\u043d\\u0435 \\u0430\\u043a\\u0442\\u0438\\u0432\\u0438\\u0440\\u043e\\u0432\\u0430\\u04"
+  },
+  {
+   "start": "2026-11-14 11:00",
+   "zone": "Общий зал",
+   "seat": "9",
+   "error": "POST /api/booking/calculator/calculate -> HTTP 400: {\"status\":false,\"status_text\":\"\\u041a\\u0430\\u043b\\u044c\\u043a\\u0443\\u043b\\u044f\\u0442\\u043e\\u0440 \\u0431\\u0440\\u043e\\u043d\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u044f \\u043d\\u0435 \\u0430\\u043a\\u0442\\u0438\\u0432\\u0438\\u0440\\u043e\\u0432\\u0430\\u04"
+  },
+  {
+   "start": "2026-11-14 11:00",
+   "zone": "VIP",
+   "seat": "33",
+   "error": "POST /api/booking/calculator/calculate -> HTTP 400: {\"status\":false,\"status_text\":\"\\u041a\\u0430\\u043b\\u044c\\u043a\\u0443\\u043b\\u044f\\u0442\\u043e\\u0440 \\u0431\\u0440\\u043e\\u043d\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u044f \\u043d\\u0435 \\u0430\\u043a\\u0442\\u0438\\u0432\\u0438\\u0440\\u043e\\u0432\\u0430\\u04"
+  },
+  {
+   "start": "2026-11-14 19:00",
+   "zone": "DUO",
+   "seat": "1",
+   "error": "POST /api/booking/calculator/calculate -> HTTP 400: {\"status\":false,\"status_text\":\"\\u041a\\u0430\\u043b\\u044c\\u043a\\u0443\\u043b\\u044f\\u0442\\u043e\\u0440 \\u0431\\u0440\\u043e\\u043d\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u044f \\u043d\\u0435 \\u0430\\u043a\\u0442\\u0438\\u0432\\u0438\\u0440\\u043e\\u0432\\u0430\\u04"
+  },
+  {
+   "start": "2026-11-14 19:00",
+   "zone": "TRIO",
+   "seat": "5",
+   "error": "POST /api/booking/calculator/calculate -> HTTP 400: {\"status\":false,\"status_text\":\"\\u041a\\u0430\\u043b\\u044c\\u043a\\u0443\\u043b\\u044f\\u0442\\u043e\\u0440 \\u0431\\u0440\\u043e\\u043d\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u044f \\u043d\\u0435 \\u0430\\u043a\\u0442\\u0438\\u0432\\u0438\\u0440\\u043e\\u0432\\u0430\\u04"
+  },
+  {
+   "start": "2026-11-14 19:00",
+   "zone": "Общий зал",
+   "seat": "9",
+   "error": "POST /api/booking/calculator/calculate -> HTTP 400: {\"status\":false,\"status_text\":\"\\u041a\\u0430\\u043b\\u044c\\u043a\\u0443\\u043b\\u044f\\u0442\\u043e\\u0440 \\u0431\\u0440\\u043e\\u043d\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u044f \\u043d\\u0435 \\u0430\\u043a\\u0442\\u0438\\u0432\\u0438\\u0440\\u043e\\u0432\\u0430\\u04"
+  },
+  {
+   "start": "2026-11-14 19:00",
+   "zone": "VIP",
+   "seat": "33",
+   "error": "POST /api/booking/calculator/calculate -> HTTP 400: {\"status\":false,\"status_text\":\"\\u041a\\u0430\\u043b\\u044c\\u043a\\u0443\\u043b\\u044f\\u0442\\u043e\\u0440 \\u0431\\u0440\\u043e\\u043d\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u044f \\u043d\\u0435 \\u0430\\u043a\\u0442\\u0438\\u0432\\u0438\\u0440\\u043e\\u0432\\u0430\\u04"
+  },
+  {
+   "start": "2026-11-14 23:00",
+   "zone": "DUO",
+   "seat": "1",
+   "error": "POST /api/booking/calculator/calculate -> HTTP 400: {\"status\":false,\"status_text\":\"\\u041a\\u0430\\u043b\\u044c\\u043a\\u0443\\u043b\\u044f\\u0442\\u043e\\u0440 \\u0431\\u0440\\u043e\\u043d\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u044f \\u043d\\u0435 \\u0430\\u043a\\u0442\\u0438\\u0432\\u0438\\u0440\\u043e\\u0432\\u0430\\u04"
+  },
+  {
+   "start": "2026-11-14 23:00",
+   "zone": "TRIO",
+   "seat": "5",
+   "error": "POST /api/booking/calculator/calculate -> HTTP 400: {\"status\":false,\"status_text\":\"\\u041a\\u0430\\u043b\\u044c\\u043a\\u0443\\u043b\\u044f\\u0442\\u043e\\u0440 \\u0431\\u0440\\u043e\\u043d\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u044f \\u043d\\u0435 \\u0430\\u043a\\u0442\\u0438\\u0432\\u0438\\u0440\\u043e\\u0432\\u0430\\u04"
+  },
+  {
+   "start": "2026-11-14 23:00",
+   "zone": "Общий зал",
+   "seat": "9",
+   "error": "POST /api/booking/calculator/calculate -> HTTP 400: {\"status\":false,\"status_text\":\"\\u041a\\u0430\\u043b\\u044c\\u043a\\u0443\\u043b\\u044f\\u0442\\u043e\\u0440 \\u0431\\u0440\\u043e\\u043d\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u044f \\u043d\\u0435 \\u0430\\u043a\\u0442\\u0438\\u0432\\u0438\\u0440\\u043e\\u0432\\u0430\\u04"
+  },
+  {
+   "start": "2026-11-14 23:00",
+   "zone": "VIP",
+   "seat": "33",
+   "error": "POST /api/booking/calculator/calculate -> HTTP 400: {\"status\":false,\"status_text\":\"\\u041a\\u0430\\u043b\\u044c\\u043a\\u0443\\u043b\\u044f\\u0442\\u043e\\u0440 \\u0431\\u0440\\u043e\\u043d\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u044f \\u043d\\u0435 \\u0430\\u043a\\u0442\\u0438\\u0432\\u0438\\u0440\\u043e\\u0432\\u0430\\u04"
+  }
+ ],
+ "packets": [
+  {
+   "tariff_id": 2,
+   "tariff_name": "3 часа",
+   "start": "2026-11-09 00:00",
+   "minutes": 180,
+   "zone": "DUO",
+   "seat": "1",
+   "sum": 8800,
+   "service_fee": 0,
+   "price": 8800,
+   "sum_without_discount": null,
+   "discount_percent": null,
+   "name": null,
+   "start_at": null,
+   "stop_at": null
+  },
+  {
+   "tariff_id": 2,
+   "tariff_name": "3 часа",
+   "start": "2026-11-09 00:00",
+   "minutes": 180,
+   "zone": "TRIO",
+   "seat": "3",
+   "sum": 4400,
+   "service_fee": 0,
+   "price": 4400,
+   "sum_without_discount": null,
+   "discount_percent": null,
+   "name": null,
+   "start_at": null,
+   "stop_at": null
+  },
+  {
+   "tariff_id": 2,
+   "tariff_name": "3 часа",
+   "start": "2026-11-09 00:00",
+   "minutes": 180,
+   "zone": "Общий зал",
+   "seat": "7",
+   "sum": 2600,
+   "service_fee": 0,
+   "price": 2600,
+   "sum_without_discount": null,
+   "discount_percent": null,
+   "name": null,
+   "start_at": null,
+   "stop_at": null
+  },
+  {
+   "tariff_id": 2,
+   "tariff_name": "3 часа",
+   "start": "2026-11-09 00:00",
+   "minutes": 180,
+   "zone": "VIP",
+   "seat": "31",
+   "sum": 3600,
+   "service_fee": 0,
+   "price": 3600,
+   "sum_without_discount": null,
+   "discount_percent": null,
+   "name": null,
+   "start_at": null,
+   "stop_at": null
+  },
+  {
+   "tariff_id": 2,
+   "tariff_name": "3 часа",
+   "start": "2026-11-14 00:00",
+   "minutes": 180,
+   "zone": "DUO",
+   "seat": "1",
+   "sum": 8800,
+   "service_fee": 0,
+   "price": 8800,
+   "sum_without_discount": null,
+   "discount_percent": null,
+   "name": null,
+   "start_at": null,
+   "stop_at": null
+  },
+  {
+   "tariff_id": 2,
+   "tariff_name": "3 часа",
+   "start": "2026-11-14 00:00",
+   "minutes": 180,
+   "zone": "TRIO",
+   "seat": "3",
+   "sum": 4400,
+   "service_fee": 0,
+   "price": 4400,
+   "sum_without_discount": null,
+   "discount_percent": null,
+   "name": null,
+   "start_at": null,
+   "stop_at": null
+  },
+  {
+   "tariff_id": 2,
+   "tariff_name": "3 часа",
+   "start": "2026-11-14 00:00",
+   "minutes": 180,
+   "zone": "Общий зал",
+   "seat": "7",
+   "sum": 2600,
+   "service_fee": 0,
+   "price": 2600,
+   "sum_without_discount": null,
+   "discount_percent": null,
+   "name": null,
+   "start_at": null,
+   "stop_at": null
+  },
+  {
+   "tariff_id": 2,
+   "tariff_name": "3 часа",
+   "start": "2026-11-14 00:00",
+   "minutes": 180,
+   "zone": "VIP",
+   "seat": "31",
+   "sum": 3600,
+   "service_fee": 0,
+   "price": 3600,
+   "sum_without_discount": null,
+   "discount_percent": null,
+   "name": null,
+   "start_at": null,
+   "stop_at": null
+  },
+  {
+   "tariff_id": 21,
+   "tariff_name": "3 часа СГОРАЕМЫЕ",
+   "start": "2026-11-09 00:00",
+   "minutes": 180,
+   "zone": "DUO",
+   "seat": "1",
+   "sum": 8800,
+   "service_fee": 0,
+   "price": 8800,
+   "sum_without_discount": null,
+   "discount_percent": null,
+   "name": null,
+   "start_at": null,
+   "stop_at": null
+  },
+  {
+   "tariff_id": 21,
+   "tariff_name": "3 часа СГОРАЕМЫЕ",
+   "start": "2026-11-09 00:00",
+   "minutes": 180,
+   "zone": "TRIO",
+   "seat": "3",
+   "sum": 4400,
+   "service_fee": 0,
+   "price": 4400,
+   "sum_without_discount": null,
+   "discount_percent": null,
+   "name": null,
+   "start_at": null,
+   "stop_at": null
+  },
+  {
+   "tariff_id": 21,
+   "tariff_name": "3 часа СГОРАЕМЫЕ",
+   "start": "2026-11-09 00:00",
+   "minutes": 180,
+   "zone": "Общий зал",
+   "seat": "7",
+   "sum": 2600,
+   "service_fee": 0,
+   "price": 2600,
+   "sum_without_discount": null,
+   "discount_percent": null,
+   "name": null,
+   "start_at": null,
+   "stop_at": null
+  },
+  {
+   "tariff_id": 21,
+   "tariff_name": "3 часа СГОРАЕМЫЕ",
+   "start": "2026-11-09 00:00",
+   "minutes": 180,
+   "zone": "VIP",
+   "seat": "31",
+   "sum": 3600,
+   "service_fee": 0,
+   "price": 3600,
+   "sum_without_discount": null,
+   "discount_percent": null,
+   "name": null,
+   "start_at": null,
+   "stop_at": null
+  },
+  {
+   "tariff_id": 21,
+   "tariff_name": "3 часа СГОРАЕМЫЕ",
+   "start": "2026-11-14 00:00",
+   "minutes": 180,
+   "zone": "DUO",
+   "seat": "1",
+   "sum": 8800,
+   "service_fee": 0,
+   "price": 8800,
+   "sum_without_discount": null,
+   "discount_percent": null,
+   "name": null,
+   "start_at": null,
+   "stop_at": null
+  },
+  {
+   "tariff_id": 21,
+   "tariff_name": "3 часа СГОРАЕМЫЕ",
+   "start": "2026-11-14 00:00",
+   "minutes": 180,
+   "zone": "TRIO",
+   "seat": "3",
+   "sum": 4400,
+   "service_fee": 0,
+   "price": 4400,
+   "sum_without_discount": null,
+   "discount_percent": null,
+   "name": null,
+   "start_at": null,
+   "stop_at": null
+  },
+  {
+   "tariff_id": 21,
+   "tariff_name": "3 часа СГОРАЕМЫЕ",
+   "start": "2026-11-14 00:00",
+   "minutes": 180,
+   "zone": "Общий зал",
+   "seat": "7",
+   "sum": 2600,
+   "service_fee": 0,
+   "price": 2600,
+   "sum_without_discount": null,
+   "discount_percent": null,
+   "name": null,
+   "start_at": null,
+   "stop_at": null
+  },
+  {
+   "tariff_id": 21,
+   "tariff_name": "3 часа СГОРАЕМЫЕ",
+   "start": "2026-11-14 00:00",
+   "minutes": 180,
+   "zone": "VIP",
+   "seat": "31",
+   "sum": 3600,
+   "service_fee": 0,
+   "price": 3600,
+   "sum_without_discount": null,
+   "discount_percent": null,
+   "name": null,
+   "start_at": null,
+   "stop_at": null
+  },
+  {
+   "tariff_id": 3,
+   "tariff_name": "5 часов",
+   "start": "2026-11-09 00:00",
+   "minutes": 300,
+   "zone": "DUO",
+   "seat": "1",
+   "sum": 11200,
+   "service_fee": 0,
+   "price": 11200,
+   "sum_without_discount": null,
+   "discount_percent": null,
+   "name": null,
+   "start_at": null,
+   "stop_at": null
+  },
+  {
+   "tariff_id": 3,
+   "tariff_name": "5 часов",
+   "start": "2026-11-09 00:00",
+   "minutes": 300,
+   "zone": "TRIO",
+   "seat": "3",
+   "sum": 5600,
+   "service_fee": 0,
+   "price": 5600,
+   "sum_without_discount": null,
+   "discount_percent": null,
+   "name": null,
+   "start_at": null,
+   "stop_at": null
+  },
+  {
+   "tariff_id": 3,
+   "tariff_name": "5 часов",
+   "start": "2026-11-09 00:00",
+   "minutes": 300,
+   "zone": "Общий зал",
+   "seat": "7",
+   "sum": 3900,
+   "service_fee": 0,
+   "price": 3900,
+   "sum_without_discount": null,
+   "discount_percent": null,
+   "name": null,
+   "start_at": null,
+   "stop_at": null
+  },
+  {
+   "tariff_id": 3,
+   "tariff_name": "5 часов",
+   "start": "2026-11-09 00:00",
+   "minutes": 300,
+   "zone": "VIP",
+   "seat": "31",
+   "sum": 4700,
+   "service_fee": 0,
+   "price": 4700,
+   "sum_without_discount": null,
+   "discount_percent": null,
+   "name": null,
+   "start_at": null,
+   "stop_at": null
+  },
+  {
+   "tariff_id": 3,
+   "tariff_name": "5 часов",
+   "start": "2026-11-14 00:00",
+   "minutes": 300,
+   "zone": "DUO",
+   "seat": "1",
+   "sum": 11200,
+   "service_fee": 0,
+   "price": 11200,
+   "sum_without_discount": null,
+   "discount_percent": null,
+   "name": null,
+   "start_at": null,
+   "stop_at": null
+  },
+  {
+   "tariff_id": 3,
+   "tariff_name": "5 часов",
+   "start": "2026-11-14 00:00",
+   "minutes": 300,
+   "zone": "TRIO",
+   "seat": "3",
+   "sum": 5600,
+   "service_fee": 0,
+   "price": 5600,
+   "sum_without_discount": null,
+   "discount_percent": null,
+   "name": null,
+   "start_at": null,
+   "stop_at": null
+  },
+  {
+   "tariff_id": 3,
+   "tariff_name": "5 часов",
+   "start": "2026-11-14 00:00",
+   "minutes": 300,
+   "zone": "Общий зал",
+   "seat": "7",
+   "sum": 3900,
+   "service_fee": 0,
+   "price": 3900,
+   "sum_without_discount": null,
+   "discount_percent": null,
+   "name": null,
+   "start_at": null,
+   "stop_at": null
+  },
+  {
+   "tariff_id": 3,
+   "tariff_name": "5 часов",
+   "start": "2026-11-14 00:00",
+   "minutes": 300,
+   "zone": "VIP",
+   "seat": "31",
+   "sum": 4700,
+   "service_fee": 0,
+   "price": 4700,
+   "sum_without_discount": null,
+   "discount_percent": null,
+   "name": null,
+   "start_at": null,
+   "stop_at": null
+  },
+  {
+   "tariff_id": 6,
+   "tariff_name": "Пакет Ночь (22:00-8:00)",
+   "start": "2026-11-09 00:00",
+   "minutes": 480,
+   "zone": "DUO",
+   "seat": "1",
+   "sum": 11800,
+   "service_fee": 0,
+   "price": 11800,
+   "sum_without_discount": null,
+   "discount_percent": null,
+   "name": null,
+   "start_at": null,
+   "stop_at": null
+  },
+  {
+   "tariff_id": 6,
+   "tariff_name": "Пакет Ночь (22:00-8:00)",
+   "start": "2026-11-09 00:00",
+   "minutes": 480,
+   "zone": "TRIO",
+   "seat": "3",
+   "sum": 5900,
+   "service_fee": 0,
+   "price": 5900,
+   "sum_without_discount": null,
+   "discount_percent": null,
+   "name": null,
+   "start_at": null,
+   "stop_at": null
+  },
+  {
+   "tariff_id": 6,
+   "tariff_name": "Пакет Ночь (22:00-8:00)",
+   "start": "2026-11-09 00:00",
+   "minutes": 480,
+   "zone": "Общий зал",
+   "seat": "7",
+   "sum": 4100,
+   "service_fee": 0,
+   "price": 4100,
+   "sum_without_discount": null,
+   "discount_percent": null,
+   "name": null,
+   "start_at": null,
+   "stop_at": null
+  },
+  {
+   "tariff_id": 6,
+   "tariff_name": "Пакет Ночь (22:00-8:00)",
+   "start": "2026-11-09 00:00",
+   "minutes": 480,
+   "zone": "VIP",
+   "seat": "31",
+   "sum": 5100,
+   "service_fee": 0,
+   "price": 5100,
+   "sum_without_discount": null,
+   "discount_percent": null,
+   "name": null,
+   "start_at": null,
+   "stop_at": null
+  },
+  {
+   "tariff_id": 6,
+   "tariff_name": "Пакет Ночь (22:00-8:00)",
+   "start": "2026-11-14 00:00",
+   "minutes": 480,
+   "zone": "DUO",
+   "seat": "1",
+   "sum": 11800,
+   "service_fee": 0,
+   "price": 11800,
+   "sum_without_discount": null,
+   "discount_percent": null,
+   "name": null,
+   "start_at": null,
+   "stop_at": null
+  },
+  {
+   "tariff_id": 6,
+   "tariff_name": "Пакет Ночь (22:00-8:00)",
+   "start": "2026-11-14 00:00",
+   "minutes": 480,
+   "zone": "TRIO",
+   "seat": "3",
+   "sum": 5900,
+   "service_fee": 0,
+   "price": 5900,
+   "sum_without_discount": null,
+   "discount_percent": null,
+   "name": null,
+   "start_at": null,
+   "stop_at": null
+  },
+  {
+   "tariff_id": 6,
+   "tariff_name": "Пакет Ночь (22:00-8:00)",
+   "start": "2026-11-14 00:00",
+   "minutes": 480,
+   "zone": "Общий зал",
+   "seat": "7",
+   "sum": 4100,
+   "service_fee": 0,
+   "price": 4100,
+   "sum_without_discount": null,
+   "discount_percent": null,
+   "name": null,
+   "start_at": null,
+   "stop_at": null
+  },
+  {
+   "tariff_id": 6,
+   "tariff_name": "Пакет Ночь (22:00-8:00)",
+   "start": "2026-11-14 00:00",
+   "minutes": 480,
+   "zone": "VIP",
+   "seat": "31",
+   "sum": 5100,
+   "service_fee": 0,
+   "price": 5100,
+   "sum_without_discount": null,
+   "discount_percent": null,
+   "name": null,
+   "start_at": null,
+   "stop_at": null
+  },
+  {
+   "tariff_id": 18,
+   "tariff_name": "Nova",
+   "start": "2026-11-09 01:00",
+   "minutes": 540,
+   "zone": "DUO",
+   "seat": "1",
+   "sum": 7600,
+   "service_fee": 0,
+   "price": 7600,
+   "sum_without_discount": null,
+   "discount_percent": null,
+   "name": null,
+   "start_at": null,
+   "stop_at": null
+  },
+  {
+   "tariff_id": 18,
+   "tariff_name": "Nova",
+   "start": "2026-11-09 01:00",
+   "minutes": 540,
+   "zone": "TRIO",
+   "seat": "3",
+   "sum": 3800,
+   "service_fee": 0,
+   "price": 3800,
+   "sum_without_discount": null,
+   "discount_percent": null,
+   "name": null,
+   "start_at": null,
+   "stop_at": null
+  },
+  {
+   "tariff_id": 18,
+   "tariff_name": "Nova",
+   "start": "2026-11-09 01:00",
+   "minutes": 540,
+   "zone": "Общий зал",
+   "seat": "7",
+   "sum": 1800,
+   "service_fee": 0,
+   "price": 1800,
+   "sum_without_discount": null,
+   "discount_percent": null,
+   "name": null,
+   "start_at": null,
+   "stop_at": null
+  },
+  {
+   "tariff_id": 18,
+   "tariff_name": "Nova",
+   "start": "2026-11-09 01:00",
+   "minutes": 540,
+   "zone": "VIP",
+   "seat": "31",
+   "sum": 3000,
+   "service_fee": 0,
+   "price": 3000,
+   "sum_without_discount": null,
+   "discount_percent": null,
+   "name": null,
+   "start_at": null,
+   "stop_at": null
+  },
+  {
+   "tariff_id": 18,
+   "tariff_name": "Nova",
+   "start": "2026-11-14 01:00",
+   "minutes": 540,
+   "zone": "DUO",
+   "seat": "1",
+   "sum": 7600,
+   "service_fee": 0,
+   "price": 7600,
+   "sum_without_discount": null,
+   "discount_percent": null,
+   "name": null,
+   "start_at": null,
+   "stop_at": null
+  },
+  {
+   "tariff_id": 18,
+   "tariff_name": "Nova",
+   "start": "2026-11-14 01:00",
+   "minutes": 540,
+   "zone": "TRIO",
+   "seat": "3",
+   "sum": 3800,
+   "service_fee": 0,
+   "price": 3800,
+   "sum_without_discount": null,
+   "discount_percent": null,
+   "name": null,
+   "start_at": null,
+   "stop_at": null
+  },
+  {
+   "tariff_id": 18,
+   "tariff_name": "Nova",
+   "start": "2026-11-14 01:00",
+   "minutes": 540,
+   "zone": "Общий зал",
+   "seat": "7",
+   "sum": 1800,
+   "service_fee": 0,
+   "price": 1800,
+   "sum_without_discount": null,
+   "discount_percent": null,
+   "name": null,
+   "start_at": null,
+   "stop_at": null
+  },
+  {
+   "tariff_id": 18,
+   "tariff_name": "Nova",
+   "start": "2026-11-14 01:00",
+   "minutes": 540,
+   "zone": "VIP",
+   "seat": "31",
+   "sum": 3000,
+   "service_fee": 0,
+   "price": 3000,
+   "sum_without_discount": null,
+   "discount_percent": null,
+   "name": null,
+   "start_at": null,
+   "stop_at": null
+  },
+  {
+   "tariff_id": 16,
+   "tariff_name": "Atlas",
+   "start": "2026-11-09 08:00",
+   "minutes": 600,
+   "zone": "DUO",
+   "seat": "1",
+   "sum": 9000,
+   "service_fee": 0,
+   "price": 9000,
+   "sum_without_discount": null,
+   "discount_percent": null,
+   "name": null,
+   "start_at": null,
+   "stop_at": null
+  },
+  {
+   "tariff_id": 16,
+   "tariff_name": "Atlas",
+   "start": "2026-11-09 08:00",
+   "minutes": 600,
+   "zone": "TRIO",
+   "seat": "3",
+   "sum": 4500,
+   "service_fee": 0,
+   "price": 4500,
+   "sum_without_discount": null,
+   "discount_percent": null,
+   "name": null,
+   "start_at": null,
+   "stop_at": null
+  },
+  {
+   "tariff_id": 16,
+   "tariff_name": "Atlas",
+   "start": "2026-11-09 08:00",
+   "minutes": 600,
+   "zone": "Общий зал",
+   "seat": "7",
+   "sum": 3200,
+   "service_fee": 0,
+   "price": 3200,
+   "sum_without_discount": null,
+   "discount_percent": null,
+   "name": null,
+   "start_at": null,
+   "stop_at": null
+  },
+  {
+   "tariff_id": 16,
+   "tariff_name": "Atlas",
+   "start": "2026-11-09 08:00",
+   "minutes": 600,
+   "zone": "VIP",
+   "seat": "31",
+   "sum": 3900,
+   "service_fee": 0,
+   "price": 3900,
+   "sum_without_discount": null,
+   "discount_percent": null,
+   "name": null,
+   "start_at": null,
+   "stop_at": null
+  },
+  {
+   "tariff_id": 16,
+   "tariff_name": "Atlas",
+   "start": "2026-11-14 08:00",
+   "minutes": 600,
+   "zone": "DUO",
+   "seat": "1",
+   "sum": 9000,
+   "service_fee": 0,
+   "price": 9000,
+   "sum_without_discount": null,
+   "discount_percent": null,
+   "name": null,
+   "start_at": null,
+   "stop_at": null
+  },
+  {
+   "tariff_id": 16,
+   "tariff_name": "Atlas",
+   "start": "2026-11-14 08:00",
+   "minutes": 600,
+   "zone": "TRIO",
+   "seat": "3",
+   "sum": 4500,
+   "service_fee": 0,
+   "price": 4500,
+   "sum_without_discount": null,
+   "discount_percent": null,
+   "name": null,
+   "start_at": null,
+   "stop_at": null
+  },
+  {
+   "tariff_id": 16,
+   "tariff_name": "Atlas",
+   "start": "2026-11-14 08:00",
+   "minutes": 600,
+   "zone": "Общий зал",
+   "seat": "7",
+   "sum": 3200,
+   "service_fee": 0,
+   "price": 3200,
+   "sum_without_discount": null,
+   "discount_percent": null,
+   "name": null,
+   "start_at": null,
+   "stop_at": null
+  },
+  {
+   "tariff_id": 16,
+   "tariff_name": "Atlas",
+   "start": "2026-11-14 08:00",
+   "minutes": 600,
+   "zone": "VIP",
+   "seat": "31",
+   "sum": 3900,
+   "service_fee": 0,
+   "price": 3900,
+   "sum_without_discount": null,
+   "discount_percent": null,
+   "name": null,
+   "start_at": null,
+   "stop_at": null
+  }
+ ]
+}
