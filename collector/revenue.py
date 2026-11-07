@@ -204,6 +204,9 @@ def sessions_of(club: str):
     BOOK_TOL = timedelta(minutes=12)   # конец сессии совпал с концом идущей брони
     # Брони, которые идут, а за местом никто не играет: ждём, придёт ли гость до конца брони
     paid_open: dict[str, dict] = {}
+    # Последняя бронь, под которую место держали или по которой оно шло без игры. Там, где бронь пропадает из списка,
+    # как только гость запустил по ней сессию (LORAN), только так видно, что сессия — это бронь
+    seen_booking: dict[str, tuple] = {}
 
     def close_paid(u: str, ended: bool):
         p = paid_open.pop(u, None)
@@ -230,10 +233,16 @@ def sessions_of(club: str):
             until = build.when(s.get("stop_at"))
             end = until - buffer if until else None
             cur = open_s.get(u)
+            if state == "soon" and end:
+                # Место придержано под бронь: запоминаем её — сессия, которая потом кончится вместе с ней, и есть эта бронь
+                future = [(a, b) for a, b in build.bookings(s) if a > t]
+                if future:
+                    seen_booking[u] = min(future, key=lambda x: abs(end - x[1]))
             if state == "paid":
                 bk = next(((a, b) for a, b in build.bookings(s) if a <= t < b), None)
                 p = paid_open.get(u)
                 if bk:
+                    seen_booking[u] = bk
                     paid_open[u] = {"booking": bk, "seat": str(s.get("name")), "zone": s.get("zone_name") or "?",
                                     "first": p["first"] if p and p["booking"] == bk else t, "last": t}
             elif state != "playing" and u in paid_open:
@@ -244,7 +253,8 @@ def sessions_of(club: str):
                     close_paid(u, ended=False)      # бронь отменили или перенесли
             if state != "playing" or not end:
                 if cur:
-                    mark_early(cur, t)
+                    if state != "soon":  # под бронь место показывают занятым заранее — идёт ли ещё сессия, не видно
+                        mark_early(cur, t)
                     done.append(open_s.pop(u))
                 continue
             # Идущая бронь, на которой держится место (у клубов, где бронь видна и во время сессии)
@@ -283,6 +293,11 @@ def sessions_of(club: str):
                            start_hi=t, end=end, end0=end, last_seen=t)
             if u in paid_open:  # гость пришёл к своей брони позже её начала: цена — по его сессии
                 sess.after_booking = paid_open.pop(u)["booking"]
+            if not booking and u in seen_booking:
+                a, b = seen_booking[u]
+                if a <= t and abs(end - b) <= BOOK_TOL and (start_lo is None or a >= start_lo - HOUR):
+                    booking = (a, b)  # бронь уже не в списке, но сессия кончается вместе с ней — это она
+            seen_booking.pop(u, None)
             if booking:
                 # Сессия на брони: оплачено время брони целиком, начало — начало брони.
                 # Бронь началась до начала сбора — значит, и куплена до него: в выручку периода не идёт.
@@ -339,6 +354,8 @@ def sessions_of(club: str):
         else:
             lo, hi = hours(base_end - s.start_hi), hours(base_end - s.start_lo)
             n = min(range(1, 13), key=lambda k: (0 if lo - 0.25 <= k <= hi + 0.1 else 1, abs(k - (lo + hi) / 2)))
+            if not lo - 0.25 <= n <= hi + 0.1 and hi < 1:
+                n = max(0.25, round((lo + hi) / 2 * 4) / 4)  # меньше часа и целый час не подходит: почасово по минутам
             s.kind, s.tariff, s.price = price_duration(prices, n, s.zone, mid)
             s.hours_paid = n
     return {"club": club, "club_name": prices.club_name, "snaps": snaps, "profile": profile, "prices": prices,
