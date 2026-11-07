@@ -19,7 +19,8 @@ WINDOW_TOL = timedelta(minutes=8)       # «конец сессии» совпа
 SAME_END = timedelta(minutes=5)         # та же сессия, если конец сдвинулся не больше
 EARLY_MIN = timedelta(minutes=15)       # ушёл раньше: оплачено было дольше следующего замера хотя бы на 15 мин
 LEFTOVER_SHARE = (0.5, 0.7, 1.0)        # доля недоигранных часов, которые доигрывают за 72 часа: мин, база, макс
-CARRYOVER = {"1JB6NB4A", "1JB6N7pB", "bKqXNKEG"}  # «не сгорают 72 часа» в прайсах: URSA, TOP GAME, Goat
+CARRYOVER = {"1JB6NB4A", "1JB6N7pB", "bKqXNKEG",  # «не сгорают 72 часа» в прайсах: URSA, TOP GAME, Goat
+             "krKEyOPv"}  # Epsilon: в сервисе есть «3 часа» и «3 часа СГОРАЕМЫЕ» — обычные, значит, не сгорают
 
 # Акции и бонусы: доля выручки, которой они касаются, и скидка для неё — ДОПУЩЕНИЯ (мин, база, макс)
 PROMOS = {
@@ -73,6 +74,13 @@ class Prices:
         for x in p["packets"]:
             if "price" in x:
                 self.packets.setdefault((x["tariff_id"], x["zone"], day_type(x["start"])), x["price"])
+        # Когда кончается пакет, если взять его в каждый час: старт + длительность из списка тарифов сервиса
+        spans = {}
+        for start, items in (p.get("tariffs_by_start") or {}).items():
+            for t in items:
+                if t.get("type") == "packet" and t.get("minutes_duration"):
+                    a = datetime.strptime(start, "%Y-%m-%d %H:%M")
+                    spans.setdefault(t["id"], []).append((a, a + timedelta(minutes=int(t["minutes_duration"]))))
         self.windows, self.durations = [], {}
         for t in p["tariffs"]:
             if t.get("type") != "packet":
@@ -84,11 +92,34 @@ class Prices:
                 a, b = (int(m.group(1)), int(m.group(2))), (int(m.group(3)), int(m.group(4)))
                 self.windows.append({"id": t["id"], "name": short(name), "start": a, "end": b, "avail": avail})
                 continue
+            sp = spans.get(t["id"], [])
+            if len(sp) >= 2 and len({b.strftime("%H:%M") for a, b in sp}) == 1:
+                # Окно без времени в названии (Epsilon: Atlas, Nova): с какого часа ни возьми — кончается в одно время
+                a, b = max(sp, key=lambda x: x[1] - x[0])
+                self.windows.append({"id": t["id"], "name": short(name), "start": (a.hour, a.minute),
+                                     "end": (b.hour, b.minute), "avail": avail})
+                continue
             n = 3 if name.strip() == "2+1" else 5 if name.strip() == "3+2" else None
             m = re.search(r"(\d+)\s*час", name)
             n = n or (int(m.group(1)) if m else None)
-            if n:
+            if n and (n not in self.durations or "сгора" in self.durations[n]["name"].lower()):
                 self.durations[n] = {"id": t["id"], "name": short(name), "hours": n}
+        # Почасовой тариф клуб онлайн не считает («калькулятор бронирования не активирован», Epsilon):
+        # базовый тариф из списка — для самой большой зоны, для остальных — в той же пропорции, что их пакет на 3 часа
+        self.hourly_assumed = False
+        basic = next((t for t in p["tariffs"] if t.get("type") != "packet" and t.get("default_price")), None)
+        if not self.hourly and basic and p.get("zones"):
+            main = max(p["zones"], key=p["zones"].get)
+            ref = self.durations.get(3) or (min(self.durations.values(), key=lambda d: d["hours"]) if self.durations else None)
+            for zone in p["zones"]:
+                ratio = 1.0
+                if ref:
+                    z, mz = self.packets.get((ref["id"], zone, "будни")), self.packets.get((ref["id"], main, "будни"))
+                    ratio = z / mz if z and mz else 1.0
+                for dt in ("будни", "выходные"):
+                    for slot in (11, 19, 23):
+                        self.hourly[(zone, dt, slot)] = round(basic["default_price"] * ratio / 50) * 50
+            self.hourly_assumed = True
 
     def day_type(self, when: datetime) -> str:
         if len(self.weekdays) == 7:
