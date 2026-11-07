@@ -3,6 +3,11 @@ name: explore
 # Разовая проверка API бронирования (только чтение). Результат — в ветке explore-output.
 on:
   workflow_dispatch:
+    inputs:
+      club:
+        description: "Код клуба из ссылки booking.langame.ru/<код>"
+        required: false
+        default: "1jelye8o"
 
 permissions:
   contents: write
@@ -19,6 +24,9 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Explore
+        env:
+          CLUB_HASH: ${{ inputs.club || '1jelye8o' }}
+          REQUEST_PAUSE_S: "2"
         run: python3 explore/explore.py out
 
       - name: Publish output to explore-output branch
@@ -27,7 +35,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898099+github-actions[bot]@users.noreply.github.com"
           mkdir -p out
-          echo "run: ${{ github.run_id }} at $(date -u +%FT%TZ)" > out/RUN.txt
+          echo "run: ${{ github.run_id }} club: ${{ inputs.club }} at $(date -u +%FT%TZ)" > out/RUN.txt
           git checkout --orphan explore-output
           git rm -r -q --cached .
           git add -f out
