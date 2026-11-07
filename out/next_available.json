@@ -1,0 +1,512 @@
+{
+ "DUO/TRIO #16": {
+  "data": {
+   "nearest_bookings": [],
+   "zone": "DUO/TRIO",
+   "duration": 60,
+   "next_available_end_at": null,
+   "next_available_start_at": null,
+   "device_uuid": "006D0873-C62A-703E-4D60-60CF84A1C710"
+  }
+ },
+ "DUO/TRIO #11": {
+  "data": {
+   "nearest_bookings": [],
+   "zone": "DUO/TRIO",
+   "duration": 60,
+   "next_available_end_at": null,
+   "next_available_start_at": null,
+   "device_uuid": "024020BE-AAAE-6325-9042-60CF847735D3"
+  }
+ },
+ "DUO/TRIO #18": {
+  "data": {
+   "nearest_bookings": [],
+   "zone": "DUO/TRIO",
+   "duration": 60,
+   "next_available_end_at": null,
+   "next_available_start_at": null,
+   "device_uuid": "107F4B3B-3D3A-EC96-2CBB-60CF84A1D130"
+  }
+ },
+ "DUO/TRIO #39": {
+  "data": {
+   "nearest_bookings": [],
+   "zone": "DUO/TRIO",
+   "duration": 60,
+   "next_available_end_at": null,
+   "next_available_start_at": null,
+   "device_uuid": "21AA44E6-C2F3-87E0-64B0-A0AD9F838BD0"
+  }
+ },
+ "Bootcamp #4": {
+  "data": {
+   "nearest_bookings": [
+    {
+     "stop_at": "2026-11-08 01:50:00",
+     "start_at": "2026-11-07 19:00:00"
+    },
+    {
+     "stop_at": "2026-11-08 18:50:00",
+     "start_at": "2026-11-08 12:00:00"
+    }
+   ],
+   "zone": "Bootcamp",
+   "duration": 60,
+   "next_available_end_at": null,
+   "next_available_start_at": null,
+   "device_uuid": "2FC788FE-85F9-4D42-5683-60CF847790A1"
+  }
+ },
+ "DUO/TRIO #15": {
+  "data": {
+   "nearest_bookings": [],
+   "zone": "DUO/TRIO",
+   "duration": 60,
+   "next_available_end_at": null,
+   "next_available_start_at": null,
+   "device_uuid": "3BD55D08-8A6C-4BFF-4E42-60CF84A1C5C6"
+  }
+ },
+ "DUO/TRIO #34": {
+  "data": {
+   "nearest_bookings": [],
+   "zone": "DUO/TRIO",
+   "duration": 60,
+   "next_available_end_at": null,
+   "next_available_start_at": null,
+   "device_uuid": "3E2C1D5D-769F-FD92-F4A9-60CF84A1C5DC"
+  }
+ },
+ "Bootcamp #30": {
+  "data": {
+   "nearest_bookings": [
+    {
+     "stop_at": "2026-11-08 02:20:00",
+     "start_at": "2026-11-07 19:00:00"
+    }
+   ],
+   "zone": "Bootcamp",
+   "duration": 60,
+   "next_available_end_at": null,
+   "next_available_start_at": null,
+   "device_uuid": "4073E69C-0006-737D-764A-60CF84A1C893"
+  }
+ },
+ "DUO/TRIO #32": {
+  "data": {
+   "nearest_bookings": [],
+   "zone": "DUO/TRIO",
+   "duration": 60,
+   "next_available_end_at": null,
+   "next_available_start_at": null,
+   "device_uuid": "437992E3-EE38-828B-5BA8-60CF8476E49B"
+  }
+ },
+ "DUO/TRIO #7": {
+  "data": {
+   "nearest_bookings": [],
+   "zone": "DUO/TRIO",
+   "duration": 60,
+   "next_available_end_at": null,
+   "next_available_start_at": null,
+   "device_uuid": "46DA7C3E-2F23-43C9-430B-60CF84A1C737"
+  }
+ },
+ "Bootcamp #27": {
+  "data": {
+   "nearest_bookings": [
+    {
+     "stop_at": "2026-11-08 02:20:00",
+     "start_at": "2026-11-07 19:00:00"
+    }
+   ],
+   "zone": "Bootcamp",
+   "duration": 60,
+   "next_available_end_at": null,
+   "next_available_start_at": null,
+   "device_uuid": "4E54E180-0EFD-8051-2A71-60CF84A1CAA8"
+  }
+ },
+ "DUO/TRIO #38": {
+  "data": {
+   "nearest_bookings": [],
+   "zone": "DUO/TRIO",
+   "duration": 60,
+   "next_available_end_at": null,
+   "next_available_start_at": null,
+   "device_uuid": "5E670E0C-A8BC-1E8D-CF49-60CF8476ED41"
+  }
+ },
+ "DUO/TRIO #43": {
+  "data": {
+   "nearest_bookings": [],
+   "zone": "DUO/TRIO",
+   "duration": 60,
+   "next_available_end_at": null,
+   "next_available_start_at": null,
+   "device_uuid": "5F179390-9924-EBF1-7ABF-A0AD9FD0FED5"
+  }
+ },
+ "DUO/TRIO #36": {
+  "data": {
+   "nearest_bookings": [],
+   "zone": "DUO/TRIO",
+   "duration": 60,
+   "next_available_end_at": null,
+   "next_available_start_at": null,
+   "device_uuid": "6595EFC7-E918-AB5A-86BF-60CF84A1C71B"
+  }
+ },
+ "Bootcamp #28": {
+  "data": {
+   "nearest_bookings": [
+    {
+     "stop_at": "2026-11-08 02:20:00",
+     "start_at": "2026-11-07 19:00:00"
+    }
+   ],
+   "zone": "Bootcamp",
+   "duration": 60,
+   "next_available_end_at": null,
+   "next_available_start_at": null,
+   "device_uuid": "6AE61E9A-4B36-4F4A-5394-60CF84778FD5"
+  }
+ },
+ "DUO/TRIO #37": {
+  "data": {
+   "nearest_bookings": [],
+   "zone": "DUO/TRIO",
+   "duration": 60,
+   "next_available_end_at": null,
+   "next_available_start_at": null,
+   "device_uuid": "6F0829DB-3A9E-D1F6-DFC9-60CF84A1C5F2"
+  }
+ },
+ "DUO/TRIO #42": {
+  "data": {
+   "nearest_bookings": [],
+   "zone": "DUO/TRIO",
+   "duration": 60,
+   "next_available_end_at": null,
+   "next_available_start_at": null,
+   "device_uuid": "700BCA1D-7AD9-5FEC-F8EB-A0AD9FD0FEB9"
+  }
+ },
+ "Bootcamp #21": {
+  "data": {
+   "nearest_bookings": [],
+   "zone": "Bootcamp",
+   "duration": 60,
+   "next_available_end_at": null,
+   "next_available_start_at": null,
+   "device_uuid": "747DC9B4-BC1D-7689-F52D-60CF8477325E"
+  }
+ },
+ "SOLO #9": {
+  "data": {
+   "nearest_bookings": [],
+   "zone": "SOLO",
+   "duration": 60,
+   "next_available_end_at": null,
+   "next_available_start_at": null,
+   "device_uuid": "7AFF6A6F-22EF-6A56-2CC4-60CF84A9E521"
+  }
+ },
+ "Bootcamp #5": {
+  "data": {
+   "nearest_bookings": [
+    {
+     "stop_at": "2026-11-08 01:50:00",
+     "start_at": "2026-11-07 19:00:00"
+    },
+    {
+     "stop_at": "2026-11-08 18:50:00",
+     "start_at": "2026-11-08 12:00:00"
+    }
+   ],
+   "zone": "Bootcamp",
+   "duration": 60,
+   "next_available_end_at": null,
+   "next_available_start_at": null,
+   "device_uuid": "7E798AEE-8236-7237-E122-60CF84A1C772"
+  }
+ },
+ "Bootcamp #53": {
+  "data": {
+   "nearest_bookings": [],
+   "zone": "Bootcamp",
+   "duration": 60,
+   "next_available_end_at": null,
+   "next_available_start_at": null,
+   "device_uuid": "8108DEB9-EBDE-68C1-55B8-60CF84778FAF"
+  }
+ },
+ "DUO/TRIO #31": {
+  "data": {
+   "nearest_bookings": [],
+   "zone": "DUO/TRIO",
+   "duration": 60,
+   "next_available_end_at": null,
+   "next_available_start_at": null,
+   "device_uuid": "8CC3888E-E513-0EA3-1547-60CF84A1C715"
+  }
+ },
+ "DUO/TRIO #6": {
+  "data": {
+   "nearest_bookings": [],
+   "zone": "DUO/TRIO",
+   "duration": 60,
+   "next_available_end_at": null,
+   "next_available_start_at": null,
+   "device_uuid": "9422CA24-BD0F-1FF2-319B-60CF84A1D12D"
+  }
+ },
+ "DUO/TRIO #17": {
+  "data": {
+   "nearest_bookings": [],
+   "zone": "DUO/TRIO",
+   "duration": 60,
+   "next_available_end_at": null,
+   "next_available_start_at": null,
+   "device_uuid": "A3DCB392-38D0-B6ED-49CD-60CF84A1C5ED"
+  }
+ },
+ "Bootcamp #26": {
+  "data": {
+   "nearest_bookings": [
+    {
+     "stop_at": "2026-11-08 02:20:00",
+     "start_at": "2026-11-07 19:00:00"
+    }
+   ],
+   "zone": "Bootcamp",
+   "duration": 60,
+   "next_available_end_at": null,
+   "next_available_start_at": null,
+   "device_uuid": "A6FB94A7-1DCD-06FB-0208-60CF847735EB"
+  }
+ },
+ "DUO/TRIO #13": {
+  "data": {
+   "nearest_bookings": [],
+   "zone": "DUO/TRIO",
+   "duration": 60,
+   "next_available_end_at": null,
+   "next_available_start_at": null,
+   "device_uuid": "A73629B0-CC2F-EE99-5E99-60CF84773B40"
+  }
+ },
+ "Bootcamp #24": {
+  "data": {
+   "nearest_bookings": [],
+   "zone": "Bootcamp",
+   "duration": 60,
+   "next_available_end_at": null,
+   "next_available_start_at": null,
+   "device_uuid": "A919C61B-48B6-AB0C-CDCE-60CF847732BF"
+  }
+ },
+ "Bootcamp #29": {
+  "data": {
+   "nearest_bookings": [
+    {
+     "stop_at": "2026-11-08 02:20:00",
+     "start_at": "2026-11-07 19:00:00"
+    }
+   ],
+   "zone": "Bootcamp",
+   "duration": 60,
+   "next_available_end_at": null,
+   "next_available_start_at": null,
+   "device_uuid": "B2C69C42-57B6-602D-2CC2-60CF84A1C653"
+  }
+ },
+ "DUO/TRIO #40": {
+  "data": {
+   "nearest_bookings": [],
+   "zone": "DUO/TRIO",
+   "duration": 60,
+   "next_available_end_at": null,
+   "next_available_start_at": null,
+   "device_uuid": "BC7551F5-35F2-63E9-E8BF-A0AD9F8081CE"
+  }
+ },
+ "SOLO #14": {
+  "data": {
+   "nearest_bookings": [],
+   "zone": "SOLO",
+   "duration": 60,
+   "next_available_end_at": null,
+   "next_available_start_at": null,
+   "device_uuid": "BD088664-0B91-3C56-3B6A-60CF84A9EABB"
+  }
+ },
+ "Bootcamp #3": {
+  "data": {
+   "nearest_bookings": [
+    {
+     "stop_at": "2026-11-08 01:50:00",
+     "start_at": "2026-11-07 19:00:00"
+    },
+    {
+     "stop_at": "2026-11-08 18:50:00",
+     "start_at": "2026-11-08 12:00:00"
+    }
+   ],
+   "zone": "Bootcamp",
+   "duration": 60,
+   "next_available_end_at": null,
+   "next_available_start_at": null,
+   "device_uuid": "BED4BB6C-9A3C-38C7-0E42-60CF84A1D129"
+  }
+ },
+ "Bootcamp #1": {
+  "data": {
+   "nearest_bookings": [
+    {
+     "stop_at": "2026-11-08 01:50:00",
+     "start_at": "2026-11-07 19:00:00"
+    },
+    {
+     "stop_at": "2026-11-08 18:50:00",
+     "start_at": "2026-11-08 12:00:00"
+    }
+   ],
+   "zone": "Bootcamp",
+   "duration": 60,
+   "next_available_end_at": null,
+   "next_available_start_at": null,
+   "device_uuid": "C17BBDD1-6567-5A17-E4ED-60CF84A1C7FB"
+  }
+ },
+ "DUO/TRIO #12": {
+  "data": {
+   "nearest_bookings": [],
+   "zone": "DUO/TRIO",
+   "duration": 60,
+   "next_available_end_at": null,
+   "next_available_start_at": null,
+   "device_uuid": "C553BDE4-FAAD-8C41-69CF-60CF847790A8"
+  }
+ },
+ "DUO/TRIO #35": {
+  "data": {
+   "nearest_bookings": [],
+   "zone": "DUO/TRIO",
+   "duration": 60,
+   "next_available_end_at": null,
+   "next_available_start_at": null,
+   "device_uuid": "CDBF941C-B901-E207-E057-60CF84A1C74F"
+  }
+ },
+ "Bootcamp #22": {
+  "data": {
+   "nearest_bookings": [],
+   "zone": "Bootcamp",
+   "duration": 60,
+   "next_available_end_at": null,
+   "next_available_start_at": null,
+   "device_uuid": "CEDECE2D-D769-627B-B7F4-60CF8477324E"
+  }
+ },
+ "SOLO #19": {
+  "data": {
+   "nearest_bookings": [],
+   "zone": "SOLO",
+   "duration": 60,
+   "next_available_end_at": "2026-11-07 16:45:00",
+   "next_available_start_at": "2026-11-07 15:45:00",
+   "device_uuid": "D24901A4-365C-2D3C-3B49-60CF84A9E6A3"
+  }
+ },
+ "DUO/TRIO #33": {
+  "data": {
+   "nearest_bookings": [],
+   "zone": "DUO/TRIO",
+   "duration": 60,
+   "next_available_end_at": null,
+   "next_available_start_at": null,
+   "device_uuid": "D3F1DECA-081A-D96B-E67B-60CF84779406"
+  }
+ },
+ "DUO/TRIO #41": {
+  "data": {
+   "nearest_bookings": [],
+   "zone": "DUO/TRIO",
+   "duration": 60,
+   "next_available_end_at": null,
+   "next_available_start_at": null,
+   "device_uuid": "E5750AC1-6362-AEB7-63EA-A0AD9F807EB3"
+  }
+ },
+ "SOLO #8": {
+  "data": {
+   "nearest_bookings": [],
+   "zone": "SOLO",
+   "duration": 60,
+   "next_available_end_at": "2026-11-07 16:45:00",
+   "next_available_start_at": "2026-11-07 15:45:00",
+   "device_uuid": "ECCD86AE-5C5E-A9C1-C0F3-60CF84A9E70C"
+  }
+ },
+ "SOLO #10": {
+  "data": {
+   "nearest_bookings": [],
+   "zone": "SOLO",
+   "duration": 60,
+   "next_available_end_at": null,
+   "next_available_start_at": null,
+   "device_uuid": "EF94C9F1-C115-556A-2347-60CF84A9E8B1"
+  }
+ },
+ "Bootcamp #2": {
+  "data": {
+   "nearest_bookings": [
+    {
+     "stop_at": "2026-11-08 01:50:00",
+     "start_at": "2026-11-07 19:00:00"
+    },
+    {
+     "stop_at": "2026-11-08 18:50:00",
+     "start_at": "2026-11-08 12:00:00"
+    }
+   ],
+   "zone": "Bootcamp",
+   "duration": 60,
+   "next_available_end_at": null,
+   "next_available_start_at": null,
+   "device_uuid": "F8C8338D-1B18-9DDD-468D-60CF84773755"
+  }
+ },
+ "Bootcamp #20": {
+  "data": {
+   "nearest_bookings": [],
+   "zone": "Bootcamp",
+   "duration": 60,
+   "next_available_end_at": null,
+   "next_available_start_at": null,
+   "device_uuid": "FF8A9588-B877-A944-938D-60CF847790A3"
+  }
+ },
+ "PS Общий зал #PS Lounge 1": {
+  "data": {
+   "nearest_bookings": [],
+   "zone": "PS Общий зал",
+   "duration": 60,
+   "next_available_end_at": null,
+   "next_available_start_at": null,
+   "device_uuid": "rele_169.169.169.165"
+  }
+ },
+ "PS Общий зал #PS_lounge 2": {
+  "data": {
+   "nearest_bookings": [],
+   "zone": "PS Общий зал",
+   "duration": 60,
+   "next_available_end_at": null,
+   "next_available_start_at": null,
+   "device_uuid": "rele_169.169.169.166"
+  }
+ }
+}
