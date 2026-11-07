@@ -17,10 +17,10 @@ concurrency:
 
 env:
   # Коды клубов из ссылок booking.langame.ru/<код>, через пробел. 1jelye8o — LORAN.
-  CLUBS: "1jelye8o 1JB6NB4A 16Xp6Rly bKqXNKEG 1JB6N7pB kywedwxo krKEyOPv"
+  CLUBS: "1jelye8o 1JB6NB4A 16Xp6Rly bKqXNKEG 1JB6N7pB kywedwxo krKEyOPv kgGamr9N"
   COLLECT_UNTIL: "2026-11-21T12:00:00+05:00"
   # Бережём сервис: клубы опрашиваются по очереди с паузой, внутри клуба — пауза между запросами.
-  # 15 с между клубами: 7 клубов — около 3,5 минуты на запуск, чтобы сбор до 21.11 уложился
+  # 15 с между клубами: 8 клубов — около 3,5–4 минут на запуск, чтобы сбор до 21.11 уложился
   # в 2000 бесплатных минут GitHub Actions в месяц (при 30 с было бы ~1950).
   CLUB_PAUSE_S: "15"
   REQUEST_PAUSE_S: "2"
