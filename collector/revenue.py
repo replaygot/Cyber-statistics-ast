@@ -31,6 +31,7 @@ PROMOS = {
                  ("Студентам AITU/NU −15%", (0.05, 0.10, 0.20), 0.15)],
     "16Xp6Rly": [],
     "1JB6N7pB": [],
+    "krKEyOPv": [],  # прайса с акциями пока нет
 }
 
 
@@ -46,11 +47,24 @@ class Prices:
         p = json.loads((base / "prices.json").read_text(encoding="utf-8"))
         self.club_name = p["club_name"]
         weekday_date, weekend_date = p["days"]
-        # Какие дни недели идут по ценам будней — по прайсу клуба (пн-пт / пн-чт / все дни)
-        keys = " ".join(json.loads((base / "pricelist.json").read_text(encoding="utf-8"))["prices"]) \
-            if (base / "pricelist.json").exists() else ""
-        self.weekdays = {0, 1, 2, 3, 4} if "пн-пт" in keys else {0, 1, 2, 3} if "пн-чт" in keys else set(range(7))
         day_type = lambda s: "будни" if s.startswith(weekday_date) else "выходные"  # noqa: E731
+        # Какие дни недели идут по ценам будней — по прайсу клуба (пн-пт / пн-чт / все дни)
+        if (base / "pricelist.json").exists():
+            keys = " ".join(json.loads((base / "pricelist.json").read_text(encoding="utf-8"))["prices"])
+            self.weekdays = {0, 1, 2, 3, 4} if "пн-пт" in keys else {0, 1, 2, 3} if "пн-чт" in keys else set(range(7))
+        else:
+            # Прайса с картинок нет: если в сервисе цены понедельника и субботы разные, будни — пн–пт (допущение)
+            def by_day(rows, key):
+                out = {"будни": {}, "выходные": {}}
+                for x in rows:
+                    if "price" in x:
+                        out[day_type(x["start"])][key(x)] = x["price"]
+                return out
+            h = by_day(p["hourly"], lambda x: (x["zone"], x["start"][11:13]))
+            k = by_day(p["packets"], lambda x: (x["zone"], x["tariff_id"]))
+            differs = any(h["будни"].get(z) not in (None, v) for z, v in h["выходные"].items()) or \
+                any(k["будни"].get(z) not in (None, v) for z, v in k["выходные"].items())
+            self.weekdays = {0, 1, 2, 3, 4} if differs else set(range(7))
         self.hourly = {}
         for x in p["hourly"]:
             if "price" in x:
