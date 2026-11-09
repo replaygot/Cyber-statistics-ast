@@ -1,0 +1,6304 @@
+{
+ "items": [
+  {
+   "UUID": "982DBC41-81A7-B4C2-0AD8-41AB6178230F",
+   "text": "11",
+   "color": "#ff7100",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 17.875,
+   "x": 17.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 11,
+    "name": "11",
+    "number": null
+   }
+  },
+  {
+   "UUID": "36F70289-5A6F-0031-CE98-57558C8461AB",
+   "text": "12",
+   "color": "#ff7100",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 17.875,
+   "x": 18.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 12,
+    "name": "12",
+    "number": null
+   }
+  },
+  {
+   "UUID": "8F25CAB8-8C96-F289-8109-73F10D5CEEB6",
+   "text": "14",
+   "color": "#ff7100",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 17.875,
+   "x": 20.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 13,
+    "name": "14",
+    "number": null
+   }
+  },
+  {
+   "UUID": "27599C9D-5647-DBEF-1A74-D5FFA9881E50",
+   "text": "15",
+   "color": "#ff7100",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 17.875,
+   "x": 21.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 14,
+    "name": "15",
+    "number": null
+   }
+  },
+  {
+   "UUID": "B1D69F64-9961-D66E-D351-21B7ED21A355",
+   "text": "16",
+   "color": "#ff7100",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 19.625,
+   "x": 21.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 15,
+    "name": "16",
+    "number": null
+   }
+  },
+  {
+   "UUID": "9EAB8D3E-9384-3F6D-466F-2F06AE3D04F2",
+   "text": "17",
+   "color": "#ff7100",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 19.625,
+   "x": 20.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 16,
+    "name": "17",
+    "number": null
+   }
+  },
+  {
+   "UUID": "11EBF417-BB87-4EC3-3D51-21C08CFC6673",
+   "text": "18",
+   "color": "#ff7100",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 19.625,
+   "x": 19.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 17,
+    "name": "18",
+    "number": null
+   }
+  },
+  {
+   "UUID": "6F0399BC-577F-6FBE-A51A-9885AF8C08C3",
+   "text": "19",
+   "color": "#ff7100",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 19.625,
+   "x": 18.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 18,
+    "name": "19",
+    "number": null
+   }
+  },
+  {
+   "UUID": "31F484FF-7252-5C3C-032A-7B833E63B05A",
+   "text": "20",
+   "color": "#ff7100",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 19.625,
+   "x": 17.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 19,
+    "name": "20",
+    "number": null
+   }
+  },
+  {
+   "UUID": "C321150D-1391-E319-D29E-556EFE682EC3",
+   "text": "13",
+   "color": "#ff7100",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 17.875,
+   "x": 19.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 20,
+    "name": "13",
+    "number": null
+   }
+  },
+  {
+   "UUID": "368901D2-0114-C12A-AF88-A81080477FE6",
+   "text": "21",
+   "color": "#ff7100",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 20.625,
+   "x": 17.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 21,
+    "name": "21",
+    "number": null
+   }
+  },
+  {
+   "UUID": "25E04AEC-4503-564B-D843-9E9DAEF76F69",
+   "text": "22",
+   "color": "#ff7100",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 20.625,
+   "x": 18.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 22,
+    "name": "22",
+    "number": null
+   }
+  },
+  {
+   "UUID": "92BD3948-A0E2-F7BD-DC1C-2F5406E220EE",
+   "text": "23",
+   "color": "#ff7100",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 20.625,
+   "x": 19.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 23,
+    "name": "23",
+    "number": null
+   }
+  },
+  {
+   "UUID": "230311FE-B24F-8A16-D3FF-CBED46007C10",
+   "text": "24",
+   "color": "#ff7100",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 20.625,
+   "x": 20.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 24,
+    "name": "24",
+    "number": null
+   }
+  },
+  {
+   "UUID": "CFB40B38-A0B1-1E1A-1534-EDA2C4E319F4",
+   "text": "25",
+   "color": "#ff7100",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 20.625,
+   "x": 21.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 25,
+    "name": "25",
+    "number": null
+   }
+  },
+  {
+   "UUID": "4430B64D-B6B2-E970-68EB-FED1CE214186",
+   "text": "01",
+   "color": "#006035",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 14.375,
+   "x": 17.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 2,
+    "name": "01",
+    "number": null
+   }
+  },
+  {
+   "UUID": "72F866A7-078E-4CB5-17D2-21C7F28EADB9",
+   "text": "02",
+   "color": "#006035",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 14.375,
+   "x": 18.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 3,
+    "name": "02",
+    "number": null
+   }
+  },
+  {
+   "UUID": "03FBAC01-8604-C6AD-3CEE-1403D977BD49",
+   "text": "03",
+   "color": "#006035",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 14.375,
+   "x": 19.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 4,
+    "name": "03",
+    "number": null
+   }
+  },
+  {
+   "UUID": "C80EA0AC-5781-A43A-04F6-DB1AF7B6E48D",
+   "text": "05",
+   "color": "#006035",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 14.375,
+   "x": 21.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 5,
+    "name": "05",
+    "number": null
+   }
+  },
+  {
+   "UUID": "4B1260EA-5A2D-365B-7B69-8174EB1D32EC",
+   "text": "06",
+   "color": "#006035",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 16.5,
+   "x": 21.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 6,
+    "name": "06",
+    "number": null
+   }
+  },
+  {
+   "UUID": "40E4316C-8553-E03F-DF1A-ECBF602A4722",
+   "text": "07",
+   "color": "#006035",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 16.5,
+   "x": 20.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 7,
+    "name": "07",
+    "number": null
+   }
+  },
+  {
+   "UUID": "CA05B9B5-5D88-1B95-EAD3-0B2FBFD67CA8",
+   "text": "08",
+   "color": "#006035",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 16.5,
+   "x": 19.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 8,
+    "name": "08",
+    "number": null
+   }
+  },
+  {
+   "UUID": "EB869A29-EDCE-1B45-4B3F-7F033A7D0D5D",
+   "text": "09",
+   "color": "#006035",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 16.5,
+   "x": 18.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 9,
+    "name": "09",
+    "number": null
+   }
+  },
+  {
+   "UUID": "DAB50710-F27E-F9A3-AF4E-A747044F1298",
+   "text": "04",
+   "color": "#006035",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 14.375,
+   "x": 20.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 10,
+    "name": "04",
+    "number": null
+   }
+  },
+  {
+   "UUID": "CCDF4A07-0843-3AE5-EE2A-BAB5B7EEE80E",
+   "text": "45",
+   "color": "#006035",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 2.375,
+   "x": 18.875,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "uuid": "CCDF4A07-0843-3AE5-EE2A-BAB5B7EEE80E",
+   "client": {
+    "id": 43,
+    "name": "45",
+    "number": ""
+   }
+  },
+  {
+   "UUID": "6AE93CF2-5CC8-4AC4-6703-C5FEFA24D953",
+   "text": "46",
+   "color": "#006035",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 1.375,
+   "x": 18.875,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 44,
+    "name": "46",
+    "number": null
+   }
+  },
+  {
+   "UUID": "E230D2D9-13C6-C482-0C9E-15A73B120210",
+   "text": "48",
+   "color": "#006035",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 0.375,
+   "x": 21.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 45,
+    "name": "48",
+    "number": null
+   }
+  },
+  {
+   "UUID": "571F12AB-092E-68BA-6050-7CD4AA866AA4",
+   "text": "49",
+   "color": "#006035",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 1.375,
+   "x": 21.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 46,
+    "name": "49",
+    "number": null
+   }
+  },
+  {
+   "UUID": "BAB3FFD6-0D4B-D108-9455-BCEB9615665F",
+   "text": "50",
+   "color": "#006035",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 2.375,
+   "x": 21.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 47,
+    "name": "50",
+    "number": null
+   }
+  },
+  {
+   "UUID": "12A5D814-D55F-67D1-1F09-093D6423DBD7",
+   "text": "51",
+   "color": "#006035",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 3.375,
+   "x": 21.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 48,
+    "name": "51",
+    "number": null
+   }
+  },
+  {
+   "UUID": "59DE87D4-3847-B7E4-4905-07AB761D40FE",
+   "text": "10",
+   "color": "#006035",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 16.5,
+   "x": 17.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 67,
+    "name": "10",
+    "number": null
+   }
+  },
+  {
+   "UUID": "DDF0AB89-F8F1-0440-8F05-3B50EC8A8365",
+   "text": "47",
+   "color": "#006035",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 0.375,
+   "x": 18.875,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 69,
+    "name": "47",
+    "number": null
+   }
+  },
+  {
+   "UUID": "D287A36D-3916-84D7-C62D-E750470DD631",
+   "text": "39",
+   "color": "#313eff",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 0.375,
+   "x": 14.875,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 1,
+    "name": "39",
+    "number": null
+   }
+  },
+  {
+   "UUID": "3A393C71-7E5E-AD66-0C46-57CCE0977E9D",
+   "text": "37",
+   "color": "#313eff",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 1.375,
+   "x": 12.25,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 37,
+    "name": "37",
+    "number": null
+   }
+  },
+  {
+   "UUID": "7162EF46-85EF-E723-0426-EEE76B29AA43",
+   "text": "38",
+   "color": "#313eff",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 0.375,
+   "x": 12.25,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 38,
+    "name": "38",
+    "number": null
+   }
+  },
+  {
+   "UUID": "46E53254-CC3E-EC48-3CED-068EAAE14BAA",
+   "text": "41",
+   "color": "#313eff",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 2.25,
+   "x": 14.875,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 39,
+    "name": "41",
+    "number": null
+   }
+  },
+  {
+   "UUID": "8B175CB1-7141-0956-21F8-66F1C9ED8082",
+   "text": "52",
+   "color": "#313eff",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 5.5,
+   "x": 20.875,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 49,
+    "name": "52",
+    "number": null
+   }
+  },
+  {
+   "UUID": "2D8D19A5-4517-DAA5-7060-50AF7B73A3E2",
+   "text": "53",
+   "color": "#313eff",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 5.5,
+   "x": 19.875,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 50,
+    "name": "53",
+    "number": null
+   }
+  },
+  {
+   "UUID": "E7D42D55-FE56-C5CB-D5A5-E5952A483E93",
+   "text": "54",
+   "color": "#313eff",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 5.5,
+   "x": 18.875,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 51,
+    "name": "54",
+    "number": null
+   }
+  },
+  {
+   "UUID": "E34AE66E-7329-A2C4-DE3C-0F366ADCD5F4",
+   "text": "55",
+   "color": "#313eff",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 5.5,
+   "x": 17.875,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 52,
+    "name": "55",
+    "number": null
+   }
+  },
+  {
+   "UUID": "F9F4098E-2560-D7C4-AF6C-FBBCE2388187",
+   "text": "56",
+   "color": "#313eff",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 5.5,
+   "x": 16.875,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 53,
+    "name": "56",
+    "number": null
+   }
+  },
+  {
+   "UUID": "BBE2604C-402E-2A0E-A5E9-B3D158759297",
+   "text": "57",
+   "color": "#313eff",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 6.625,
+   "x": 20.875,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "uuid": "BBE2604C-402E-2A0E-A5E9-B3D158759297",
+   "client": {
+    "id": 54,
+    "name": "57",
+    "number": null
+   }
+  },
+  {
+   "UUID": "DCC7585A-4672-A3B8-41D5-AEAAAEAD63C0",
+   "text": "59",
+   "color": "#313eff",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 6.625,
+   "x": 18.875,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 55,
+    "name": "59",
+    "number": null
+   }
+  },
+  {
+   "UUID": "E0D4B0B2-DDEB-A4AB-8A5E-80F7854F62E7",
+   "text": "60",
+   "color": "#313eff",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 6.625,
+   "x": 17.875,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 56,
+    "name": "60",
+    "number": null
+   }
+  },
+  {
+   "UUID": "EEDD5212-1283-1B48-194C-512E49A8C4C9",
+   "text": "58",
+   "color": "#313eff",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 6.625,
+   "x": 19.875,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 57,
+    "name": "58",
+    "number": null
+   }
+  },
+  {
+   "UUID": "81D67EFB-5750-5026-8BD1-84E6BFAA5ADD",
+   "text": "61",
+   "color": "#313eff",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 6.625,
+   "x": 16.875,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 58,
+    "name": "61",
+    "number": null
+   }
+  },
+  {
+   "UUID": "FA7D7590-FBEF-88A2-5158-F6498FDD3CFA",
+   "text": "40",
+   "color": "#313eff",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 1.25,
+   "x": 14.875,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 68,
+    "name": "40",
+    "number": null
+   }
+  },
+  {
+   "UUID": "36BCB48C-5A5C-E5A6-9AE9-903E33301E8C",
+   "text": "26",
+   "color": "#8d1bff",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 25.75,
+   "x": 20,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 26,
+    "name": "26",
+    "number": null
+   }
+  },
+  {
+   "UUID": "F1979E3F-4075-3423-C9CA-65948AC93085",
+   "text": "27",
+   "color": "#8d1bff",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 24.75,
+   "x": 20,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 27,
+    "name": "27",
+    "number": null
+   }
+  },
+  {
+   "UUID": "2EE7E5EE-8C1A-9397-4933-E04C76858064",
+   "text": "28",
+   "color": "#8d1bff",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 23.625,
+   "x": 20,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 28,
+    "name": "28",
+    "number": null
+   }
+  },
+  {
+   "UUID": "E3D4B510-4015-AE46-85E9-0AE95BC3FC44",
+   "text": "29",
+   "color": "#8d1bff",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 25.75,
+   "x": 17.5,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 29,
+    "name": "29",
+    "number": null
+   }
+  },
+  {
+   "UUID": "2761C976-1FD0-9D2F-BE8C-73835851A099",
+   "text": "30",
+   "color": "#8d1bff",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 24.75,
+   "x": 17.5,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 30,
+    "name": "30",
+    "number": null
+   }
+  },
+  {
+   "UUID": "11B36DAE-54B6-EADF-0B02-B093DAD4C76D",
+   "text": "31",
+   "color": "#8d1bff",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 23.625,
+   "x": 17.5,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 31,
+    "name": "31",
+    "number": null
+   }
+  },
+  {
+   "UUID": "AE011BF6-7EBC-1CB7-9FEB-B575356C2C5A",
+   "text": "34",
+   "color": "#8d1bff",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 2.375,
+   "x": 8.875,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 34,
+    "name": "34",
+    "number": null
+   }
+  },
+  {
+   "UUID": "469B31A2-3943-57B5-53C7-415EC61ECC60",
+   "text": "35",
+   "color": "#8d1bff",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 1.375,
+   "x": 8.875,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 35,
+    "name": "35",
+    "number": null
+   }
+  },
+  {
+   "UUID": "A8056CB5-B566-1F7E-D54E-EEC19CC7BCE4",
+   "text": "36",
+   "color": "#8d1bff",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 0.375,
+   "x": 8.875,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 36,
+    "name": "36",
+    "number": null
+   }
+  },
+  {
+   "UUID": "B2F16E89-31D3-F0D3-1294-22849BAF2570",
+   "text": "42",
+   "color": "#8d1bff",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 2.375,
+   "x": 16.25,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 40,
+    "name": "42",
+    "number": null
+   }
+  },
+  {
+   "UUID": "AA76AA54-ABD4-2FA6-9C72-0ECB9335CBCB",
+   "text": "43",
+   "color": "#8d1bff",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 1.375,
+   "x": 16.25,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 41,
+    "name": "43",
+    "number": null
+   }
+  },
+  {
+   "UUID": "F22648E9-5160-6758-79F7-9ED9C5CE7AAE",
+   "text": "44",
+   "color": "#8d1bff",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 0.375,
+   "x": 16.25,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 42,
+    "name": "44",
+    "number": null
+   }
+  },
+  {
+   "UUID": "518A8ECC-24D8-9CAD-43DF-647C71E925BB",
+   "text": "63",
+   "color": "#8d1bff",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 10.375,
+   "x": 19.75,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 59,
+    "name": "63",
+    "number": null
+   }
+  },
+  {
+   "UUID": "5037ED7D-0BEB-05B4-9124-81D38513AD32",
+   "text": "64",
+   "color": "#8d1bff",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 9.375,
+   "x": 19.75,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 60,
+    "name": "64",
+    "number": null
+   }
+  },
+  {
+   "UUID": "4D6D3624-FFBB-4046-7C0D-1D981D401874",
+   "text": "65",
+   "color": "#8d1bff",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 11.375,
+   "x": 16.875,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 61,
+    "name": "65",
+    "number": null
+   }
+  },
+  {
+   "UUID": "1623A8B6-752D-F901-E38F-9DF4F23AB7CD",
+   "text": "66",
+   "color": "#8d1bff",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 10.375,
+   "x": 16.875,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 62,
+    "name": "66",
+    "number": null
+   }
+  },
+  {
+   "UUID": "0C68319B-7F5C-0D90-3B8E-85205D2AF04F",
+   "text": "67",
+   "color": "#8d1bff",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 9.375,
+   "x": 16.875,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 63,
+    "name": "67",
+    "number": null
+   }
+  },
+  {
+   "UUID": "710247C6-A5F1-8704-DF28-B40DE30412ED",
+   "text": "62",
+   "color": "#8d1bff",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 11.375,
+   "x": 19.75,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 66,
+    "name": "62",
+    "number": null
+   }
+  },
+  {
+   "UUID": "1B18412E-E3D2-909E-B6C6-4607BBAA220D",
+   "text": "32",
+   "color": "#ff20b4",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 25.375,
+   "x": 14.875,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 32,
+    "name": "32",
+    "number": null
+   }
+  },
+  {
+   "UUID": "273FEEF1-885F-3F53-91A9-6D853830CBF3",
+   "text": "33",
+   "color": "#ff20b4",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 24.375,
+   "x": 14.875,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 33,
+    "name": "33",
+    "number": null
+   }
+  },
+  {
+   "UUID": "9D09EB7C-D4F9-7671-BF9B-CD5D1151F654",
+   "text": "69",
+   "color": "#ff20b4",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 9.75,
+   "x": 14,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 64,
+    "name": "69",
+    "number": null
+   }
+  },
+  {
+   "UUID": "FA3E5492-49AB-ECAF-EF08-C457B3D87FDD",
+   "text": "68",
+   "color": "#ff20b4",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 10.75,
+   "x": 14,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 70,
+    "name": "68",
+    "number": null
+   }
+  },
+  {
+   "UUID": "4FCDC2D8-10F8-FD4E-8F58-33A27E2E1F53",
+   "text": "70",
+   "color": "#B00000",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 11.125,
+   "x": 9.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 65,
+    "name": "70",
+    "number": null
+   }
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "settings_config",
+   "relative_max_width": 32.27,
+   "relative_max_height": 29.55,
+   "item_width": 44,
+   "item_height": 44,
+   "item_padding_horizontal": 4,
+   "item_padding_vertical": 4,
+   "default_border_radius": 8,
+   "light_theme": {
+    "seat": {
+     "busy": {
+      "border_color": "#8D8D8D",
+      "background_color": "#8D8D8D",
+      "text_color": "#000000"
+     },
+     "unselected": {
+      "border_color": "#DBDBD9",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000"
+     },
+     "selected": {
+      "border_color": null,
+      "background_color": null,
+      "text_color": null
+     }
+    },
+    "block_color": "#000000",
+    "text_color": "#000000"
+   },
+   "dark_theme": {
+    "seat": {
+     "busy": {
+      "border_color": "#8D8D8D",
+      "background_color": "#8D8D8D",
+      "text_color": "#000000"
+     },
+     "unselected": {
+      "border_color": "#DBDBD9",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000"
+     },
+     "selected": {
+      "border_color": null,
+      "background_color": null,
+      "text_color": null
+     }
+    },
+    "block_color": "#FFFFFF",
+    "text_color": "#FFFFFF"
+   }
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 0,
+   "x": 8.5,
+   "width": 0.375,
+   "height": 12.75,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 14.25,
+   "x": 16.75,
+   "width": 0.375,
+   "height": 1.5,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 0,
+   "x": 8.5,
+   "width": 14,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 0,
+   "x": 22.125,
+   "width": 0.375,
+   "height": 12.75,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 16.375,
+   "x": 16.75,
+   "width": 0.375,
+   "height": 1.5,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 17.5,
+   "x": 16.75,
+   "width": 5.75,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 23.25,
+   "x": 19.5,
+   "width": 1.75,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 23.25,
+   "x": 21.875,
+   "width": 0.625,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 23.25,
+   "x": 19.625,
+   "width": 0.375,
+   "height": 3.75,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 23.25,
+   "x": 17,
+   "width": 1.75,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 12.375,
+   "x": 8.5,
+   "width": 7.375,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "text",
+   "text": "WC",
+   "y": 24.875,
+   "x": 12,
+   "font_size": 15
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "text",
+   "text": "☾",
+   "y": 24.875,
+   "x": 13.75,
+   "font_size": 15
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 23.25,
+   "x": 17.125,
+   "width": 0.375,
+   "height": 3.75,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 12.375,
+   "x": 17.375,
+   "width": 3,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 26.75,
+   "x": 8.5,
+   "width": 14,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "text",
+   "text": "SMOKE ROOM",
+   "y": 14.625,
+   "x": 13.875,
+   "font_size": 15
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "text",
+   "text": "EXIT",
+   "y": 14.625,
+   "x": 10.5,
+   "font_size": 15
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 12.375,
+   "x": 19.5,
+   "width": 3,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "text",
+   "text": "VIP 1",
+   "y": 15.625,
+   "x": 19.125,
+   "font_size": 15
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "text",
+   "text": "MAIN",
+   "y": 19.625,
+   "x": 15.875,
+   "font_size": 15
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "text",
+   "text": "TRIO 1",
+   "y": 25,
+   "x": 21,
+   "font_size": 15
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "text",
+   "text": "TRIO 2",
+   "y": 25,
+   "x": 18.5,
+   "font_size": 15
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "text",
+   "text": "DUO 1",
+   "y": 25,
+   "x": 16,
+   "font_size": 15
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 23.875,
+   "x": 8.625,
+   "width": 3,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 24,
+   "x": 14.5,
+   "width": 0.375,
+   "height": 3.125,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 12.375,
+   "x": 15.375,
+   "width": 2.75,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 23.875,
+   "x": 11,
+   "width": 4.625,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 24.375,
+   "x": 11.375,
+   "width": 0.375,
+   "height": 2.625,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 23.875,
+   "x": 13,
+   "width": 0.375,
+   "height": 3.125,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "text",
+   "text": "STAFF",
+   "y": 22.5,
+   "x": 9.625,
+   "font_size": 15
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 23.25,
+   "x": 11.375,
+   "width": 0.375,
+   "height": 2,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 21.25,
+   "x": 8.5,
+   "width": 3.75,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 15.375,
+   "x": 8.625,
+   "width": 8.5,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 14.125,
+   "x": 12.875,
+   "width": 0.375,
+   "height": 1.5,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 17.375,
+   "x": 11.875,
+   "width": 0.375,
+   "height": 4.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "admin_panel",
+   "text": "СТОЙКА\nАДМИНИСТРАТОРА",
+   "y": 17.875,
+   "x": 12.25
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 17.875,
+   "x": 8.75,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 17.5,
+   "x": 8.75,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 18.25,
+   "x": 8.75,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 18.625,
+   "x": 8.75,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 19,
+   "x": 8.75,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 19.375,
+   "x": 8.75,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 19.75,
+   "x": 8.75,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 20.125,
+   "x": 8.75,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 20.5,
+   "x": 9.875,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 20.875,
+   "x": 9.875,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 20.875,
+   "x": 8.75,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 20.5,
+   "x": 8.75,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 19.75,
+   "x": 9.875,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 19.375,
+   "x": 9.875,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 19,
+   "x": 9.875,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 18.625,
+   "x": 9.875,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 18.25,
+   "x": 9.875,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 20.125,
+   "x": 9.875,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 3.375,
+   "x": 8.625,
+   "width": 3.875,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "text",
+   "text": "TRIO 3",
+   "y": 1.625,
+   "x": 10.125,
+   "font_size": 15
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 0,
+   "x": 11.875,
+   "width": 0.375,
+   "height": 2.75,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 2.375,
+   "x": 11.875,
+   "width": 1.5,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 3.375,
+   "x": 14.5,
+   "width": 1.75,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 0.125,
+   "x": 15.875,
+   "width": 0.375,
+   "height": 3.5,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "text",
+   "text": "BOOTCAMP 1",
+   "y": 2.75,
+   "x": 12.125,
+   "font_size": 15
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 2.375,
+   "x": 14.375,
+   "width": 0.375,
+   "height": 1.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 2.375,
+   "x": 14,
+   "width": 0.75,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 3.375,
+   "x": 15.875,
+   "width": 1.625,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 0,
+   "x": 18.5,
+   "width": 0.375,
+   "height": 3.75,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "text",
+   "text": "TRIO 4",
+   "y": 1.625,
+   "x": 17.25,
+   "font_size": 15
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 3.375,
+   "x": 18.125,
+   "width": 0.75,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 3.375,
+   "x": 12.125,
+   "width": 0.375,
+   "height": 4.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 4.5,
+   "x": 18.125,
+   "width": 4.375,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "text",
+   "text": "VIP 2",
+   "y": 1.625,
+   "x": 20,
+   "font_size": 15
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 6,
+   "x": 8.875,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 9.875,
+   "x": 8.625,
+   "width": 0.75,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 4.5,
+   "x": 15.75,
+   "width": 3.75,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 5.625,
+   "x": 15.75,
+   "width": 0.375,
+   "height": 1.875,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 6.375,
+   "x": 15.75,
+   "width": 6.625,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 8.125,
+   "x": 15.75,
+   "width": 6.75,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 9,
+   "x": 19.125,
+   "width": 1.75,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 9,
+   "x": 21.75,
+   "width": 0.625,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "text",
+   "text": "TRIO 5",
+   "y": 10.5,
+   "x": 20.875,
+   "font_size": 15
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 9,
+   "x": 19.375,
+   "width": 0.375,
+   "height": 3.625,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 9,
+   "x": 13.625,
+   "width": 1.625,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 9,
+   "x": 16.25,
+   "width": 1.875,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 9,
+   "x": 16.5,
+   "width": 0.375,
+   "height": 3.625,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 9,
+   "x": 13.625,
+   "width": 0.375,
+   "height": 3.625,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "text",
+   "text": "DUO 2",
+   "y": 10.5,
+   "x": 15.125,
+   "font_size": 15
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "text",
+   "text": "TRIO 6",
+   "y": 10.5,
+   "x": 18,
+   "font_size": 15
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "text",
+   "text": "BOOTCAMP 2",
+   "y": 4.875,
+   "x": 18,
+   "font_size": 15
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "text",
+   "text": "BOOTCAMP 3",
+   "y": 7.625,
+   "x": 18,
+   "font_size": 15
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 4.5,
+   "x": 12.375,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 4.5,
+   "x": 12.375,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 5.25,
+   "x": 12.375,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 5.875,
+   "x": 12.375,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 5.625,
+   "x": 8.875,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 5.25,
+   "x": 8.875,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 4.875,
+   "x": 8.875,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 4.5,
+   "x": 8.875,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 4.125,
+   "x": 8.875,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 3.75,
+   "x": 8.875,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 3.75,
+   "x": 10,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 4.125,
+   "x": 10,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 4.5,
+   "x": 10,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 4.875,
+   "x": 10,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 5.25,
+   "x": 10,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 6.375,
+   "x": 8.875,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 9.875,
+   "x": 10.5,
+   "width": 0.375,
+   "height": 2.75,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 10,
+   "x": 12.125,
+   "width": 0.375,
+   "height": 2.625,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "text",
+   "text": "WC",
+   "y": 11,
+   "x": 12.625,
+   "font_size": 15
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "text",
+   "text": "WC",
+   "y": 11,
+   "x": 11.125,
+   "font_size": 15
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "text",
+   "text": "SOLO",
+   "y": 10.375,
+   "x": 9.125,
+   "font_size": 15
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 21.375,
+   "x": 11.375,
+   "width": 0.375,
+   "height": 2.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 6.75,
+   "x": 8.875,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 6.375,
+   "x": 10,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 5.625,
+   "x": 10,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 6,
+   "x": 10,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 7.125,
+   "x": 8.875,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "text",
+   "text": "ПРОСИМ БРОНИРОВАТЬ ПК С ЗАПАСОМ,\nПРОДЛЕНИЕ ВРЕМЕНИ НЕВОЗМОЖНО,\nЕСЛИ ВАШ ПК ЗАБРОНИРОВАН ДРУГИМ ГОСТЕМ.",
+   "y": 12.75,
+   "x": 11.375,
+   "font_size": 15
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "text",
+   "text": "STAFF",
+   "y": 25.125,
+   "x": 9.625,
+   "font_size": 15
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "text",
+   "text": "MAIN \n\nASUS 380hz \nLogitech Superlight 2",
+   "y": 19.125,
+   "x": 22.5,
+   "font_size": 15
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "text",
+   "text": "VIP 1\n\nASUS 380hz \nLogitech Superlight 2",
+   "y": 15.125,
+   "x": 22.5,
+   "font_size": 15
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "text",
+   "text": "TRIO 1\n\nASUS 540hz\nZOWIE S2-DW",
+   "y": 24.5,
+   "x": 22.5,
+   "font_size": 15
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "text",
+   "text": "TRIO 2\n\nASUS 540hz\n Logitech G PRO X2 Superstrike",
+   "y": 27.125,
+   "x": 16.625,
+   "font_size": 15
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 18.875,
+   "x": 22.25,
+   "width": 4,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 18.875,
+   "x": 26,
+   "width": 0.25,
+   "height": 2.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 21,
+   "x": 22.25,
+   "width": 4,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 19.75,
+   "x": 22.25,
+   "width": 4,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 26.75,
+   "x": 21.75,
+   "width": 0.25,
+   "height": 2.5,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 26.75,
+   "x": 16.375,
+   "width": 0.25,
+   "height": 2.5,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 29,
+   "x": 16.375,
+   "width": 5.625,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 27.75,
+   "x": 16.375,
+   "width": 5.625,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 25,
+   "x": 22.25,
+   "width": 2.875,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 24.25,
+   "x": 24.875,
+   "width": 0.25,
+   "height": 2.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 26.375,
+   "x": 22.25,
+   "width": 2.875,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 24.25,
+   "x": 22.25,
+   "width": 2.875,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 17,
+   "x": 22.125,
+   "width": 4.125,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 14.875,
+   "x": 26,
+   "width": 0.25,
+   "height": 2.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 14.875,
+   "x": 22.125,
+   "width": 4.125,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 15.625,
+   "x": 22.125,
+   "width": 4.125,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "text",
+   "text": "DUO 1\n\nDELL 500hz\nLogitech G PRO X2 Superstrike",
+   "y": 27.125,
+   "x": 11,
+   "font_size": 15
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 26.875,
+   "x": 16,
+   "width": 0.25,
+   "height": 2.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 29,
+   "x": 10.75,
+   "width": 5.5,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 26.875,
+   "x": 10.75,
+   "width": 0.25,
+   "height": 2.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 27.75,
+   "x": 10.75,
+   "width": 5.5,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 2.625,
+   "x": 3.25,
+   "width": 5.5,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "text",
+   "text": "TRIO 3\n\nASUS 540hz\nLogitech G PRO X2 Superstrike",
+   "y": 0.75,
+   "x": 3.5,
+   "font_size": 15
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 0.5,
+   "x": 3.25,
+   "width": 0.25,
+   "height": 2.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 0.5,
+   "x": 3.25,
+   "width": 5.5,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 1.25,
+   "x": 3.375,
+   "width": 5.375,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 5,
+   "x": 22.25,
+   "width": 5.5,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "text",
+   "text": "BOOTCAMP 2-3\n\nZOWIE 400hz\nLogitech G PRO X2 Superstrike\nLogitech G PRO X2 lightspeed\nLogitech G740",
+   "y": 5.25,
+   "x": 22.5,
+   "font_size": 15
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 5.75,
+   "x": 22.25,
+   "width": 5.5,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 5,
+   "x": 27.5,
+   "width": 0.25,
+   "height": 3,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 7.75,
+   "x": 22.25,
+   "width": 5.5,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "text",
+   "text": "BOOTCAMP 1\n\nDELL 500hz\nLogitech G PRO X2 Superstrike",
+   "y": 3.75,
+   "x": 3.5,
+   "font_size": 15
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 3.5,
+   "x": 3.25,
+   "width": 5.5,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 3.5,
+   "x": 3.25,
+   "width": 0.25,
+   "height": 2.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 4.25,
+   "x": 3.25,
+   "width": 5.5,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 5.5,
+   "x": 3.25,
+   "width": 5.5,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 2.875,
+   "x": 22.25,
+   "width": 5.375,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "text",
+   "text": "DUO 2\n\nDELL 500hz\nZOWIE FK2-DW",
+   "y": 9.25,
+   "x": 22.5,
+   "font_size": 15
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "text",
+   "text": "1 ЭТАЖ",
+   "y": 21.5,
+   "x": 13.5,
+   "font_size": 15
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "text",
+   "text": "2 ЭТАЖ",
+   "y": 6.75,
+   "x": 13.375,
+   "font_size": 15
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 14.125,
+   "x": 8.5,
+   "width": 14,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 14.25,
+   "x": 22.125,
+   "width": 0.375,
+   "height": 12.875,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 14.125,
+   "x": 8.5,
+   "width": 0.375,
+   "height": 13,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 23.25,
+   "x": 15.25,
+   "width": 0.375,
+   "height": 0.875,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 23.25,
+   "x": 15.25,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 9.875,
+   "x": 22.25,
+   "width": 3,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 9,
+   "x": 22.125,
+   "width": 3.125,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 9,
+   "x": 25,
+   "width": 0.25,
+   "height": 2.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 11.125,
+   "x": 22.25,
+   "width": 3,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "text",
+   "text": "TRIO 6\n\nASUS 540hz\nLogitech G PRO X2 Superstrike",
+   "y": 9.25,
+   "x": 25.25,
+   "font_size": 15
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 9,
+   "x": 25,
+   "width": 5.5,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "text",
+   "text": "TRIO 5\n\nASUS 540hz\nRazer Viper V3 Pro",
+   "y": 11.375,
+   "x": 25.5,
+   "font_size": 15
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 11.125,
+   "x": 25,
+   "width": 5.5,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 9,
+   "x": 30.25,
+   "width": 0.25,
+   "height": 2.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 11.125,
+   "x": 28.75,
+   "width": 0.25,
+   "height": 2.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 9.875,
+   "x": 25,
+   "width": 5.5,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "text",
+   "text": "VIP 2\n\nASUS 380hz\nLAMZU Maya X",
+   "y": 1.125,
+   "x": 24.875,
+   "font_size": 15
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "text",
+   "text": "TRIO 4\n\nASUS 540hz\nZOWIE U2",
+   "y": 1.125,
+   "x": 22.5,
+   "font_size": 15
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 0.875,
+   "x": 22.25,
+   "width": 5.375,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 0.875,
+   "x": 27.375,
+   "width": 0.25,
+   "height": 2.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 0.875,
+   "x": 24.625,
+   "width": 0.25,
+   "height": 2.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 1.625,
+   "x": 22.25,
+   "width": 5.375,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "text",
+   "text": "SOLO\nRyzen 7 9800x3d - 4070TI Super\n\nZOWIE 600hz + ASUS 280hz\nLogitech G PRO X2 Superstrike\nWLMOUSE Beast X\nWooting 80HE\n\nCougar TERMINATOR Elite",
+   "y": 8.625,
+   "x": 3.25,
+   "font_size": 15
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 9.5,
+   "x": 3,
+   "width": 5.75,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 8.5,
+   "x": 3,
+   "width": 5.75,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 8.5,
+   "x": 3,
+   "width": 0.25,
+   "height": 4.125,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 12.375,
+   "x": 3,
+   "width": 5.875,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 12.5,
+   "x": 11,
+   "width": 0.25,
+   "height": 1.875,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 12.5,
+   "x": 19.625,
+   "width": 0.25,
+   "height": 1.875,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "text",
+   "text": ">>>",
+   "y": 13.125,
+   "x": 9.75,
+   "font_size": 15
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "text",
+   "text": ">>>",
+   "y": 13.125,
+   "x": 9.125,
+   "font_size": 15
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "text",
+   "text": ">>>",
+   "y": 13.125,
+   "x": 10.375,
+   "font_size": 15
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "text",
+   "text": "<<<",
+   "y": 13.125,
+   "x": 19.875,
+   "font_size": 15
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "text",
+   "text": "<<<",
+   "y": 13.125,
+   "x": 21.125,
+   "font_size": 15
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "text",
+   "text": "<<<",
+   "y": 13.125,
+   "x": 20.5,
+   "font_size": 15
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 2.5,
+   "x": 12,
+   "width": 0.25,
+   "height": 1.125,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 2.375,
+   "x": 13,
+   "width": 1.25,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 3.375,
+   "x": 17.125,
+   "width": 1.25,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 3.5,
+   "x": 18.625,
+   "width": 0.25,
+   "height": 1.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 4.625,
+   "x": 15.875,
+   "width": 0.25,
+   "height": 1.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 7.125,
+   "x": 15.875,
+   "width": 0.25,
+   "height": 1.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 10,
+   "x": 9,
+   "width": 1.25,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 9.875,
+   "x": 10,
+   "width": 3.875,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 9.125,
+   "x": 14.875,
+   "width": 1.75,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 9.125,
+   "x": 17.75,
+   "width": 1.75,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 9.125,
+   "x": 20.5,
+   "width": 1.5,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 15.375,
+   "x": 16.875,
+   "width": 0.25,
+   "height": 1.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 23.375,
+   "x": 16,
+   "width": 1.375,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 23.375,
+   "x": 18.25,
+   "width": 1.875,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 23.375,
+   "x": 20.875,
+   "width": 1.375,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 17.5,
+   "x": 12,
+   "width": 3.375,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 17.5,
+   "x": 15.125,
+   "width": 0.25,
+   "height": 2.875,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 11.125,
+   "x": 25,
+   "width": 0.25,
+   "height": 2.375,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 13.25,
+   "x": 25,
+   "width": 4,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "tablet",
+   "scheme_type": "block",
+   "y": 11.875,
+   "x": 25,
+   "width": 4,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "UUID": "982DBC41-81A7-B4C2-0AD8-41AB6178230F",
+   "text": "11",
+   "color": "#ff7100",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 17.875,
+   "x": 17.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 11,
+    "name": "11",
+    "number": null
+   }
+  },
+  {
+   "UUID": "36F70289-5A6F-0031-CE98-57558C8461AB",
+   "text": "12",
+   "color": "#ff7100",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 17.875,
+   "x": 18.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 12,
+    "name": "12",
+    "number": null
+   }
+  },
+  {
+   "UUID": "8F25CAB8-8C96-F289-8109-73F10D5CEEB6",
+   "text": "14",
+   "color": "#ff7100",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 17.875,
+   "x": 20.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 13,
+    "name": "14",
+    "number": null
+   }
+  },
+  {
+   "UUID": "27599C9D-5647-DBEF-1A74-D5FFA9881E50",
+   "text": "15",
+   "color": "#ff7100",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 17.875,
+   "x": 21.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 14,
+    "name": "15",
+    "number": null
+   }
+  },
+  {
+   "UUID": "B1D69F64-9961-D66E-D351-21B7ED21A355",
+   "text": "16",
+   "color": "#ff7100",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 19.625,
+   "x": 21.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 15,
+    "name": "16",
+    "number": null
+   }
+  },
+  {
+   "UUID": "9EAB8D3E-9384-3F6D-466F-2F06AE3D04F2",
+   "text": "17",
+   "color": "#ff7100",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 19.625,
+   "x": 20.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 16,
+    "name": "17",
+    "number": null
+   }
+  },
+  {
+   "UUID": "11EBF417-BB87-4EC3-3D51-21C08CFC6673",
+   "text": "18",
+   "color": "#ff7100",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 19.625,
+   "x": 19.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 17,
+    "name": "18",
+    "number": null
+   }
+  },
+  {
+   "UUID": "6F0399BC-577F-6FBE-A51A-9885AF8C08C3",
+   "text": "19",
+   "color": "#ff7100",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 19.625,
+   "x": 18.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 18,
+    "name": "19",
+    "number": null
+   }
+  },
+  {
+   "UUID": "31F484FF-7252-5C3C-032A-7B833E63B05A",
+   "text": "20",
+   "color": "#ff7100",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 19.625,
+   "x": 17.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 19,
+    "name": "20",
+    "number": null
+   }
+  },
+  {
+   "UUID": "C321150D-1391-E319-D29E-556EFE682EC3",
+   "text": "13",
+   "color": "#ff7100",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 17.875,
+   "x": 19.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 20,
+    "name": "13",
+    "number": null
+   }
+  },
+  {
+   "UUID": "368901D2-0114-C12A-AF88-A81080477FE6",
+   "text": "21",
+   "color": "#ff7100",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 20.625,
+   "x": 17.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 21,
+    "name": "21",
+    "number": null
+   }
+  },
+  {
+   "UUID": "25E04AEC-4503-564B-D843-9E9DAEF76F69",
+   "text": "22",
+   "color": "#ff7100",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 20.625,
+   "x": 18.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 22,
+    "name": "22",
+    "number": null
+   }
+  },
+  {
+   "UUID": "92BD3948-A0E2-F7BD-DC1C-2F5406E220EE",
+   "text": "23",
+   "color": "#ff7100",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 20.625,
+   "x": 19.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 23,
+    "name": "23",
+    "number": null
+   }
+  },
+  {
+   "UUID": "230311FE-B24F-8A16-D3FF-CBED46007C10",
+   "text": "24",
+   "color": "#ff7100",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 20.625,
+   "x": 20.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 24,
+    "name": "24",
+    "number": null
+   }
+  },
+  {
+   "UUID": "CFB40B38-A0B1-1E1A-1534-EDA2C4E319F4",
+   "text": "25",
+   "color": "#ff7100",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 20.625,
+   "x": 21.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 25,
+    "name": "25",
+    "number": null
+   }
+  },
+  {
+   "UUID": "4430B64D-B6B2-E970-68EB-FED1CE214186",
+   "text": "01",
+   "color": "#006035",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 14.375,
+   "x": 17.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 2,
+    "name": "01",
+    "number": null
+   }
+  },
+  {
+   "UUID": "72F866A7-078E-4CB5-17D2-21C7F28EADB9",
+   "text": "02",
+   "color": "#006035",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 14.375,
+   "x": 18.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 3,
+    "name": "02",
+    "number": null
+   }
+  },
+  {
+   "UUID": "03FBAC01-8604-C6AD-3CEE-1403D977BD49",
+   "text": "03",
+   "color": "#006035",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 14.375,
+   "x": 19.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 4,
+    "name": "03",
+    "number": null
+   }
+  },
+  {
+   "UUID": "C80EA0AC-5781-A43A-04F6-DB1AF7B6E48D",
+   "text": "05",
+   "color": "#006035",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 14.375,
+   "x": 21.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 5,
+    "name": "05",
+    "number": null
+   }
+  },
+  {
+   "UUID": "4B1260EA-5A2D-365B-7B69-8174EB1D32EC",
+   "text": "06",
+   "color": "#006035",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 16.5,
+   "x": 21.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 6,
+    "name": "06",
+    "number": null
+   }
+  },
+  {
+   "UUID": "40E4316C-8553-E03F-DF1A-ECBF602A4722",
+   "text": "07",
+   "color": "#006035",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 16.5,
+   "x": 20.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 7,
+    "name": "07",
+    "number": null
+   }
+  },
+  {
+   "UUID": "CA05B9B5-5D88-1B95-EAD3-0B2FBFD67CA8",
+   "text": "08",
+   "color": "#006035",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 16.5,
+   "x": 19.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 8,
+    "name": "08",
+    "number": null
+   }
+  },
+  {
+   "UUID": "EB869A29-EDCE-1B45-4B3F-7F033A7D0D5D",
+   "text": "09",
+   "color": "#006035",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 16.5,
+   "x": 18.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 9,
+    "name": "09",
+    "number": null
+   }
+  },
+  {
+   "UUID": "DAB50710-F27E-F9A3-AF4E-A747044F1298",
+   "text": "04",
+   "color": "#006035",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 14.375,
+   "x": 20.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 10,
+    "name": "04",
+    "number": null
+   }
+  },
+  {
+   "UUID": "CCDF4A07-0843-3AE5-EE2A-BAB5B7EEE80E",
+   "text": "45",
+   "color": "#006035",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 2.375,
+   "x": 18.875,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "uuid": "CCDF4A07-0843-3AE5-EE2A-BAB5B7EEE80E",
+   "client": {
+    "id": 43,
+    "name": "45",
+    "number": ""
+   }
+  },
+  {
+   "UUID": "6AE93CF2-5CC8-4AC4-6703-C5FEFA24D953",
+   "text": "46",
+   "color": "#006035",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 1.375,
+   "x": 18.875,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 44,
+    "name": "46",
+    "number": null
+   }
+  },
+  {
+   "UUID": "E230D2D9-13C6-C482-0C9E-15A73B120210",
+   "text": "48",
+   "color": "#006035",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 0.375,
+   "x": 21.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 45,
+    "name": "48",
+    "number": null
+   }
+  },
+  {
+   "UUID": "571F12AB-092E-68BA-6050-7CD4AA866AA4",
+   "text": "49",
+   "color": "#006035",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 1.375,
+   "x": 21.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 46,
+    "name": "49",
+    "number": null
+   }
+  },
+  {
+   "UUID": "BAB3FFD6-0D4B-D108-9455-BCEB9615665F",
+   "text": "50",
+   "color": "#006035",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 2.375,
+   "x": 21.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 47,
+    "name": "50",
+    "number": null
+   }
+  },
+  {
+   "UUID": "12A5D814-D55F-67D1-1F09-093D6423DBD7",
+   "text": "51",
+   "color": "#006035",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 3.375,
+   "x": 21.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 48,
+    "name": "51",
+    "number": null
+   }
+  },
+  {
+   "UUID": "59DE87D4-3847-B7E4-4905-07AB761D40FE",
+   "text": "10",
+   "color": "#006035",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 16.5,
+   "x": 17.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 67,
+    "name": "10",
+    "number": null
+   }
+  },
+  {
+   "UUID": "DDF0AB89-F8F1-0440-8F05-3B50EC8A8365",
+   "text": "47",
+   "color": "#006035",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 0.375,
+   "x": 18.875,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 69,
+    "name": "47",
+    "number": null
+   }
+  },
+  {
+   "UUID": "D287A36D-3916-84D7-C62D-E750470DD631",
+   "text": "39",
+   "color": "#313eff",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 0.375,
+   "x": 14.875,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 1,
+    "name": "39",
+    "number": null
+   }
+  },
+  {
+   "UUID": "3A393C71-7E5E-AD66-0C46-57CCE0977E9D",
+   "text": "37",
+   "color": "#313eff",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 1.375,
+   "x": 12.25,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 37,
+    "name": "37",
+    "number": null
+   }
+  },
+  {
+   "UUID": "7162EF46-85EF-E723-0426-EEE76B29AA43",
+   "text": "38",
+   "color": "#313eff",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 0.375,
+   "x": 12.25,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 38,
+    "name": "38",
+    "number": null
+   }
+  },
+  {
+   "UUID": "46E53254-CC3E-EC48-3CED-068EAAE14BAA",
+   "text": "41",
+   "color": "#313eff",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 2.25,
+   "x": 14.875,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 39,
+    "name": "41",
+    "number": null
+   }
+  },
+  {
+   "UUID": "8B175CB1-7141-0956-21F8-66F1C9ED8082",
+   "text": "52",
+   "color": "#313eff",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 5.5,
+   "x": 20.875,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 49,
+    "name": "52",
+    "number": null
+   }
+  },
+  {
+   "UUID": "2D8D19A5-4517-DAA5-7060-50AF7B73A3E2",
+   "text": "53",
+   "color": "#313eff",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 5.5,
+   "x": 19.875,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 50,
+    "name": "53",
+    "number": null
+   }
+  },
+  {
+   "UUID": "E7D42D55-FE56-C5CB-D5A5-E5952A483E93",
+   "text": "54",
+   "color": "#313eff",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 5.5,
+   "x": 18.875,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 51,
+    "name": "54",
+    "number": null
+   }
+  },
+  {
+   "UUID": "E34AE66E-7329-A2C4-DE3C-0F366ADCD5F4",
+   "text": "55",
+   "color": "#313eff",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 5.5,
+   "x": 17.875,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 52,
+    "name": "55",
+    "number": null
+   }
+  },
+  {
+   "UUID": "F9F4098E-2560-D7C4-AF6C-FBBCE2388187",
+   "text": "56",
+   "color": "#313eff",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 5.5,
+   "x": 16.875,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 53,
+    "name": "56",
+    "number": null
+   }
+  },
+  {
+   "UUID": "BBE2604C-402E-2A0E-A5E9-B3D158759297",
+   "text": "57",
+   "color": "#313eff",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 6.625,
+   "x": 20.875,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "uuid": "BBE2604C-402E-2A0E-A5E9-B3D158759297",
+   "client": {
+    "id": 54,
+    "name": "57",
+    "number": null
+   }
+  },
+  {
+   "UUID": "DCC7585A-4672-A3B8-41D5-AEAAAEAD63C0",
+   "text": "59",
+   "color": "#313eff",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 6.625,
+   "x": 18.875,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 55,
+    "name": "59",
+    "number": null
+   }
+  },
+  {
+   "UUID": "E0D4B0B2-DDEB-A4AB-8A5E-80F7854F62E7",
+   "text": "60",
+   "color": "#313eff",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 6.625,
+   "x": 17.875,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 56,
+    "name": "60",
+    "number": null
+   }
+  },
+  {
+   "UUID": "EEDD5212-1283-1B48-194C-512E49A8C4C9",
+   "text": "58",
+   "color": "#313eff",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 6.625,
+   "x": 19.875,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 57,
+    "name": "58",
+    "number": null
+   }
+  },
+  {
+   "UUID": "81D67EFB-5750-5026-8BD1-84E6BFAA5ADD",
+   "text": "61",
+   "color": "#313eff",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 6.625,
+   "x": 16.875,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 58,
+    "name": "61",
+    "number": null
+   }
+  },
+  {
+   "UUID": "FA7D7590-FBEF-88A2-5158-F6498FDD3CFA",
+   "text": "40",
+   "color": "#313eff",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 1.25,
+   "x": 14.875,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 68,
+    "name": "40",
+    "number": null
+   }
+  },
+  {
+   "UUID": "36BCB48C-5A5C-E5A6-9AE9-903E33301E8C",
+   "text": "26",
+   "color": "#8d1bff",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 25.75,
+   "x": 20,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 26,
+    "name": "26",
+    "number": null
+   }
+  },
+  {
+   "UUID": "F1979E3F-4075-3423-C9CA-65948AC93085",
+   "text": "27",
+   "color": "#8d1bff",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 24.75,
+   "x": 20,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 27,
+    "name": "27",
+    "number": null
+   }
+  },
+  {
+   "UUID": "2EE7E5EE-8C1A-9397-4933-E04C76858064",
+   "text": "28",
+   "color": "#8d1bff",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 23.625,
+   "x": 20,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 28,
+    "name": "28",
+    "number": null
+   }
+  },
+  {
+   "UUID": "E3D4B510-4015-AE46-85E9-0AE95BC3FC44",
+   "text": "29",
+   "color": "#8d1bff",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 25.75,
+   "x": 17.5,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 29,
+    "name": "29",
+    "number": null
+   }
+  },
+  {
+   "UUID": "2761C976-1FD0-9D2F-BE8C-73835851A099",
+   "text": "30",
+   "color": "#8d1bff",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 24.75,
+   "x": 17.5,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 30,
+    "name": "30",
+    "number": null
+   }
+  },
+  {
+   "UUID": "11B36DAE-54B6-EADF-0B02-B093DAD4C76D",
+   "text": "31",
+   "color": "#8d1bff",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 23.625,
+   "x": 17.5,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 31,
+    "name": "31",
+    "number": null
+   }
+  },
+  {
+   "UUID": "AE011BF6-7EBC-1CB7-9FEB-B575356C2C5A",
+   "text": "34",
+   "color": "#8d1bff",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 2.375,
+   "x": 8.875,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 34,
+    "name": "34",
+    "number": null
+   }
+  },
+  {
+   "UUID": "469B31A2-3943-57B5-53C7-415EC61ECC60",
+   "text": "35",
+   "color": "#8d1bff",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 1.375,
+   "x": 8.875,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 35,
+    "name": "35",
+    "number": null
+   }
+  },
+  {
+   "UUID": "A8056CB5-B566-1F7E-D54E-EEC19CC7BCE4",
+   "text": "36",
+   "color": "#8d1bff",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 0.375,
+   "x": 8.875,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 36,
+    "name": "36",
+    "number": null
+   }
+  },
+  {
+   "UUID": "B2F16E89-31D3-F0D3-1294-22849BAF2570",
+   "text": "42",
+   "color": "#8d1bff",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 2.375,
+   "x": 16.25,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 40,
+    "name": "42",
+    "number": null
+   }
+  },
+  {
+   "UUID": "AA76AA54-ABD4-2FA6-9C72-0ECB9335CBCB",
+   "text": "43",
+   "color": "#8d1bff",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 1.375,
+   "x": 16.25,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 41,
+    "name": "43",
+    "number": null
+   }
+  },
+  {
+   "UUID": "F22648E9-5160-6758-79F7-9ED9C5CE7AAE",
+   "text": "44",
+   "color": "#8d1bff",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 0.375,
+   "x": 16.25,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 42,
+    "name": "44",
+    "number": null
+   }
+  },
+  {
+   "UUID": "518A8ECC-24D8-9CAD-43DF-647C71E925BB",
+   "text": "63",
+   "color": "#8d1bff",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 10.375,
+   "x": 19.75,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 59,
+    "name": "63",
+    "number": null
+   }
+  },
+  {
+   "UUID": "5037ED7D-0BEB-05B4-9124-81D38513AD32",
+   "text": "64",
+   "color": "#8d1bff",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 9.375,
+   "x": 19.75,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 60,
+    "name": "64",
+    "number": null
+   }
+  },
+  {
+   "UUID": "4D6D3624-FFBB-4046-7C0D-1D981D401874",
+   "text": "65",
+   "color": "#8d1bff",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 11.375,
+   "x": 16.875,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 61,
+    "name": "65",
+    "number": null
+   }
+  },
+  {
+   "UUID": "1623A8B6-752D-F901-E38F-9DF4F23AB7CD",
+   "text": "66",
+   "color": "#8d1bff",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 10.375,
+   "x": 16.875,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 62,
+    "name": "66",
+    "number": null
+   }
+  },
+  {
+   "UUID": "0C68319B-7F5C-0D90-3B8E-85205D2AF04F",
+   "text": "67",
+   "color": "#8d1bff",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 9.375,
+   "x": 16.875,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 63,
+    "name": "67",
+    "number": null
+   }
+  },
+  {
+   "UUID": "710247C6-A5F1-8704-DF28-B40DE30412ED",
+   "text": "62",
+   "color": "#8d1bff",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 11.375,
+   "x": 19.75,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 66,
+    "name": "62",
+    "number": null
+   }
+  },
+  {
+   "UUID": "1B18412E-E3D2-909E-B6C6-4607BBAA220D",
+   "text": "32",
+   "color": "#ff20b4",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 25.375,
+   "x": 14.875,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 32,
+    "name": "32",
+    "number": null
+   }
+  },
+  {
+   "UUID": "273FEEF1-885F-3F53-91A9-6D853830CBF3",
+   "text": "33",
+   "color": "#ff20b4",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 24.375,
+   "x": 14.875,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 33,
+    "name": "33",
+    "number": null
+   }
+  },
+  {
+   "UUID": "9D09EB7C-D4F9-7671-BF9B-CD5D1151F654",
+   "text": "69",
+   "color": "#ff20b4",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 9.75,
+   "x": 14,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 64,
+    "name": "69",
+    "number": null
+   }
+  },
+  {
+   "UUID": "FA3E5492-49AB-ECAF-EF08-C457B3D87FDD",
+   "text": "68",
+   "color": "#ff20b4",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 10.75,
+   "x": 14,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 70,
+    "name": "68",
+    "number": null
+   }
+  },
+  {
+   "UUID": "4FCDC2D8-10F8-FD4E-8F58-33A27E2E1F53",
+   "text": "70",
+   "color": "#B00000",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 11.125,
+   "x": 9.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 65,
+    "name": "70",
+    "number": null
+   }
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "settings_config",
+   "relative_max_width": 32.27,
+   "relative_max_height": 29.55,
+   "item_width": 44,
+   "item_height": 44,
+   "item_padding_horizontal": 4,
+   "item_padding_vertical": 4,
+   "default_border_radius": 8,
+   "light_theme": {
+    "seat": {
+     "busy": {
+      "border_color": "#8D8D8D",
+      "background_color": "#8D8D8D",
+      "text_color": "#000000"
+     },
+     "unselected": {
+      "border_color": "#DBDBD9",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000"
+     },
+     "selected": {
+      "border_color": null,
+      "background_color": null,
+      "text_color": null
+     }
+    },
+    "block_color": "#000000",
+    "text_color": "#000000"
+   },
+   "dark_theme": {
+    "seat": {
+     "busy": {
+      "border_color": "#8D8D8D",
+      "background_color": "#8D8D8D",
+      "text_color": "#000000"
+     },
+     "unselected": {
+      "border_color": "#DBDBD9",
+      "background_color": "#FFFFFF",
+      "text_color": "#000000"
+     },
+     "selected": {
+      "border_color": null,
+      "background_color": null,
+      "text_color": null
+     }
+    },
+    "block_color": "#FFFFFF",
+    "text_color": "#FFFFFF"
+   }
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 0,
+   "x": 8.5,
+   "width": 0.375,
+   "height": 12.75,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 14.25,
+   "x": 16.75,
+   "width": 0.375,
+   "height": 1.5,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 0,
+   "x": 8.5,
+   "width": 14,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 0,
+   "x": 22.125,
+   "width": 0.375,
+   "height": 12.75,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 16.375,
+   "x": 16.75,
+   "width": 0.375,
+   "height": 1.5,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 17.5,
+   "x": 16.75,
+   "width": 5.75,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 23.25,
+   "x": 19.5,
+   "width": 1.75,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 23.25,
+   "x": 21.875,
+   "width": 0.625,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 23.25,
+   "x": 19.625,
+   "width": 0.375,
+   "height": 3.75,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 23.25,
+   "x": 17,
+   "width": 1.75,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 12.375,
+   "x": 8.5,
+   "width": 7.375,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "text",
+   "text": "WC",
+   "y": 24.875,
+   "x": 12,
+   "font_size": 15
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "text",
+   "text": "☾",
+   "y": 24.875,
+   "x": 13.75,
+   "font_size": 15
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 23.25,
+   "x": 17.125,
+   "width": 0.375,
+   "height": 3.75,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 12.375,
+   "x": 17.375,
+   "width": 3,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 26.75,
+   "x": 8.5,
+   "width": 14,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "text",
+   "text": "SMOKE ROOM",
+   "y": 14.625,
+   "x": 13.875,
+   "font_size": 15
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "text",
+   "text": "EXIT",
+   "y": 14.625,
+   "x": 10.5,
+   "font_size": 15
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 12.375,
+   "x": 19.5,
+   "width": 3,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "text",
+   "text": "VIP 1",
+   "y": 15.625,
+   "x": 19.125,
+   "font_size": 15
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "text",
+   "text": "MAIN",
+   "y": 19.625,
+   "x": 15.875,
+   "font_size": 15
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "text",
+   "text": "TRIO 1",
+   "y": 25,
+   "x": 21,
+   "font_size": 15
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "text",
+   "text": "TRIO 2",
+   "y": 25,
+   "x": 18.5,
+   "font_size": 15
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "text",
+   "text": "DUO 1",
+   "y": 25,
+   "x": 16,
+   "font_size": 15
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 23.875,
+   "x": 8.625,
+   "width": 3,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 24,
+   "x": 14.5,
+   "width": 0.375,
+   "height": 3.125,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 12.375,
+   "x": 15.375,
+   "width": 2.75,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 23.875,
+   "x": 11,
+   "width": 4.625,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 24.375,
+   "x": 11.375,
+   "width": 0.375,
+   "height": 2.625,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 23.875,
+   "x": 13,
+   "width": 0.375,
+   "height": 3.125,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "text",
+   "text": "STAFF",
+   "y": 22.5,
+   "x": 9.625,
+   "font_size": 15
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 23.25,
+   "x": 11.375,
+   "width": 0.375,
+   "height": 2,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 21.25,
+   "x": 8.5,
+   "width": 3.75,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 15.375,
+   "x": 8.625,
+   "width": 8.5,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 14.125,
+   "x": 12.875,
+   "width": 0.375,
+   "height": 1.5,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 17.375,
+   "x": 11.875,
+   "width": 0.375,
+   "height": 4.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "admin_panel",
+   "text": "СТОЙКА\nАДМИНИСТРАТОРА",
+   "y": 17.875,
+   "x": 12.25
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 17.875,
+   "x": 8.75,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 17.5,
+   "x": 8.75,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 18.25,
+   "x": 8.75,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 18.625,
+   "x": 8.75,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 19,
+   "x": 8.75,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 19.375,
+   "x": 8.75,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 19.75,
+   "x": 8.75,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 20.125,
+   "x": 8.75,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 20.5,
+   "x": 9.875,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 20.875,
+   "x": 9.875,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 20.875,
+   "x": 8.75,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 20.5,
+   "x": 8.75,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 19.75,
+   "x": 9.875,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 19.375,
+   "x": 9.875,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 19,
+   "x": 9.875,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 18.625,
+   "x": 9.875,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 18.25,
+   "x": 9.875,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 20.125,
+   "x": 9.875,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 3.375,
+   "x": 8.625,
+   "width": 3.875,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "text",
+   "text": "TRIO 3",
+   "y": 1.625,
+   "x": 10.125,
+   "font_size": 15
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 0,
+   "x": 11.875,
+   "width": 0.375,
+   "height": 2.75,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 2.375,
+   "x": 11.875,
+   "width": 1.5,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 3.375,
+   "x": 14.5,
+   "width": 1.75,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 0.125,
+   "x": 15.875,
+   "width": 0.375,
+   "height": 3.5,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "text",
+   "text": "BOOTCAMP 1",
+   "y": 2.75,
+   "x": 12.125,
+   "font_size": 15
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 2.375,
+   "x": 14.375,
+   "width": 0.375,
+   "height": 1.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 2.375,
+   "x": 14,
+   "width": 0.75,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 3.375,
+   "x": 15.875,
+   "width": 1.625,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 0,
+   "x": 18.5,
+   "width": 0.375,
+   "height": 3.75,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "text",
+   "text": "TRIO 4",
+   "y": 1.625,
+   "x": 17.25,
+   "font_size": 15
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 3.375,
+   "x": 18.125,
+   "width": 0.75,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 3.375,
+   "x": 12.125,
+   "width": 0.375,
+   "height": 4.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 4.5,
+   "x": 18.125,
+   "width": 4.375,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "text",
+   "text": "VIP 2",
+   "y": 1.625,
+   "x": 20,
+   "font_size": 15
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 6,
+   "x": 8.875,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 9.875,
+   "x": 8.625,
+   "width": 0.75,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 4.5,
+   "x": 15.75,
+   "width": 3.75,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 5.625,
+   "x": 15.75,
+   "width": 0.375,
+   "height": 1.875,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 6.375,
+   "x": 15.75,
+   "width": 6.625,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 8.125,
+   "x": 15.75,
+   "width": 6.75,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 9,
+   "x": 19.125,
+   "width": 1.75,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 9,
+   "x": 21.75,
+   "width": 0.625,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "text",
+   "text": "TRIO 5",
+   "y": 10.5,
+   "x": 20.875,
+   "font_size": 15
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 9,
+   "x": 19.375,
+   "width": 0.375,
+   "height": 3.625,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 9,
+   "x": 13.625,
+   "width": 1.625,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 9,
+   "x": 16.25,
+   "width": 1.875,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 9,
+   "x": 16.5,
+   "width": 0.375,
+   "height": 3.625,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 9,
+   "x": 13.625,
+   "width": 0.375,
+   "height": 3.625,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "text",
+   "text": "DUO 2",
+   "y": 10.5,
+   "x": 15.125,
+   "font_size": 15
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "text",
+   "text": "TRIO 6",
+   "y": 10.5,
+   "x": 18,
+   "font_size": 15
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "text",
+   "text": "BOOTCAMP 2",
+   "y": 4.875,
+   "x": 18,
+   "font_size": 15
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "text",
+   "text": "BOOTCAMP 3",
+   "y": 7.625,
+   "x": 18,
+   "font_size": 15
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 4.5,
+   "x": 12.375,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 4.5,
+   "x": 12.375,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 5.25,
+   "x": 12.375,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 5.875,
+   "x": 12.375,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 5.625,
+   "x": 8.875,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 5.25,
+   "x": 8.875,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 4.875,
+   "x": 8.875,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 4.5,
+   "x": 8.875,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 4.125,
+   "x": 8.875,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 3.75,
+   "x": 8.875,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 3.75,
+   "x": 10,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 4.125,
+   "x": 10,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 4.5,
+   "x": 10,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 4.875,
+   "x": 10,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 5.25,
+   "x": 10,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 6.375,
+   "x": 8.875,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 9.875,
+   "x": 10.5,
+   "width": 0.375,
+   "height": 2.75,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 10,
+   "x": 12.125,
+   "width": 0.375,
+   "height": 2.625,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "text",
+   "text": "WC",
+   "y": 11,
+   "x": 12.625,
+   "font_size": 15
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "text",
+   "text": "WC",
+   "y": 11,
+   "x": 11.125,
+   "font_size": 15
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "text",
+   "text": "SOLO",
+   "y": 10.375,
+   "x": 9.125,
+   "font_size": 15
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 21.375,
+   "x": 11.375,
+   "width": 0.375,
+   "height": 2.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 6.75,
+   "x": 8.875,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 6.375,
+   "x": 10,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 5.625,
+   "x": 10,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 6,
+   "x": 10,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 7.125,
+   "x": 8.875,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "text",
+   "text": "ПРОСИМ БРОНИРОВАТЬ ПК С ЗАПАСОМ,\nПРОДЛЕНИЕ ВРЕМЕНИ НЕВОЗМОЖНО,\nЕСЛИ ВАШ ПК ЗАБРОНИРОВАН ДРУГИМ ГОСТЕМ.",
+   "y": 12.75,
+   "x": 11.375,
+   "font_size": 15
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "text",
+   "text": "STAFF",
+   "y": 25.125,
+   "x": 9.625,
+   "font_size": 15
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "text",
+   "text": "MAIN \n\nASUS 380hz \nLogitech Superlight 2",
+   "y": 19.125,
+   "x": 22.5,
+   "font_size": 15
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "text",
+   "text": "VIP 1\n\nASUS 380hz \nLogitech Superlight 2",
+   "y": 15.125,
+   "x": 22.5,
+   "font_size": 15
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "text",
+   "text": "TRIO 1\n\nASUS 540hz\nZOWIE S2-DW",
+   "y": 24.5,
+   "x": 22.5,
+   "font_size": 15
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "text",
+   "text": "TRIO 2\n\nASUS 540hz\n Logitech G PRO X2 Superstrike",
+   "y": 27.125,
+   "x": 16.625,
+   "font_size": 15
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 18.875,
+   "x": 22.25,
+   "width": 4,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 18.875,
+   "x": 26,
+   "width": 0.25,
+   "height": 2.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 21,
+   "x": 22.25,
+   "width": 4,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 19.75,
+   "x": 22.25,
+   "width": 4,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 26.75,
+   "x": 21.75,
+   "width": 0.25,
+   "height": 2.5,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 26.75,
+   "x": 16.375,
+   "width": 0.25,
+   "height": 2.5,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 29,
+   "x": 16.375,
+   "width": 5.625,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 27.75,
+   "x": 16.375,
+   "width": 5.625,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 25,
+   "x": 22.25,
+   "width": 2.875,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 24.25,
+   "x": 24.875,
+   "width": 0.25,
+   "height": 2.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 26.375,
+   "x": 22.25,
+   "width": 2.875,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 24.25,
+   "x": 22.25,
+   "width": 2.875,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 17,
+   "x": 22.125,
+   "width": 4.125,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 14.875,
+   "x": 26,
+   "width": 0.25,
+   "height": 2.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 14.875,
+   "x": 22.125,
+   "width": 4.125,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 15.625,
+   "x": 22.125,
+   "width": 4.125,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "text",
+   "text": "DUO 1\n\nDELL 500hz\nLogitech G PRO X2 Superstrike",
+   "y": 27.125,
+   "x": 11,
+   "font_size": 15
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 26.875,
+   "x": 16,
+   "width": 0.25,
+   "height": 2.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 29,
+   "x": 10.75,
+   "width": 5.5,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 26.875,
+   "x": 10.75,
+   "width": 0.25,
+   "height": 2.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 27.75,
+   "x": 10.75,
+   "width": 5.5,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 2.625,
+   "x": 3.25,
+   "width": 5.5,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "text",
+   "text": "TRIO 3\n\nASUS 540hz\nLogitech G PRO X2 Superstrike",
+   "y": 0.75,
+   "x": 3.5,
+   "font_size": 15
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 0.5,
+   "x": 3.25,
+   "width": 0.25,
+   "height": 2.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 0.5,
+   "x": 3.25,
+   "width": 5.5,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 1.25,
+   "x": 3.375,
+   "width": 5.375,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 5,
+   "x": 22.25,
+   "width": 5.5,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "text",
+   "text": "BOOTCAMP 2-3\n\nZOWIE 400hz\nLogitech G PRO X2 Superstrike\nLogitech G PRO X2 lightspeed\nLogitech G740",
+   "y": 5.25,
+   "x": 22.5,
+   "font_size": 15
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 5.75,
+   "x": 22.25,
+   "width": 5.5,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 5,
+   "x": 27.5,
+   "width": 0.25,
+   "height": 3,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 7.75,
+   "x": 22.25,
+   "width": 5.5,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "text",
+   "text": "BOOTCAMP 1\n\nDELL 500hz\nLogitech G PRO X2 Superstrike",
+   "y": 3.75,
+   "x": 3.5,
+   "font_size": 15
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 3.5,
+   "x": 3.25,
+   "width": 5.5,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 3.5,
+   "x": 3.25,
+   "width": 0.25,
+   "height": 2.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 4.25,
+   "x": 3.25,
+   "width": 5.5,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 5.5,
+   "x": 3.25,
+   "width": 5.5,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 2.875,
+   "x": 22.25,
+   "width": 5.375,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "text",
+   "text": "DUO 2\n\nDELL 500hz\nZOWIE FK2-DW",
+   "y": 9.25,
+   "x": 22.5,
+   "font_size": 15
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "text",
+   "text": "1 ЭТАЖ",
+   "y": 21.5,
+   "x": 13.5,
+   "font_size": 15
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "text",
+   "text": "2 ЭТАЖ",
+   "y": 6.75,
+   "x": 13.375,
+   "font_size": 15
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 14.125,
+   "x": 8.5,
+   "width": 14,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 14.25,
+   "x": 22.125,
+   "width": 0.375,
+   "height": 12.875,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 14.125,
+   "x": 8.5,
+   "width": 0.375,
+   "height": 13,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 23.25,
+   "x": 15.25,
+   "width": 0.375,
+   "height": 0.875,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 23.25,
+   "x": 15.25,
+   "width": 1.125,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 9.875,
+   "x": 22.25,
+   "width": 3,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 9,
+   "x": 22.125,
+   "width": 3.125,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 9,
+   "x": 25,
+   "width": 0.25,
+   "height": 2.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 11.125,
+   "x": 22.25,
+   "width": 3,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "text",
+   "text": "TRIO 6\n\nASUS 540hz\nLogitech G PRO X2 Superstrike",
+   "y": 9.25,
+   "x": 25.25,
+   "font_size": 15
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 9,
+   "x": 25,
+   "width": 5.5,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "text",
+   "text": "TRIO 5\n\nASUS 540hz\nRazer Viper V3 Pro",
+   "y": 11.375,
+   "x": 25.5,
+   "font_size": 15
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 11.125,
+   "x": 25,
+   "width": 5.5,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 9,
+   "x": 30.25,
+   "width": 0.25,
+   "height": 2.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 11.125,
+   "x": 28.75,
+   "width": 0.25,
+   "height": 2.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 9.875,
+   "x": 25,
+   "width": 5.5,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "text",
+   "text": "VIP 2\n\nASUS 380hz\nLAMZU Maya X",
+   "y": 1.125,
+   "x": 24.875,
+   "font_size": 15
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "text",
+   "text": "TRIO 4\n\nASUS 540hz\nZOWIE U2",
+   "y": 1.125,
+   "x": 22.5,
+   "font_size": 15
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 0.875,
+   "x": 22.25,
+   "width": 5.375,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 0.875,
+   "x": 27.375,
+   "width": 0.25,
+   "height": 2.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 0.875,
+   "x": 24.625,
+   "width": 0.25,
+   "height": 2.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 1.625,
+   "x": 22.25,
+   "width": 5.375,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "text",
+   "text": "SOLO\nRyzen 7 9800x3d - 4070TI Super\n\nZOWIE 600hz + ASUS 280hz\nLogitech G PRO X2 Superstrike\nWLMOUSE Beast X\nWooting 80HE\n\nCougar TERMINATOR Elite",
+   "y": 8.625,
+   "x": 3.25,
+   "font_size": 15
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 9.5,
+   "x": 3,
+   "width": 5.75,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 8.5,
+   "x": 3,
+   "width": 5.75,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 8.5,
+   "x": 3,
+   "width": 0.25,
+   "height": 4.125,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 12.375,
+   "x": 3,
+   "width": 5.875,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 12.5,
+   "x": 11,
+   "width": 0.25,
+   "height": 1.875,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 12.5,
+   "x": 19.625,
+   "width": 0.25,
+   "height": 1.875,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "text",
+   "text": ">>>",
+   "y": 13.125,
+   "x": 9.75,
+   "font_size": 15
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "text",
+   "text": ">>>",
+   "y": 13.125,
+   "x": 9.125,
+   "font_size": 15
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "text",
+   "text": ">>>",
+   "y": 13.125,
+   "x": 10.375,
+   "font_size": 15
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "text",
+   "text": "<<<",
+   "y": 13.125,
+   "x": 19.875,
+   "font_size": 15
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "text",
+   "text": "<<<",
+   "y": 13.125,
+   "x": 21.125,
+   "font_size": 15
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "text",
+   "text": "<<<",
+   "y": 13.125,
+   "x": 20.5,
+   "font_size": 15
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 2.5,
+   "x": 12,
+   "width": 0.25,
+   "height": 1.125,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 2.375,
+   "x": 13,
+   "width": 1.25,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 3.375,
+   "x": 17.125,
+   "width": 1.25,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 3.5,
+   "x": 18.625,
+   "width": 0.25,
+   "height": 1.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 4.625,
+   "x": 15.875,
+   "width": 0.25,
+   "height": 1.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 7.125,
+   "x": 15.875,
+   "width": 0.25,
+   "height": 1.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 10,
+   "x": 9,
+   "width": 1.25,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 9.875,
+   "x": 10,
+   "width": 3.875,
+   "height": 0.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 9.125,
+   "x": 14.875,
+   "width": 1.75,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 9.125,
+   "x": 17.75,
+   "width": 1.75,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 9.125,
+   "x": 20.5,
+   "width": 1.5,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 15.375,
+   "x": 16.875,
+   "width": 0.25,
+   "height": 1.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 23.375,
+   "x": 16,
+   "width": 1.375,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 23.375,
+   "x": 18.25,
+   "width": 1.875,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 23.375,
+   "x": 20.875,
+   "width": 1.375,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 17.5,
+   "x": 12,
+   "width": 3.375,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 17.5,
+   "x": 15.125,
+   "width": 0.25,
+   "height": 2.875,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 11.125,
+   "x": 25,
+   "width": 0.25,
+   "height": 2.375,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 13.25,
+   "x": 25,
+   "width": 4,
+   "height": 0.25,
+   "border_radius": 8
+  },
+  {
+   "display": "mobile",
+   "scheme_type": "block",
+   "y": 11.875,
+   "x": 25,
+   "width": 4,
+   "height": 0.25,
+   "border_radius": 8
+  }
+ ]
+}
