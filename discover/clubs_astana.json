@@ -1,0 +1,2666 @@
+[
+{
+"id": "799457028",
+"name": "TOP GAME ANISA",
+"address": "улица Кайыма Мухамедханова, 23А",
+"pcs": 40,
+"consoles": 0,
+"price": "от 1000",
+"online": true
+},
+{
+"id": "799462308",
+"name": "Gambit",
+"address": "проспект Кабанбай батыра, 49",
+"pcs": 52,
+"consoles": 0,
+"price": "от 1300",
+"online": true
+},
+{
+"id": "799454755",
+"name": "Good Game",
+"address": "улица Сыганак, 24",
+"pcs": 47,
+"consoles": 1,
+"price": "от 1200",
+"online": true
+},
+{
+"id": "799461762",
+"name": "TOP GAME Аманжолова",
+"address": "улица Касыма Аманжолова, 24",
+"pcs": 57,
+"consoles": 0,
+"price": "от 1500",
+"online": true
+},
+{
+"id": "799461684",
+"name": "ReHub",
+"address": "улица Абикена Бектурова, 1",
+"pcs": 60,
+"consoles": 0,
+"price": "от 1200",
+"online": true
+},
+{
+"id": "799458926",
+"name": "TOPGAME DOSTYK",
+"address": "улица Достык, 1",
+"pcs": 70,
+"consoles": 0,
+"price": "от 1200",
+"online": true
+},
+{
+"id": "799458972",
+"name": "TOP GAME NEXPO TREND",
+"address": "улица Турара Рыскулова, 9А",
+"pcs": 46,
+"consoles": 0,
+"price": "от 1100",
+"online": true
+},
+{
+"id": "799462288",
+"name": "Synergy Cyberspace",
+"address": "улица Толе Би, 54",
+"pcs": 36,
+"consoles": 0,
+"price": "от 1900",
+"online": true
+},
+{
+"id": "799454805",
+"name": "SARMAT CYBERSPASE",
+"address": "улица Кайыма Мухамедханова, 17",
+"pcs": 44,
+"consoles": 0,
+"price": "от 1200",
+"online": true
+},
+{
+"id": "799460228",
+"name": "URSA MANGILIK EL",
+"address": "проспект Мангилик Ел, 41/2",
+"pcs": 59,
+"consoles": 0,
+"price": "от 1300",
+"online": true
+},
+{
+"id": "799458016",
+"name": "Goat",
+"address": "улица Алихана Бокейхана, 25Е",
+"pcs": 42,
+"consoles": 0,
+"price": "от 900",
+"online": true
+},
+{
+"id": "799455046",
+"name": "Strike Arena Astana 01",
+"address": "проспект Кабанбай Батыра, 56",
+"pcs": 43,
+"consoles": 5,
+"price": "от 1400",
+"online": true
+},
+{
+"id": "799459100",
+"name": "Millionaire",
+"address": "проспект Мангилик Ел, 54",
+"pcs": 22,
+"consoles": 0,
+"price": "от 1300",
+"online": true
+},
+{
+"id": "799458022",
+"name": "TOPGAME ARENATOWERS",
+"address": "проспект Туран, 55/5",
+"pcs": 42,
+"consoles": 0,
+"price": "от 1000",
+"online": true
+},
+{
+"id": "799459114",
+"name": "Mugiwara Cyber Zone",
+"address": "улица Аманжола Болекпаева, 4",
+"pcs": 30,
+"consoles": 2,
+"price": "от 1200",
+"online": true
+},
+{
+"id": "799458829",
+"name": "TOPGAME TRIUMPH ART",
+"address": "проспект Мангилик Ел, 40",
+"pcs": 38,
+"consoles": 0,
+"price": "от 1000",
+"online": true
+},
+{
+"id": "799460236",
+"name": "ALAN",
+"address": "улица Бухар Жырау, 19",
+"pcs": 60,
+"consoles": 0,
+"price": "от 1200",
+"online": true
+},
+{
+"id": "799460464",
+"name": "LORAN",
+"address": "улица Турара Рыскулова, 16/4",
+"pcs": 23,
+"consoles": 0,
+"price": "от 1000",
+"online": true
+},
+{
+"id": "799458786",
+"name": "TOPGAME ECOPARK",
+"address": "улица Сыганак, 28",
+"pcs": 70,
+"consoles": 0,
+"price": "от 1200",
+"online": true
+},
+{
+"id": "799458867",
+"name": "Epsilon",
+"address": "проспект Аль-Фараби, 9/2",
+"pcs": 40,
+"consoles": 0,
+"price": "от 1100",
+"online": true
+},
+{
+"id": "799455779",
+"name": "Defuse",
+"address": "улица Шамши Калдаякова, 3",
+"pcs": 49,
+"consoles": 0,
+"price": "от 900",
+"online": true
+},
+{
+"id": "799457977",
+"name": "URSA GREEN LINE",
+"address": "улица Е-900, 4",
+"pcs": 83,
+"consoles": 0,
+"price": "от 1300",
+"online": true
+},
+{
+"id": "799459485",
+"name": "Prime Game Hub",
+"address": "улица Жубана Молдагалиева, 7",
+"pcs": 104,
+"consoles": 0,
+"price": "от 900",
+"online": false
+},
+{
+"id": "799451390",
+"name": "Game Palace",
+"address": "улица Сакена Сейфуллина, 41",
+"pcs": 50,
+"consoles": 2,
+"price": "от 300",
+"online": false
+},
+{
+"id": "799453901",
+"name": "LOG 1",
+"address": "проспект Назарбаева, 42",
+"pcs": 55,
+"consoles": 0,
+"price": "от 500",
+"online": false
+},
+{
+"id": "799459391",
+"name": "Boss LeveL",
+"address": "улица Туркестан, 10",
+"pcs": 0,
+"consoles": 5,
+"price": "от 1500",
+"online": false
+},
+{
+"id": "799459534",
+"name": "Victory Strike",
+"address": "проспект Туран, 24",
+"pcs": 0,
+"consoles": 0,
+"price": "от 5000",
+"online": false
+},
+{
+"id": "799456720",
+"name": "Colizeum Premium Астана",
+"address": "улица Сарайшык, 38",
+"pcs": 46,
+"consoles": 7,
+"price": "от 1300",
+"online": false
+},
+{
+"id": "799460443",
+"name": "Baza Cyber Space",
+"address": "улица Акмешит, 9/1",
+"pcs": 60,
+"consoles": 2,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799452873",
+"name": "COLIZEUM Астана Куйши Дина",
+"address": "улица Куйши Дина, 20",
+"pcs": 48,
+"consoles": 4,
+"price": "от 600",
+"online": false
+},
+{
+"id": "799455852",
+"name": "NaVi Game Hub",
+"address": "проспект Сарыарка, 41",
+"pcs": 50,
+"consoles": 0,
+"price": "от 700",
+"online": false
+},
+{
+"id": "799452057",
+"name": "Holy Gaben",
+"address": "улица Касыма Кайсенова, 6",
+"pcs": 20,
+"consoles": 1,
+"price": "от 350",
+"online": false
+},
+{
+"id": "799459536",
+"name": "Vr Game Lt",
+"address": "улица Жумекена Нажимеденова, 26",
+"pcs": 0,
+"consoles": 0,
+"price": "от 2000",
+"online": false
+},
+{
+"id": "799459469",
+"name": "Offside",
+"address": "улица Алихана Бокейхана, 25А",
+"pcs": 0,
+"consoles": 9,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799451584",
+"name": "Aztec Cyber Temple",
+"address": "улица Алихана Бокейханова, 38",
+"pcs": 70,
+"consoles": 0,
+"price": "от 800",
+"online": false
+},
+{
+"id": "799459423",
+"name": "Game Room",
+"address": "улица Темирбека Жургенова, 30",
+"pcs": 0,
+"consoles": 5,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799453895",
+"name": "Sky net",
+"address": "микрорайон Жетысу-1, 52",
+"pcs": 31,
+"consoles": 0,
+"price": "от 500",
+"online": false
+},
+{
+"id": "799459400",
+"name": "Champions league",
+"address": "улица Акан Серы, 18",
+"pcs": 0,
+"consoles": 7,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799459442",
+"name": "Izzi",
+"address": "улица Шокана Уалиханова, 9/2",
+"pcs": 0,
+"consoles": 8,
+"price": "от 1200",
+"online": false
+},
+{
+"id": "799455796",
+"name": "GameXclub",
+"address": "проспект Аль-Фараби, 46",
+"pcs": 45,
+"consoles": 0,
+"price": "от 900",
+"online": false
+},
+{
+"id": "799459401",
+"name": "Chilling Place",
+"address": "проспект Туран, 34Б",
+"pcs": 0,
+"consoles": 7,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799459498",
+"name": "Shift",
+"address": "улица Кенесары, 48",
+"pcs": 48,
+"consoles": 0,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799455829",
+"name": "MySkill.rooms",
+"address": "улица Алихана Бокейхана, 38",
+"pcs": 35,
+"consoles": 0,
+"price": "от 500",
+"online": false
+},
+{
+"id": "799455734",
+"name": "Alfa Game Club",
+"address": "проспект Кабанбай Батыра, 60/19",
+"pcs": 40,
+"consoles": 0,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799455739",
+"name": "Arena Cyber Sport",
+"address": "улица Мусрепова, 4/1",
+"pcs": 40,
+"consoles": 2,
+"price": "от 500",
+"online": false
+},
+{
+"id": "799460460",
+"name": "Prime Game Hub",
+"address": "улица Каныша Сатпаева, 15",
+"pcs": 102,
+"consoles": 0,
+"price": "от 1100",
+"online": false
+},
+{
+"id": "799459474",
+"name": "One Play",
+"address": "проспект Магжана Жумабаева, 16/1",
+"pcs": 0,
+"consoles": 12,
+"price": "от 900",
+"online": false
+},
+{
+"id": "799459431",
+"name": "Good game",
+"address": "улица Аманжола Болекпаева, 22",
+"pcs": 0,
+"consoles": 11,
+"price": "от 1200",
+"online": false
+},
+{
+"id": "799451507",
+"name": "Yamato",
+"address": "улица Сыганак, 39/1",
+"pcs": 66,
+"consoles": 1,
+"price": "от 800",
+"online": false
+},
+{
+"id": "799459480",
+"name": "PlayPass",
+"address": "улица Ахмета Байтурсынова, 39/3",
+"pcs": 0,
+"consoles": 10,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799451611",
+"name": "Status Cyber Arena",
+"address": "улица Каныша Сатпаева, 22",
+"pcs": 50,
+"consoles": 4,
+"price": "от 300",
+"online": false
+},
+{
+"id": "799455858",
+"name": "Nice",
+"address": "улица Туркестан, 10",
+"pcs": 40,
+"consoles": 0,
+"price": "от 800",
+"online": false
+},
+{
+"id": "799451661",
+"name": "ILINKA PLAY",
+"address": "улица Акан Серы, 95",
+"pcs": 15,
+"consoles": 1,
+"price": "от 300",
+"online": false
+},
+{
+"id": "799459544",
+"name": "WB",
+"address": "проспект Улы Дала, 61",
+"pcs": 27,
+"consoles": 0,
+"price": "от 1050",
+"online": false
+},
+{
+"id": "799451668",
+"name": "Chaser",
+"address": "улица Габидена Мустафина, 13к1",
+"pcs": 15,
+"consoles": 0,
+"price": "от 400",
+"online": false
+},
+{
+"id": "799451387",
+"name": "D-ONE",
+"address": "улица Алихана Бокейханова, 25",
+"pcs": 20,
+"consoles": 0,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799451663",
+"name": "Crazy Player",
+"address": "проспект Рахимжана Кошкарбаева, 80/1",
+"pcs": 10,
+"consoles": 3,
+"price": "от 400",
+"online": false
+},
+{
+"id": "799459411",
+"name": "Dc prime zone",
+"address": "проспект Мангилик Ел, 59",
+"pcs": 0,
+"consoles": 9,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799459488",
+"name": "Prodigy",
+"address": "улица А-92, 5/2",
+"pcs": 40,
+"consoles": 2,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799451302",
+"name": "VIRTUS",
+"address": "улица Сыганак, 17П",
+"pcs": 65,
+"consoles": 0,
+"price": "от 600",
+"online": false
+},
+{
+"id": "799459516",
+"name": "The Loft",
+"address": "проспект Мангилик Ел, 19",
+"pcs": 0,
+"consoles": 6,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799455954",
+"name": "Wild West",
+"address": "улица Кенена Азербаева, 8",
+"pcs": 45,
+"consoles": 0,
+"price": "от 500",
+"online": false
+},
+{
+"id": "799459402",
+"name": "Chiro Bombardir",
+"address": "проспект Мангилик Ел, 54/2",
+"pcs": 0,
+"consoles": 10,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799455875",
+"name": "Pixel",
+"address": "проспект Мангилик Ел, 36",
+"pcs": 50,
+"consoles": 0,
+"price": "от 600",
+"online": false
+},
+{
+"id": "799451982",
+"name": "Next",
+"address": "проспект Мангилик Ел, 19",
+"pcs": 30,
+"consoles": 0,
+"price": "от 350",
+"online": false
+},
+{
+"id": "799457207",
+"name": "TOP GAME AUEZOVA",
+"address": "улица Мухтара Ауэзова, 16",
+"pcs": 75,
+"consoles": 0,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799460444",
+"name": "Hero Cyber Club",
+"address": "улица Калибека Куанышбаева, 15",
+"pcs": 55,
+"consoles": 2,
+"price": "от 700",
+"online": false
+},
+{
+"id": "799451660",
+"name": "Dos",
+"address": "улица Сыганак, 18",
+"pcs": 60,
+"consoles": 0,
+"price": "от 400",
+"online": false
+},
+{
+"id": "799451388",
+"name": "Mars",
+"address": "улица Каныша Сатпаева, 23/1",
+"pcs": 30,
+"consoles": 5,
+"price": "от 300",
+"online": false
+},
+{
+"id": "799451384",
+"name": "5G Cyber arena",
+"address": "улица Касыма Аманжолова, 28",
+"pcs": 58,
+"consoles": 2,
+"price": "от 350",
+"online": false
+},
+{
+"id": "799459481",
+"name": "PlayStart",
+"address": "улица Ахмета Байтурсынова, 33",
+"pcs": 0,
+"consoles": 14,
+"price": "от 1300",
+"online": false
+},
+{
+"id": "799451972",
+"name": "Throne",
+"address": "улица Шалкоде, 16",
+"pcs": 30,
+"consoles": 0,
+"price": "от 350",
+"online": false
+},
+{
+"id": "799451666",
+"name": "Throne",
+"address": "38-я улица, 27",
+"pcs": 35,
+"consoles": 3,
+"price": "от 250",
+"online": false
+},
+{
+"id": "799455773",
+"name": "Cyber Lobby",
+"address": "проспект Кабанбай Батыра, 38/3",
+"pcs": 45,
+"consoles": 0,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799451370",
+"name": "TOP 1",
+"address": "улица Ханов Керея и Жанибека, 28",
+"pcs": 77,
+"consoles": 0,
+"price": "от 400",
+"online": false
+},
+{
+"id": "799459506",
+"name": "Svoy",
+"address": "улица Ханов Керея и Жанибека, 30",
+"pcs": 0,
+"consoles": 8,
+"price": "от 1500",
+"online": false
+},
+{
+"id": "799459441",
+"name": "Izzi",
+"address": "проспект Аль-Фараби, 44/1",
+"pcs": 0,
+"consoles": 11,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799451325",
+"name": "MvP",
+"address": "улица Толе Би, 46",
+"pcs": 20,
+"consoles": 0,
+"price": "от 600",
+"online": false
+},
+{
+"id": "799451380",
+"name": "Tokyo",
+"address": "улица Максута Нарикбаева, 9",
+"pcs": 30,
+"consoles": 0,
+"price": "от 300",
+"online": false
+},
+{
+"id": "799451321",
+"name": "ALLIANCE",
+"address": "улица Кенесары, 69",
+"pcs": 47,
+"consoles": 0,
+"price": "от 700",
+"online": false
+},
+{
+"id": "799451682",
+"name": "Winstrike",
+"address": "проспект Кабанбай Батыра, 49А",
+"pcs": 35,
+"consoles": 0,
+"price": "от 900",
+"online": false
+},
+{
+"id": "799459420",
+"name": "Game club Dragao",
+"address": "проспект Сарыарка, 11",
+"pcs": 0,
+"consoles": 10,
+"price": "от 1200",
+"online": false
+},
+{
+"id": "799456261",
+"name": "Elite CyberSport",
+"address": "проспект Бауыржана Момышулы, 2В",
+"pcs": 70,
+"consoles": 0,
+"price": "от 900",
+"online": false
+},
+{
+"id": "799459412",
+"name": "DD",
+"address": "улица Алии Молдагуловой, 30",
+"pcs": 0,
+"consoles": 6,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799451588",
+"name": "STORM",
+"address": "проспект Абылай Хана, 32/2",
+"pcs": 50,
+"consoles": 0,
+"price": "от 500",
+"online": false
+},
+{
+"id": "799455789",
+"name": "Eleven Cyber Zone",
+"address": "улица Санжара Асфендиярова, 8",
+"pcs": 40,
+"consoles": 0,
+"price": "от 700",
+"online": false
+},
+{
+"id": "799451343",
+"name": "#404",
+"address": "улица Жошы хана, 1",
+"pcs": 20,
+"consoles": 0,
+"price": "от 600",
+"online": false
+},
+{
+"id": "799451348",
+"name": "Gotham_city",
+"address": "улица А 91, 14",
+"pcs": 20,
+"consoles": 0,
+"price": "от 500",
+"online": false
+},
+{
+"id": "799456258",
+"name": "Taktika_ps5",
+"address": "проспект Рахимжана Кошкарбаева, 56/2А",
+"pcs": 0,
+"consoles": 10,
+"price": "от 500",
+"online": false
+},
+{
+"id": "799451583",
+"name": "NextGen",
+"address": "улица Абикена Бектурова, 4",
+"pcs": 70,
+"consoles": 0,
+"price": "от 1100",
+"online": false
+},
+{
+"id": "799451932",
+"name": "Unit",
+"address": "улица Кенесары, 47А",
+"pcs": 20,
+"consoles": 0,
+"price": "от 450",
+"online": false
+},
+{
+"id": "799455777",
+"name": "Dark moon",
+"address": "улица Аскара Токпанова, 22",
+"pcs": 40,
+"consoles": 0,
+"price": "от 800",
+"online": false
+},
+{
+"id": "799451665",
+"name": "Sail Cyber club",
+"address": "улица Сауран, 17",
+"pcs": 10,
+"consoles": 0,
+"price": "от 700",
+"online": false
+},
+{
+"id": "799451336",
+"name": "Versus",
+"address": "улица Куйши Дина, 11/1",
+"pcs": 88,
+"consoles": 0,
+"price": "от 250",
+"online": false
+},
+{
+"id": "799451929",
+"name": "PLAYBOYZ",
+"address": "улица Габидена Мустафина, 21/6",
+"pcs": 30,
+"consoles": 0,
+"price": "от 500",
+"online": false
+},
+{
+"id": "799455925",
+"name": "Strong Cyber Club",
+"address": "проспект Рахимжана Кошкарбаева, 32",
+"pcs": 45,
+"consoles": 0,
+"price": "от 650",
+"online": false
+},
+{
+"id": "799459473",
+"name": "One Play",
+"address": "улица Алихана Бокейхана, 16/3",
+"pcs": 0,
+"consoles": 12,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799459538",
+"name": "VS",
+"address": "улица Жанайдара Жирентаева, 15А",
+"pcs": 0,
+"consoles": 12,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799456266",
+"name": "Geek game club",
+"address": "проспект Кабанбай Батыра, 7",
+"pcs": 30,
+"consoles": 0,
+"price": "от 650",
+"online": false
+},
+{
+"id": "799459373",
+"name": "Фанат",
+"address": "улица Шамши Калдаякова, 23/2",
+"pcs": 0,
+"consoles": 17,
+"price": "от 1500",
+"online": false
+},
+{
+"id": "799455812",
+"name": "Hero Cyber Club",
+"address": "улица Кайрата Рыскулбекова, 29",
+"pcs": 45,
+"consoles": 0,
+"price": "от 700",
+"online": false
+},
+{
+"id": "799460461",
+"name": "Prime Game Hub",
+"address": "проспект Рахимжана Кошкарбаева, 36",
+"pcs": 98,
+"consoles": 0,
+"price": "от 1100",
+"online": false
+},
+{
+"id": "799459527",
+"name": "Ultra`s",
+"address": "улица Куйши Дины, 18/1",
+"pcs": 0,
+"consoles": 6,
+"price": "от 1200",
+"online": false
+},
+{
+"id": "799459490",
+"name": "Ps5 hub",
+"address": "улица Аманжола Болекпаева, 10/1",
+"pcs": 0,
+"consoles": 8,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799455757",
+"name": "Bro",
+"address": "улица Кажымукан",
+"pcs": 50,
+"consoles": 0,
+"price": "от 900",
+"online": false
+},
+{
+"id": "799459368",
+"name": "Ойын",
+"address": "улица Куйши Дины, 28",
+"pcs": 0,
+"consoles": 5,
+"price": "от 1500",
+"online": false
+},
+{
+"id": "799459528",
+"name": "Underground",
+"address": "улица Санжара Асфендиярова, 8",
+"pcs": 0,
+"consoles": 8,
+"price": "от 1500",
+"online": false
+},
+{
+"id": "799451381",
+"name": "BROTHERS",
+"address": "улица Ыбырая Алтынсарина, 5",
+"pcs": 60,
+"consoles": 0,
+"price": "от 500",
+"online": false
+},
+{
+"id": "799455014",
+"name": "Navi Game Hub",
+"address": "улица Желтоксан, 2Т",
+"pcs": 72,
+"consoles": 0,
+"price": "от 700",
+"online": false
+},
+{
+"id": "799459491",
+"name": "PVL 14",
+"address": "проспект Бауыржана Момышулы, 18",
+"pcs": 0,
+"consoles": 12,
+"price": "от 800",
+"online": false
+},
+{
+"id": "799459511",
+"name": "Taktika",
+"address": "улица Кенена Азербаева, 47",
+"pcs": 0,
+"consoles": 10,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799455873",
+"name": "Pipes",
+"address": "улица Шамши Калдаякова, 3",
+"pcs": 30,
+"consoles": 0,
+"price": "от 1500",
+"online": false
+},
+{
+"id": "799459476",
+"name": "Optima ps club",
+"address": "улица Кажымукана, 18/2",
+"pcs": 0,
+"consoles": 12,
+"price": "от 1200",
+"online": false
+},
+{
+"id": "799451652",
+"name": "Oiboy",
+"address": "улица Адольфа Янушкевича, 7/4",
+"pcs": 15,
+"consoles": 0,
+"price": "от 700",
+"online": false
+},
+{
+"id": "799459434",
+"name": "Hero Cyber Club",
+"address": "улица Достык, 1А",
+"pcs": 55,
+"consoles": 0,
+"price": "от 700",
+"online": false
+},
+{
+"id": "799459378",
+"name": "Altron",
+"address": "201-я улица, 37",
+"pcs": 24,
+"consoles": 2,
+"price": "от 800",
+"online": false
+},
+{
+"id": "799455909",
+"name": "Real Gamers",
+"address": "улица Ильяса Омарова, 23",
+"pcs": 50,
+"consoles": 0,
+"price": "от 700",
+"online": false
+},
+{
+"id": "799459362",
+"name": "6.16",
+"address": "проспект Туран, 57/3",
+"pcs": 0,
+"consoles": 5,
+"price": "от 3500",
+"online": false
+},
+{
+"id": "799459381",
+"name": "Ast Game",
+"address": "улица Сауран, 12/1",
+"pcs": 0,
+"consoles": 7,
+"price": "от 1200",
+"online": false
+},
+{
+"id": "799451953",
+"name": "Vertual",
+"address": "улица Бердибек Сокпакбаева, 18/2",
+"pcs": 20,
+"consoles": 0,
+"price": "от 400",
+"online": false
+},
+{
+"id": "799455934",
+"name": "Top Game",
+"address": "улица Динмухамед Конаева, 23",
+"pcs": 45,
+"consoles": 0,
+"price": "от 1200",
+"online": false
+},
+{
+"id": "799459508",
+"name": "Taktika",
+"address": "проспект Мангилик Ел, 52блокБ3",
+"pcs": 0,
+"consoles": 13,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799459487",
+"name": "Pro cyber club",
+"address": "проспект Улы Дала, 41/4",
+"pcs": 40,
+"consoles": 0,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799459479",
+"name": "Playburg",
+"address": "",
+"pcs": 0,
+"consoles": 8,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799451954",
+"name": "Arena Cyber Sport",
+"address": "проспект Сарыарка, 29/1",
+"pcs": 50,
+"consoles": 0,
+"price": "от 350",
+"online": false
+},
+{
+"id": "799459513",
+"name": "Team hub",
+"address": "улица Кажымукана, 22",
+"pcs": 30,
+"consoles": 1,
+"price": "от 400",
+"online": false
+},
+{
+"id": "799456275",
+"name": "Компьютерный и PS4 клуб PRIME",
+"address": "проспект Мангилик Ел, 19",
+"pcs": 20,
+"consoles": 5,
+"price": "от 600",
+"online": false
+},
+{
+"id": "799451339",
+"name": "Ragnarok",
+"address": "улица Петрова, 16/2",
+"pcs": 40,
+"consoles": 0,
+"price": "от 350",
+"online": false
+},
+{
+"id": "799457233",
+"name": "PRIME GAME HUB",
+"address": "улица Ахмета Байтурсынова, 30",
+"pcs": 107,
+"consoles": 0,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799459371",
+"name": "Фанат",
+"address": "улица Петрова, 31",
+"pcs": 0,
+"consoles": 13,
+"price": "от 1500",
+"online": false
+},
+{
+"id": "799456274",
+"name": "Seifullina 8",
+"address": "улица Сакена Сейфуллина, 8",
+"pcs": 25,
+"consoles": 0,
+"price": "от 800",
+"online": false
+},
+{
+"id": "799462278",
+"name": "Byte",
+"address": "улица Темирбека Жургенова, 18/2",
+"pcs": 29,
+"consoles": 0,
+"price": "от 900",
+"online": false
+},
+{
+"id": "799451685",
+"name": "COLIZEUM АСТАНА",
+"address": "проспект Сарыарка, 11",
+"pcs": 48,
+"consoles": 2,
+"price": "от 800",
+"online": false
+},
+{
+"id": "799451618",
+"name": "PRIME GAME HUB",
+"address": "улица Санжара Асфендиярова, 1",
+"pcs": 61,
+"consoles": 0,
+"price": "от 800",
+"online": false
+},
+{
+"id": "799451386",
+"name": "Cyber Eleven",
+"address": "улица Алихана Бокейханова, 11",
+"pcs": 20,
+"consoles": 1,
+"price": "от 600",
+"online": false
+},
+{
+"id": "799459388",
+"name": "BigOFFside",
+"address": "улица Кенжебека Кумисбекова, 11",
+"pcs": 0,
+"consoles": 8,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799451324",
+"name": "CS ROOM",
+"address": "улица Сыганак, 1",
+"pcs": 20,
+"consoles": 0,
+"price": "от 750",
+"online": false
+},
+{
+"id": "799460459",
+"name": "Prime Game Hub",
+"address": "проспект Туран, 5А",
+"pcs": 0,
+"consoles": 0,
+"price": "от 800",
+"online": false
+},
+{
+"id": "799459472",
+"name": "OINA",
+"address": "проспект Магжана Жумабаева, 8",
+"pcs": 0,
+"consoles": 12,
+"price": "от 1200",
+"online": false
+},
+{
+"id": "799459459",
+"name": "MVP",
+"address": "улица Кенесары, 73А",
+"pcs": 0,
+"consoles": 9,
+"price": "от 1200",
+"online": false
+},
+{
+"id": "799452056",
+"name": "Cyber Gaming Center",
+"address": "улица Айтеке Би, 16",
+"pcs": 20,
+"consoles": 2,
+"price": "от 250",
+"online": false
+},
+{
+"id": "799459386",
+"name": "Baza",
+"address": "улица Кайрата Рыскулбекова, 16/1",
+"pcs": 0,
+"consoles": 7,
+"price": "от 1500",
+"online": false
+},
+{
+"id": "799455890",
+"name": "Pro cyber club",
+"address": "проспект Туран, 55/4",
+"pcs": 35,
+"consoles": 0,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799451391",
+"name": "FORTUNA",
+"address": "улица Шаймердена Косшыгулулы, 3/1",
+"pcs": 15,
+"consoles": 0,
+"price": "от 500",
+"online": false
+},
+{
+"id": "799455889",
+"name": "Prime Game Hub",
+"address": "улица Кенесары, 42",
+"pcs": 106,
+"consoles": 0,
+"price": "от 800",
+"online": false
+},
+{
+"id": "799455738",
+"name": "Arena Cyber Sport",
+"address": "улица Айнаколь, 54А",
+"pcs": 42,
+"consoles": 0,
+"price": "от 500",
+"online": false
+},
+{
+"id": "799451315",
+"name": "Game Zone",
+"address": "проспект Женис, 67",
+"pcs": 60,
+"consoles": 2,
+"price": "от 400",
+"online": false
+},
+{
+"id": "799459396",
+"name": "Bro",
+"address": "улица Ахмета Байтурсынова, 53",
+"pcs": 0,
+"consoles": 9,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799455721",
+"name": "Liga",
+"address": "улица Александра Бараева, 6",
+"pcs": 0,
+"consoles": 6,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799459443",
+"name": "Jax",
+"address": "улица Илияса Есенберлина, 26",
+"pcs": 0,
+"consoles": 6,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799459505",
+"name": "Super Liga",
+"address": "проспект Бауыржана Момышулы, 2/6",
+"pcs": 0,
+"consoles": 14,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799459540",
+"name": "Warpoint",
+"address": "Коргалжынское шоссе, 9",
+"pcs": 0,
+"consoles": 1,
+"price": "от 7000",
+"online": false
+},
+{
+"id": "799452060",
+"name": "Panda",
+"address": "улица Амангельды Иманова, 41",
+"pcs": 20,
+"consoles": 1,
+"price": "от 500",
+"online": false
+},
+{
+"id": "799459496",
+"name": "Revansh",
+"address": "улица Жумекена Нажимеденова, 16Б",
+"pcs": 0,
+"consoles": 10,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799451590",
+"name": "МЯТА CYBER",
+"address": "улица Каныша Сатпаева, 24",
+"pcs": 34,
+"consoles": 0,
+"price": "от 600",
+"online": false
+},
+{
+"id": "799455919",
+"name": "Sniper X",
+"address": "улица Конституции, 11",
+"pcs": 40,
+"consoles": 0,
+"price": "от 500",
+"online": false
+},
+{
+"id": "799459369",
+"name": "Пантера",
+"address": "улица Санжара Асфендиярова, 11",
+"pcs": 0,
+"consoles": 11,
+"price": "от 1900",
+"online": false
+},
+{
+"id": "799451373",
+"name": "PRIME GAME HUB",
+"address": "проспект Кабанбай Батыра, 11",
+"pcs": 137,
+"consoles": 0,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799455861",
+"name": "Nothing",
+"address": "улица Алихана Бокейхана, 46",
+"pcs": 50,
+"consoles": 0,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799455723",
+"name": "Full stack",
+"address": "улица Ермека Серкебаева, 31",
+"pcs": 40,
+"consoles": 0,
+"price": "от 700",
+"online": false
+},
+{
+"id": "799455769",
+"name": "Cube cyber",
+"address": "улица Сыганак, 17Б",
+"pcs": 42,
+"consoles": 0,
+"price": "от 350",
+"online": false
+},
+{
+"id": "799459535",
+"name": "Vr Arena",
+"address": "улица Алматы, 3",
+"pcs": 0,
+"consoles": 1,
+"price": "от 3800",
+"online": false
+},
+{
+"id": "799451341",
+"name": "Sky",
+"address": "улица Акмешит, 5А",
+"pcs": 25,
+"consoles": 0,
+"price": "от 400",
+"online": false
+},
+{
+"id": "799459500",
+"name": "Sniper X",
+"address": "проспект Бауыржана Момышулы, 6/1",
+"pcs": 28,
+"consoles": 0,
+"price": "от 500",
+"online": false
+},
+{
+"id": "799451346",
+"name": "Secret ROOM",
+"address": "улица Иле, 30/2",
+"pcs": 20,
+"consoles": 1,
+"price": "от 400",
+"online": false
+},
+{
+"id": "799455888",
+"name": "Prime Game Hub",
+"address": "улица Кенжебека Кумисбекова, 9/А",
+"pcs": 87,
+"consoles": 0,
+"price": "от 900",
+"online": false
+},
+{
+"id": "799455735",
+"name": "Alliance",
+"address": "проспект Улы Дала, 33",
+"pcs": 43,
+"consoles": 0,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799451342",
+"name": "Dos",
+"address": "улица Александра Пушкина, 11/1",
+"pcs": 75,
+"consoles": 0,
+"price": "от 400",
+"online": false
+},
+{
+"id": "799451707",
+"name": "GAMBIT",
+"address": "улица Каныша Сатпаева, 16/1",
+"pcs": 25,
+"consoles": 0,
+"price": "от 200",
+"online": false
+},
+{
+"id": "799455870",
+"name": "Pandora Cyber Lounge",
+"address": "улица Сауран, 10Б",
+"pcs": 40,
+"consoles": 0,
+"price": "от 800",
+"online": false
+},
+{
+"id": "799451971",
+"name": "Qasqir Rooms",
+"address": "улица Кенесары, 9",
+"pcs": 30,
+"consoles": 0,
+"price": "от 500",
+"online": false
+},
+{
+"id": "799460332",
+"name": "Pro cyber club",
+"address": "проспект Туран, 52/3",
+"pcs": 38,
+"consoles": 0,
+"price": "от 800",
+"online": false
+},
+{
+"id": "799454104",
+"name": "F9 hub",
+"address": "улица Акмешит, 9",
+"pcs": 62,
+"consoles": 0,
+"price": "от 300",
+"online": false
+},
+{
+"id": "799459509",
+"name": "Taktika",
+"address": "улица Шаймердена Косшыгулулы, 25",
+"pcs": 0,
+"consoles": 9,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799459458",
+"name": "Mouse",
+"address": "улица Кажымукана, 16",
+"pcs": 0,
+"consoles": 6,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799455722",
+"name": "Quest Cyber Club",
+"address": "улица Александра Бараева, 8/1",
+"pcs": 30,
+"consoles": 0,
+"price": "от 600",
+"online": false
+},
+{
+"id": "799459452",
+"name": "MetaForce",
+"address": "улица Кайыма Мухамедханова, 17",
+"pcs": 0,
+"consoles": 2,
+"price": "от 5000",
+"online": false
+},
+{
+"id": "799451506",
+"name": "WinZone",
+"address": "улица Максута Нарикбаева, 5",
+"pcs": 30,
+"consoles": 1,
+"price": "от 300",
+"online": false
+},
+{
+"id": "799455813",
+"name": "Hero Cyber Club",
+"address": "проспект Туран, 44Б",
+"pcs": 43,
+"consoles": 0,
+"price": "от 700",
+"online": false
+},
+{
+"id": "799455936",
+"name": "Tron",
+"address": "проспект Тауелсиздик, 34/1",
+"pcs": 30,
+"consoles": 0,
+"price": "от 600",
+"online": false
+},
+{
+"id": "799459405",
+"name": "Corner",
+"address": "улица Ханов Керея и Жанибека, 9",
+"pcs": 0,
+"consoles": 6,
+"price": "от 1200",
+"online": false
+},
+{
+"id": "799451392",
+"name": "One Shot",
+"address": "улица Кенена Азербаева, 47",
+"pcs": 20,
+"consoles": 0,
+"price": "от 500",
+"online": false
+},
+{
+"id": "799455840",
+"name": "Magic Cyber Room",
+"address": "проспект Туран, 59/2",
+"pcs": 34,
+"consoles": 0,
+"price": "от 1200",
+"online": false
+},
+{
+"id": "799459482",
+"name": "Portal",
+"address": "проспект Сарыарка, 42",
+"pcs": 0,
+"consoles": 10,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799451327",
+"name": "Versus",
+"address": "улица Кенесары, 65",
+"pcs": 40,
+"consoles": 0,
+"price": "от 400",
+"online": false
+},
+{
+"id": "799459461",
+"name": "NaVi Game Hub",
+"address": "улица Габидена Мустафина, 21/2",
+"pcs": 55,
+"consoles": 1,
+"price": "от 900",
+"online": false
+},
+{
+"id": "799451326",
+"name": "Seven",
+"address": "проспект Кабанбай Батыра, 5/3",
+"pcs": 30,
+"consoles": 0,
+"price": "от 500",
+"online": false
+},
+{
+"id": "799460448",
+"name": "Cyber Aspan",
+"address": "улица Жанайдара Жирентаева, 15",
+"pcs": 40,
+"consoles": 1,
+"price": "от 700",
+"online": false
+},
+{
+"id": "799455952",
+"name": "WePlay cyber hub",
+"address": "проспект Туран, 46Б",
+"pcs": 46,
+"consoles": 0,
+"price": "от 800",
+"online": false
+},
+{
+"id": "799455903",
+"name": "Racer",
+"address": "проспект Кабанбай Батыра, 45/3к2",
+"pcs": 0,
+"consoles": 1,
+"price": "от 2500",
+"online": false
+},
+{
+"id": "799451376",
+"name": "DREAM HUB",
+"address": "проспект Рахимжана Кошкарбаева, 8",
+"pcs": 58,
+"consoles": 1,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799459445",
+"name": "Joystick",
+"address": "проспект Бауыржана Момышулы, 6/1",
+"pcs": 0,
+"consoles": 9,
+"price": "от 800",
+"online": false
+},
+{
+"id": "799459483",
+"name": "Prime Game Hub",
+"address": "улица Кайыма Мухамедханова, 25",
+"pcs": 101,
+"consoles": 0,
+"price": "от 1100",
+"online": false
+},
+{
+"id": "799459384",
+"name": "Bars VR Arena",
+"address": "проспект Нургисы Тлендиева, 12А",
+"pcs": 0,
+"consoles": 1,
+"price": "от 5000",
+"online": false
+},
+{
+"id": "799455941",
+"name": "V Solo Cyber Café",
+"address": "улица Габидена Мустафина, 12",
+"pcs": 45,
+"consoles": 0,
+"price": "от 800",
+"online": false
+},
+{
+"id": "799459430",
+"name": "Gold Game",
+"address": "улица Кайыма Мухамедханова, 17/1",
+"pcs": 0,
+"consoles": 6,
+"price": "от 1500",
+"online": false
+},
+{
+"id": "799451374",
+"name": "PRIME GAME HUB",
+"address": "улица Ханов Керея и Жанибека, 14/2",
+"pcs": 107,
+"consoles": 0,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799459440",
+"name": "Imperator",
+"address": "улица Алихана Бокейхана, 6",
+"pcs": 0,
+"consoles": 7,
+"price": "от 2500",
+"online": false
+},
+{
+"id": "799451396",
+"name": "Dosstar game",
+"address": "улица Чингиза Айтматова, 36",
+"pcs": 80,
+"consoles": 0,
+"price": "от 400",
+"online": false
+},
+{
+"id": "799459425",
+"name": "Game Vibe",
+"address": "улица Кенесары, 70",
+"pcs": 40,
+"consoles": 0,
+"price": "от 500",
+"online": false
+},
+{
+"id": "799459399",
+"name": "Champions League",
+"address": "микрорайон Самал, 8",
+"pcs": 0,
+"consoles": 5,
+"price": "от 1500",
+"online": false
+},
+{
+"id": "799459484",
+"name": "Prime Game Hub",
+"address": "улица Сыганак, 22/1",
+"pcs": 40,
+"consoles": 0,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799459422",
+"name": "Game Play",
+"address": "проспект Нургисы Тлендиева, 36",
+"pcs": 0,
+"consoles": 6,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799453683",
+"name": "OyBoy",
+"address": "улица Ахмета Байтурсынова, 43/4",
+"pcs": 45,
+"consoles": 1,
+"price": "от 800",
+"online": false
+},
+{
+"id": "799456252",
+"name": "Компьютерный Клуб BrO Games",
+"address": "проспект Абылай Хана, 36А",
+"pcs": 30,
+"consoles": 0,
+"price": "от 900",
+"online": false
+},
+{
+"id": "799455945",
+"name": "Victory Cyber Arena",
+"address": "улица Сарайшык, 4",
+"pcs": 47,
+"consoles": 0,
+"price": "от 800",
+"online": false
+},
+{
+"id": "799451306",
+"name": "Qasqir Rooms",
+"address": "переулок Шеркала, 2",
+"pcs": 54,
+"consoles": 2,
+"price": "от 500",
+"online": false
+},
+{
+"id": "799459471",
+"name": "OINA",
+"address": "улица Ханов Керея и Жанибека, 15",
+"pcs": 0,
+"consoles": 10,
+"price": "от 1500",
+"online": false
+},
+{
+"id": "799459543",
+"name": "Warstation",
+"address": "улица Петрова, 24А/1",
+"pcs": 0,
+"consoles": 1,
+"price": "от 4000",
+"online": false
+},
+{
+"id": "799459446",
+"name": "King",
+"address": "проспект Сарыарка, 32",
+"pcs": 0,
+"consoles": 8,
+"price": "от 890",
+"online": false
+},
+{
+"id": "799459470",
+"name": "OINA",
+"address": "улица Сыганак, 39/1",
+"pcs": 0,
+"consoles": 11,
+"price": "от 1200",
+"online": false
+},
+{
+"id": "799455832",
+"name": "Katana",
+"address": "улица Сагадата Нурмагамбетова, 19",
+"pcs": 40,
+"consoles": 0,
+"price": "от 500",
+"online": false
+},
+{
+"id": "799459448",
+"name": "La Liga",
+"address": "проспект Нургисы Тлендиева, 15/4",
+"pcs": 0,
+"consoles": 12,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799459438",
+"name": "HUSTLE",
+"address": "улица Култегин, 14",
+"pcs": 0,
+"consoles": 9,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799451311",
+"name": "BROTHERS",
+"address": "проспект Улы Дала, 25/2",
+"pcs": 99,
+"consoles": 0,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799459426",
+"name": "Gentlemen",
+"address": "улица Кенесары, 65",
+"pcs": 0,
+"consoles": 10,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799459419",
+"name": "Game club Dragao",
+"address": "улица Сыганак, 4",
+"pcs": 0,
+"consoles": 7,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799459464",
+"name": "New York game city",
+"address": "улица Жанибека Тархана, 17",
+"pcs": 0,
+"consoles": 10,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799451310",
+"name": "Bootcamp lounge",
+"address": "проспект Бауыржана Момышулы, 2/5",
+"pcs": 20,
+"consoles": 0,
+"price": "от 830",
+"online": false
+},
+{
+"id": "799451385",
+"name": "Versus",
+"address": "проспект Богенбай батыра, 56",
+"pcs": 55,
+"consoles": 0,
+"price": "от 250",
+"online": false
+},
+{
+"id": "799459429",
+"name": "Gold Game",
+"address": "улица Максута Нарикбаева, 9",
+"pcs": 0,
+"consoles": 12,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799451349",
+"name": "BUNKER",
+"address": "проспект Бауыржана Момышулы, 2Б",
+"pcs": 95,
+"consoles": 0,
+"price": "от 800",
+"online": false
+},
+{
+"id": "799459410",
+"name": "Dazn",
+"address": "проспект Кабанбай батыра, 40",
+"pcs": 0,
+"consoles": 5,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799455788",
+"name": "Eleven Cyber Zone",
+"address": "микрорайон Астана, 4",
+"pcs": 50,
+"consoles": 0,
+"price": "от 600",
+"online": false
+},
+{
+"id": "799459529",
+"name": "Underground",
+"address": "проспект Рахимжана Кошкарбаева, 34",
+"pcs": 0,
+"consoles": 10,
+"price": "от 1500",
+"online": false
+},
+{
+"id": "799460446",
+"name": "Vertigo",
+"address": "проспект Мангилик Ел, 33/2",
+"pcs": 45,
+"consoles": 0,
+"price": "от 650",
+"online": false
+},
+{
+"id": "799455741",
+"name": "5V5 Beske Bes",
+"address": "улица Кайыма Мухамедханова, 4блокА",
+"pcs": 35,
+"consoles": 0,
+"price": "от 700",
+"online": false
+},
+{
+"id": "799452079",
+"name": "The Hood",
+"address": "проспект Сарыарка, 2",
+"pcs": 120,
+"consoles": 0,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799459370",
+"name": "Тетрис",
+"address": "улица Санжара Асфендиярова, 5",
+"pcs": 0,
+"consoles": 8,
+"price": "от 2500",
+"online": false
+},
+{
+"id": "799451378",
+"name": "ATOM",
+"address": "улица Каныша Сатпаева, 9",
+"pcs": 40,
+"consoles": 0,
+"price": "от 400",
+"online": false
+},
+{
+"id": "799451614",
+"name": "NASA",
+"address": "улица Тараса Шевченко, 8",
+"pcs": 20,
+"consoles": 0,
+"price": "от 500",
+"online": false
+},
+{
+"id": "799459510",
+"name": "Taktika",
+"address": "улица Сыганак, 16",
+"pcs": 0,
+"consoles": 8,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799455737",
+"name": "Arena Cyber Sport",
+"address": "улица Маскеу, 40",
+"pcs": 40,
+"consoles": 2,
+"price": "от 500",
+"online": false
+},
+{
+"id": "799459501",
+"name": "Sniper X",
+"address": "улица Сарытогай, 13",
+"pcs": 28,
+"consoles": 0,
+"price": "от 600",
+"online": false
+},
+{
+"id": "799451681",
+"name": "One shot",
+"address": "улица Ахмета Байтурсынова, 23/1блокВ",
+"pcs": 50,
+"consoles": 0,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799455929",
+"name": "Pro Cyber Lounge",
+"address": "улица Толе Би, 48/1",
+"pcs": 54,
+"consoles": 0,
+"price": "от 800",
+"online": false
+},
+{
+"id": "799455905",
+"name": "Rage",
+"address": "улица Петрова, 1/2",
+"pcs": 10,
+"consoles": 0,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799459374",
+"name": "Чемпион",
+"address": "проспект Шакарима Кудайбердиулы, 25/1",
+"pcs": 0,
+"consoles": 6,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799453628",
+"name": "The Rog",
+"address": "улица Санжара Асфендиярова, 3",
+"pcs": 50,
+"consoles": 0,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799459421",
+"name": "Game club Dragao",
+"address": "проспект Нургисы Тлендиева, 15/2",
+"pcs": 0,
+"consoles": 6,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799451299",
+"name": "Cyber Point",
+"address": "улица Динмухамеда Кунаева, 14",
+"pcs": 84,
+"consoles": 4,
+"price": "от 750",
+"online": false
+},
+{
+"id": "799459542",
+"name": "Warpoint_na_kenesary",
+"address": "улица Кенесары, 46",
+"pcs": 0,
+"consoles": 1,
+"price": "от 6000",
+"online": false
+},
+{
+"id": "799460458",
+"name": "Prime Game Hub",
+"address": "улица Абикена Бектурова, 11/Б",
+"pcs": 0,
+"consoles": 0,
+"price": "от 800",
+"online": false
+},
+{
+"id": "799459453",
+"name": "MetaForce",
+"address": "улица Ахмета Байтурсынова, 33/2",
+"pcs": 0,
+"consoles": 2,
+"price": "от 5000",
+"online": false
+},
+{
+"id": "799459415",
+"name": "Empire",
+"address": "улица Шамши Калдаякова, 26",
+"pcs": 2,
+"consoles": 4,
+"price": "от 1500",
+"online": false
+},
+{
+"id": "799459541",
+"name": "Warpoint",
+"address": "улица Достык, 5",
+"pcs": 0,
+"consoles": 1,
+"price": "от 7000",
+"online": false
+},
+{
+"id": "799451658",
+"name": "Game Republic",
+"address": "улица Адольфа Янушкевича, 1",
+"pcs": 40,
+"consoles": 0,
+"price": "от 700",
+"online": false
+},
+{
+"id": "799453903",
+"name": "LOG 4 VIP",
+"address": "проспект Назарбаева, 42",
+"pcs": 38,
+"consoles": 1,
+"price": "от 1500",
+"online": false
+},
+{
+"id": "799455939",
+"name": "Unity Cyber Club",
+"address": "улица Сакена Сейфуллина, 8",
+"pcs": 50,
+"consoles": 0,
+"price": "от 400",
+"online": false
+},
+{
+"id": "799455758",
+"name": "Bro",
+"address": "проспект Рахимжана Кошкарбаева, 27",
+"pcs": 50,
+"consoles": 2,
+"price": "от 900",
+"online": false
+},
+{
+"id": "799459413",
+"name": "Eleven",
+"address": "улица Гейдара Алиева, 1",
+"pcs": 0,
+"consoles": 6,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799459361",
+"name": "212",
+"address": "улица Жошы хана, 7блок1",
+"pcs": 0,
+"consoles": 7,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799455783",
+"name": "Doма",
+"address": "улица Умай Ана, 15",
+"pcs": 40,
+"consoles": 0,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799459494",
+"name": "R9",
+"address": "проспект Шакарима Кудайбердиулы, 25/1",
+"pcs": 0,
+"consoles": 8,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799451379",
+"name": "Потолок",
+"address": "улица Калибека Куанышбаева, 11",
+"pcs": 20,
+"consoles": 0,
+"price": "от 750",
+"online": false
+},
+{
+"id": "799459424",
+"name": "Game Space",
+"address": "проспект Туран, 40/2",
+"pcs": 0,
+"consoles": 8,
+"price": "от 1500",
+"online": false
+},
+{
+"id": "799459372",
+"name": "Фанат",
+"address": "улица Шокана Уалиханова, 12",
+"pcs": 0,
+"consoles": 12,
+"price": "от 600",
+"online": false
+},
+{
+"id": "799459091",
+"name": "NEGEV",
+"address": "улица Сарайшык, 5П",
+"pcs": 18,
+"consoles": 0,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799455752",
+"name": "Borz Cyber",
+"address": "улица Малика Габдуллина, 18",
+"pcs": 45,
+"consoles": 0,
+"price": "от 800",
+"online": false
+},
+{
+"id": "799455795",
+"name": "Gamer",
+"address": "улица Ыргыз, 27",
+"pcs": 30,
+"consoles": 5,
+"price": "от 800",
+"online": false
+},
+{
+"id": "799451305",
+"name": "Sklad CyberSpace",
+"address": "улица Бухар Жырау, 19",
+"pcs": 60,
+"consoles": 0,
+"price": "от 900",
+"online": false
+},
+{
+"id": "799451970",
+"name": "Qasqir Rooms",
+"address": "улица Алихана Бокейханова, 6",
+"pcs": 54,
+"consoles": 2,
+"price": "от 500",
+"online": false
+},
+{
+"id": "799459383",
+"name": "Aviator",
+"address": "улица Сарытогай, 13",
+"pcs": 0,
+"consoles": 6,
+"price": "от 1200",
+"online": false
+},
+{
+"id": "799451680",
+"name": "Cyber S Club",
+"address": "проспект Мангилик Ел, 41/2",
+"pcs": 60,
+"consoles": 0,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799451304",
+"name": "ACE CYBER ARENA",
+"address": "проспект Бауыржана Момышулы, 2В",
+"pcs": 78,
+"consoles": 0,
+"price": "от 450",
+"online": false
+},
+{
+"id": "799451986",
+"name": "EXO gaming club",
+"address": "улица Сакена Сейфуллина, 8",
+"pcs": 25,
+"consoles": 0,
+"price": "от 500",
+"online": false
+},
+{
+"id": "799455816",
+"name": "Hunter",
+"address": "улица Шамши Калдаякова, 26",
+"pcs": 40,
+"consoles": 0,
+"price": "от 500",
+"online": false
+},
+{
+"id": "799455917",
+"name": "Sklad Gaming",
+"address": "улица Кенесары, 69",
+"pcs": 0,
+"consoles": 0,
+"price": "от 800",
+"online": false
+},
+{
+"id": "799451347",
+"name": "Center by Franc",
+"address": "улица Сыганак, 54",
+"pcs": 40,
+"consoles": 0,
+"price": "от 400",
+"online": false
+},
+{
+"id": "799451617",
+"name": "GameHub",
+"address": "улица Кайыма Мухамедханова, 17",
+"pcs": 22,
+"consoles": 1,
+"price": "от 600",
+"online": false
+},
+{
+"id": "799451934",
+"name": "Fantasy",
+"address": "проспект Сарыарка, 41",
+"pcs": 56,
+"consoles": 1,
+"price": "от 400",
+"online": false
+},
+{
+"id": "799451320",
+"name": "B9",
+"address": "проспект Абылай Хана, 59/1",
+"pcs": 35,
+"consoles": 0,
+"price": "от 300",
+"online": false
+},
+{
+"id": "799451589",
+"name": "Zeus Cyber Sport",
+"address": "улица Туркестан, 34/1",
+"pcs": 25,
+"consoles": 0,
+"price": "от 500",
+"online": false
+},
+{
+"id": "799451338",
+"name": "Gravity",
+"address": "проспект Кабанбай Батыра, 60/19",
+"pcs": 60,
+"consoles": 1,
+"price": "от 350",
+"online": false
+},
+{
+"id": "799451316",
+"name": "LVL UP esports arena",
+"address": "проспект Улы Дала, 7/4",
+"pcs": 30,
+"consoles": 0,
+"price": "от 600",
+"online": false
+},
+{
+"id": "799451653",
+"name": "ATOM",
+"address": "проспект Сарыарка, 11",
+"pcs": 30,
+"consoles": 0,
+"price": "от 300",
+"online": false
+},
+{
+"id": "799456265",
+"name": "AST eSports",
+"address": "улица Сакена Сейфуллина, 8",
+"pcs": 45,
+"consoles": 0,
+"price": "от 300",
+"online": false
+},
+{
+"id": "799451928",
+"name": "Respawn",
+"address": "улица Куйши Дина, 30/1",
+"pcs": 20,
+"consoles": 0,
+"price": "от 400",
+"online": false
+},
+{
+"id": "799451323",
+"name": "Elite Cyber Sport",
+"address": "проспект Бауыржана Момышулы, 2В",
+"pcs": 70,
+"consoles": 2,
+"price": "от 600",
+"online": false
+},
+{
+"id": "799451318",
+"name": "COLIZEUM Бокейхана 20",
+"address": "улица Алихана Бокейхана, 20",
+"pcs": 37,
+"consoles": 0,
+"price": "от 600",
+"online": false
+},
+{
+"id": "799451619",
+"name": "Titan",
+"address": "улица Степана Кубрина, 20/1",
+"pcs": 41,
+"consoles": 0,
+"price": "от 500",
+"online": false
+},
+{
+"id": "799455911",
+"name": "ReHub",
+"address": "улица Ильяса Омарова, 27/1",
+"pcs": 45,
+"consoles": 0,
+"price": "от 750",
+"online": false
+},
+{
+"id": "799451389",
+"name": "Game Start",
+"address": "проспект Рахимжана Кошкарбаева, 29",
+"pcs": 24,
+"consoles": 1,
+"price": "от 400",
+"online": false
+},
+{
+"id": "799459475",
+"name": "One Play",
+"address": "улица Чингиза Айтматова, 36",
+"pcs": 0,
+"consoles": 9,
+"price": "от 800",
+"online": false
+},
+{
+"id": "799451621",
+"name": "Space-X",
+"address": "улица Кайыма Мухамедханова, 4блокА",
+"pcs": 40,
+"consoles": 3,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799453150",
+"name": "COLIZEUM Сан Сити",
+"address": "улица Санжара Асфендиярова, 8",
+"pcs": 45,
+"consoles": 0,
+"price": "от 700",
+"online": false
+},
+{
+"id": "799455881",
+"name": "Potolok v2.0",
+"address": "улица Калибека Куанышбаева, 15",
+"pcs": 34,
+"consoles": 0,
+"price": "от 700",
+"online": false
+},
+{
+"id": "799451578",
+"name": "Imba",
+"address": "улица Кенена Азербаева, 8",
+"pcs": 30,
+"consoles": 0,
+"price": "от 250",
+"online": false
+},
+{
+"id": "799451933",
+"name": "Fantasy",
+"address": "улица Желтоксан, 2Т",
+"pcs": 80,
+"consoles": 0,
+"price": "от 450",
+"online": false
+},
+{
+"id": "799451337",
+"name": "Major by Abay",
+"address": "улица Бухар Жырау, 30",
+"pcs": 20,
+"consoles": 0,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799459486",
+"name": "Prime Play",
+"address": "улица Култегин, 14",
+"pcs": 0,
+"consoles": 11,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799451377",
+"name": "Cloud cyberspace",
+"address": "улица Кайыма Мухамедханова, 20",
+"pcs": 30,
+"consoles": 0,
+"price": "от 700",
+"online": false
+},
+{
+"id": "799451656",
+"name": "UFC",
+"address": "проспект Мангилик Ел, 19",
+"pcs": 12,
+"consoles": 5,
+"price": "от 500",
+"online": false
+},
+{
+"id": "799451581",
+"name": "Global",
+"address": "улица Абикена Бектурова, 4/6",
+"pcs": 40,
+"consoles": 0,
+"price": "от 1000",
+"online": false
+},
+{
+"id": "799455902",
+"name": "Racer",
+"address": "проспект Женис, 67",
+"pcs": 15,
+"consoles": 0,
+"price": "от 2500",
+"online": false
+},
+{
+"id": "799451616",
+"name": "DofG Cyber Club",
+"address": "улица Достык, 4",
+"pcs": 40,
+"consoles": 0,
+"price": "от 1000",
+"online": false
+}
+]
