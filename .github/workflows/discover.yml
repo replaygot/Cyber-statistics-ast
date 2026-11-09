@@ -15,7 +15,7 @@ concurrency:
 jobs:
   discover:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
 
@@ -30,7 +30,7 @@ jobs:
 
       - name: Run discovery
         continue-on-error: true
-        run: python discover/discover.py out
+        run: python discover/${{ github.ref_name == 'catalog-discovery' && 'catalog.py' || 'discover.py' }} out
 
       - name: Publish output to discovery-output branch
         if: always()
