@@ -18,7 +18,10 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  CLUBS: "1jelye8o 1JB6NB4A 16Xp6Rly bKqXNKEG 1JB6N7pB kywedwxo krKEyOPv kgGamr9N"
+  CLUBS: >-
+    1jelye8o 1JB6NB4A 16Xp6Rly bKqXNKEG 1JB6N7pB kywedwxo krKEyOPv kgGamr9N
+    YQlqXEaP bVJnDE0Q bLxgN4B5 1JB6Nawe YwQ7AOma YNo8l6DA kO5VxXZy
+    1avrAZ8r bAaJQgP9 YZPKeGgN 12O49yj2 b56KpWW7 16Xp6WAL b7g5XPAd
   CLUB_PAUSE_S: "30"
   REQUEST_PAUSE_S: "2"
   RETRY_BUDGET_S: "300"
