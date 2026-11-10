@@ -334,11 +334,7 @@
    "height": 1,
    "border_radius": 8,
    "uuid": "3A1E0522-84BD-25B9-8721-1DDFA40B781F",
-   "client": {
-    "id": 22,
-    "name": "22",
-    "number": "22"
-   }
+   "client": []
   },
   {
    "UUID": "0B143B00-5600-3B0F-140B-00560F3B140B",
@@ -1138,11 +1134,7 @@
    "height": 1,
    "border_radius": 8,
    "uuid": "3A1E0522-84BD-25B9-8721-1DDFA40B781F",
-   "client": {
-    "id": 22,
-    "name": "22",
-    "number": "22"
-   }
+   "client": []
   },
   {
    "UUID": "0B143B00-5600-3B0F-140B-00560F3B140B",
