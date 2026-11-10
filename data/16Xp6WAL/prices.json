@@ -1,0 +1,2400 @@
+{
+ "club": "16Xp6WAL",
+ "club_name": "Synergy Cyberspace",
+ "source": "pricelist.json (прайс с картинки от пользователя)",
+ "fetched_at": "2026-11-10 17:21",
+ "days": [
+  "2026-11-16",
+  "2026-11-14"
+ ],
+ "zones": {
+  "DUO": 8,
+  "SOLO": 5,
+  "STACK": 15,
+  "STACK 2K": 5,
+  "TRIO": 3
+ },
+ "booking_rules": "",
+ "tariffs": [
+  {
+   "id": 0,
+   "tariff_name": "1 час",
+   "type": "basic",
+   "minutes_default_duration": 60,
+   "default_price": 1900,
+   "minutes_duration": null,
+   "available_from": [
+    "2026-11-16 00:00",
+    "2026-11-16 01:00",
+    "2026-11-16 02:00",
+    "2026-11-16 03:00",
+    "2026-11-16 04:00",
+    "2026-11-16 05:00",
+    "2026-11-16 06:00",
+    "2026-11-16 07:00",
+    "2026-11-16 08:00",
+    "2026-11-16 09:00",
+    "2026-11-16 10:00",
+    "2026-11-16 11:00",
+    "2026-11-16 12:00",
+    "2026-11-16 13:00",
+    "2026-11-16 14:00",
+    "2026-11-16 15:00",
+    "2026-11-16 16:00",
+    "2026-11-16 17:00",
+    "2026-11-16 18:00",
+    "2026-11-16 19:00",
+    "2026-11-16 20:00",
+    "2026-11-16 21:00",
+    "2026-11-16 22:00",
+    "2026-11-16 23:00",
+    "2026-11-14 00:00",
+    "2026-11-14 01:00",
+    "2026-11-14 02:00",
+    "2026-11-14 03:00",
+    "2026-11-14 04:00",
+    "2026-11-14 05:00",
+    "2026-11-14 06:00",
+    "2026-11-14 07:00",
+    "2026-11-14 08:00",
+    "2026-11-14 09:00",
+    "2026-11-14 10:00",
+    "2026-11-14 11:00",
+    "2026-11-14 12:00",
+    "2026-11-14 13:00",
+    "2026-11-14 14:00",
+    "2026-11-14 15:00",
+    "2026-11-14 16:00",
+    "2026-11-14 17:00",
+    "2026-11-14 18:00",
+    "2026-11-14 19:00",
+    "2026-11-14 20:00",
+    "2026-11-14 21:00",
+    "2026-11-14 22:00",
+    "2026-11-14 23:00"
+   ]
+  },
+  {
+   "id": 1,
+   "tariff_name": "3 часа",
+   "type": "packet",
+   "minutes_duration": 180,
+   "minutes_default_duration": 180,
+   "default_price": null,
+   "discount_percent": null,
+   "available_from": [
+    "2026-11-16 00:00",
+    "2026-11-16 01:00",
+    "2026-11-16 02:00",
+    "2026-11-16 03:00",
+    "2026-11-16 04:00",
+    "2026-11-16 05:00",
+    "2026-11-16 06:00",
+    "2026-11-16 07:00",
+    "2026-11-16 08:00",
+    "2026-11-16 09:00",
+    "2026-11-16 10:00",
+    "2026-11-16 11:00",
+    "2026-11-16 12:00",
+    "2026-11-16 13:00",
+    "2026-11-16 14:00",
+    "2026-11-16 15:00",
+    "2026-11-16 16:00",
+    "2026-11-16 17:00",
+    "2026-11-16 18:00",
+    "2026-11-16 19:00",
+    "2026-11-16 20:00",
+    "2026-11-16 21:00",
+    "2026-11-16 22:00",
+    "2026-11-16 23:00",
+    "2026-11-14 00:00",
+    "2026-11-14 01:00",
+    "2026-11-14 02:00",
+    "2026-11-14 03:00",
+    "2026-11-14 04:00",
+    "2026-11-14 05:00",
+    "2026-11-14 06:00",
+    "2026-11-14 07:00",
+    "2026-11-14 08:00",
+    "2026-11-14 09:00",
+    "2026-11-14 10:00",
+    "2026-11-14 11:00",
+    "2026-11-14 12:00",
+    "2026-11-14 13:00",
+    "2026-11-14 14:00",
+    "2026-11-14 15:00",
+    "2026-11-14 16:00",
+    "2026-11-14 17:00",
+    "2026-11-14 18:00",
+    "2026-11-14 19:00",
+    "2026-11-14 20:00",
+    "2026-11-14 21:00",
+    "2026-11-14 22:00",
+    "2026-11-14 23:00"
+   ]
+  },
+  {
+   "id": 2,
+   "tariff_name": "5 часов",
+   "type": "packet",
+   "minutes_duration": 300,
+   "minutes_default_duration": 300,
+   "default_price": null,
+   "discount_percent": null,
+   "available_from": [
+    "2026-11-16 00:00",
+    "2026-11-16 01:00",
+    "2026-11-16 02:00",
+    "2026-11-16 03:00",
+    "2026-11-16 04:00",
+    "2026-11-16 05:00",
+    "2026-11-16 06:00",
+    "2026-11-16 07:00",
+    "2026-11-16 08:00",
+    "2026-11-16 09:00",
+    "2026-11-16 10:00",
+    "2026-11-16 11:00",
+    "2026-11-16 12:00",
+    "2026-11-16 13:00",
+    "2026-11-16 14:00",
+    "2026-11-16 15:00",
+    "2026-11-16 16:00",
+    "2026-11-16 17:00",
+    "2026-11-16 18:00",
+    "2026-11-16 19:00",
+    "2026-11-16 20:00",
+    "2026-11-16 21:00",
+    "2026-11-16 22:00",
+    "2026-11-16 23:00",
+    "2026-11-14 00:00",
+    "2026-11-14 01:00",
+    "2026-11-14 02:00",
+    "2026-11-14 03:00",
+    "2026-11-14 04:00",
+    "2026-11-14 05:00",
+    "2026-11-14 06:00",
+    "2026-11-14 07:00",
+    "2026-11-14 08:00",
+    "2026-11-14 09:00",
+    "2026-11-14 10:00",
+    "2026-11-14 11:00",
+    "2026-11-14 12:00",
+    "2026-11-14 13:00",
+    "2026-11-14 14:00",
+    "2026-11-14 15:00",
+    "2026-11-14 16:00",
+    "2026-11-14 17:00",
+    "2026-11-14 18:00",
+    "2026-11-14 19:00",
+    "2026-11-14 20:00",
+    "2026-11-14 21:00",
+    "2026-11-14 22:00",
+    "2026-11-14 23:00"
+   ]
+  },
+  {
+   "id": 3,
+   "tariff_name": "Утро (08:00-12:50)",
+   "type": "packet",
+   "minutes_duration": 290,
+   "minutes_default_duration": 290,
+   "default_price": null,
+   "discount_percent": null,
+   "available_from": [
+    "2026-11-16 07:00",
+    "2026-11-16 08:00",
+    "2026-11-16 09:00",
+    "2026-11-16 10:00",
+    "2026-11-16 11:00",
+    "2026-11-14 07:00",
+    "2026-11-14 08:00",
+    "2026-11-14 09:00",
+    "2026-11-14 10:00",
+    "2026-11-14 11:00"
+   ]
+  },
+  {
+   "id": 4,
+   "tariff_name": "День (13:00-18:50)",
+   "type": "packet",
+   "minutes_duration": 350,
+   "minutes_default_duration": 350,
+   "default_price": null,
+   "discount_percent": null,
+   "available_from": [
+    "2026-11-16 12:00",
+    "2026-11-16 13:00",
+    "2026-11-16 14:00",
+    "2026-11-16 15:00",
+    "2026-11-16 16:00",
+    "2026-11-16 17:00",
+    "2026-11-14 12:00",
+    "2026-11-14 13:00",
+    "2026-11-14 14:00",
+    "2026-11-14 15:00",
+    "2026-11-14 16:00",
+    "2026-11-14 17:00"
+   ]
+  },
+  {
+   "id": 5,
+   "tariff_name": "Полный день (08:00-17:50)",
+   "type": "packet",
+   "minutes_duration": 590,
+   "minutes_default_duration": 590,
+   "default_price": null,
+   "discount_percent": null,
+   "available_from": [
+    "2026-11-16 07:00",
+    "2026-11-16 08:00",
+    "2026-11-16 09:00",
+    "2026-11-16 10:00",
+    "2026-11-16 11:00",
+    "2026-11-16 12:00",
+    "2026-11-16 13:00",
+    "2026-11-16 14:00",
+    "2026-11-16 15:00",
+    "2026-11-16 16:00",
+    "2026-11-14 07:00",
+    "2026-11-14 08:00",
+    "2026-11-14 09:00",
+    "2026-11-14 10:00",
+    "2026-11-14 11:00",
+    "2026-11-14 12:00",
+    "2026-11-14 13:00",
+    "2026-11-14 14:00",
+    "2026-11-14 15:00",
+    "2026-11-14 16:00"
+   ]
+  },
+  {
+   "id": 6,
+   "tariff_name": "Ночь (23:00-07:50)",
+   "type": "packet",
+   "minutes_duration": 530,
+   "minutes_default_duration": 530,
+   "default_price": null,
+   "discount_percent": null,
+   "available_from": [
+    "2026-11-16 22:00",
+    "2026-11-16 23:00",
+    "2026-11-16 00:00",
+    "2026-11-16 01:00",
+    "2026-11-16 02:00",
+    "2026-11-16 03:00",
+    "2026-11-16 04:00",
+    "2026-11-16 05:00",
+    "2026-11-16 06:00",
+    "2026-11-14 22:00",
+    "2026-11-14 23:00",
+    "2026-11-14 00:00",
+    "2026-11-14 01:00",
+    "2026-11-14 02:00",
+    "2026-11-14 03:00",
+    "2026-11-14 04:00",
+    "2026-11-14 05:00",
+    "2026-11-14 06:00"
+   ]
+  },
+  {
+   "id": 7,
+   "tariff_name": "Турбо ночь (01:00-07:50)",
+   "type": "packet",
+   "minutes_duration": 410,
+   "minutes_default_duration": 410,
+   "default_price": null,
+   "discount_percent": null,
+   "available_from": [
+    "2026-11-16 00:00",
+    "2026-11-16 01:00",
+    "2026-11-16 02:00",
+    "2026-11-16 03:00",
+    "2026-11-16 04:00",
+    "2026-11-16 05:00",
+    "2026-11-16 06:00",
+    "2026-11-14 00:00",
+    "2026-11-14 01:00",
+    "2026-11-14 02:00",
+    "2026-11-14 03:00",
+    "2026-11-14 04:00",
+    "2026-11-14 05:00",
+    "2026-11-14 06:00"
+   ]
+  }
+ ],
+ "tariffs_by_start": {},
+ "hourly": [
+  {
+   "start": "2026-11-16 00:00",
+   "zone": "DUO",
+   "price": 2300,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 01:00",
+   "zone": "DUO",
+   "price": 2300,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 02:00",
+   "zone": "DUO",
+   "price": 2300,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 03:00",
+   "zone": "DUO",
+   "price": 2300,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 04:00",
+   "zone": "DUO",
+   "price": 2300,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 05:00",
+   "zone": "DUO",
+   "price": 2300,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 06:00",
+   "zone": "DUO",
+   "price": 2300,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 07:00",
+   "zone": "DUO",
+   "price": 2300,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 08:00",
+   "zone": "DUO",
+   "price": 2300,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 09:00",
+   "zone": "DUO",
+   "price": 2300,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 10:00",
+   "zone": "DUO",
+   "price": 2300,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 11:00",
+   "zone": "DUO",
+   "price": 2300,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 12:00",
+   "zone": "DUO",
+   "price": 2300,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 13:00",
+   "zone": "DUO",
+   "price": 2300,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 14:00",
+   "zone": "DUO",
+   "price": 2300,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 15:00",
+   "zone": "DUO",
+   "price": 2300,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 16:00",
+   "zone": "DUO",
+   "price": 2300,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 17:00",
+   "zone": "DUO",
+   "price": 2300,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 18:00",
+   "zone": "DUO",
+   "price": 2300,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 19:00",
+   "zone": "DUO",
+   "price": 2300,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 20:00",
+   "zone": "DUO",
+   "price": 2300,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 21:00",
+   "zone": "DUO",
+   "price": 2300,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 22:00",
+   "zone": "DUO",
+   "price": 2300,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 23:00",
+   "zone": "DUO",
+   "price": 2300,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 00:00",
+   "zone": "SOLO",
+   "price": 2800,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 01:00",
+   "zone": "SOLO",
+   "price": 2800,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 02:00",
+   "zone": "SOLO",
+   "price": 2800,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 03:00",
+   "zone": "SOLO",
+   "price": 2800,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 04:00",
+   "zone": "SOLO",
+   "price": 2800,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 05:00",
+   "zone": "SOLO",
+   "price": 2800,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 06:00",
+   "zone": "SOLO",
+   "price": 2800,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 07:00",
+   "zone": "SOLO",
+   "price": 2800,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 08:00",
+   "zone": "SOLO",
+   "price": 2800,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 09:00",
+   "zone": "SOLO",
+   "price": 2800,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 10:00",
+   "zone": "SOLO",
+   "price": 2800,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 11:00",
+   "zone": "SOLO",
+   "price": 2800,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 12:00",
+   "zone": "SOLO",
+   "price": 2800,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 13:00",
+   "zone": "SOLO",
+   "price": 2800,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 14:00",
+   "zone": "SOLO",
+   "price": 2800,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 15:00",
+   "zone": "SOLO",
+   "price": 2800,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 16:00",
+   "zone": "SOLO",
+   "price": 2800,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 17:00",
+   "zone": "SOLO",
+   "price": 2800,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 18:00",
+   "zone": "SOLO",
+   "price": 2800,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 19:00",
+   "zone": "SOLO",
+   "price": 2800,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 20:00",
+   "zone": "SOLO",
+   "price": 2800,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 21:00",
+   "zone": "SOLO",
+   "price": 2800,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 22:00",
+   "zone": "SOLO",
+   "price": 2800,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 23:00",
+   "zone": "SOLO",
+   "price": 2800,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 00:00",
+   "zone": "STACK",
+   "price": 1900,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 01:00",
+   "zone": "STACK",
+   "price": 1900,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 02:00",
+   "zone": "STACK",
+   "price": 1900,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 03:00",
+   "zone": "STACK",
+   "price": 1900,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 04:00",
+   "zone": "STACK",
+   "price": 1900,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 05:00",
+   "zone": "STACK",
+   "price": 1900,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 06:00",
+   "zone": "STACK",
+   "price": 1900,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 07:00",
+   "zone": "STACK",
+   "price": 1900,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 08:00",
+   "zone": "STACK",
+   "price": 1900,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 09:00",
+   "zone": "STACK",
+   "price": 1900,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 10:00",
+   "zone": "STACK",
+   "price": 1900,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 11:00",
+   "zone": "STACK",
+   "price": 1900,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 12:00",
+   "zone": "STACK",
+   "price": 1900,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 13:00",
+   "zone": "STACK",
+   "price": 1900,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 14:00",
+   "zone": "STACK",
+   "price": 1900,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 15:00",
+   "zone": "STACK",
+   "price": 1900,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 16:00",
+   "zone": "STACK",
+   "price": 1900,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 17:00",
+   "zone": "STACK",
+   "price": 1900,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 18:00",
+   "zone": "STACK",
+   "price": 1900,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 19:00",
+   "zone": "STACK",
+   "price": 1900,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 20:00",
+   "zone": "STACK",
+   "price": 1900,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 21:00",
+   "zone": "STACK",
+   "price": 1900,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 22:00",
+   "zone": "STACK",
+   "price": 1900,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 23:00",
+   "zone": "STACK",
+   "price": 1900,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 00:00",
+   "zone": "STACK 2K",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 01:00",
+   "zone": "STACK 2K",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 02:00",
+   "zone": "STACK 2K",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 03:00",
+   "zone": "STACK 2K",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 04:00",
+   "zone": "STACK 2K",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 05:00",
+   "zone": "STACK 2K",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 06:00",
+   "zone": "STACK 2K",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 07:00",
+   "zone": "STACK 2K",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 08:00",
+   "zone": "STACK 2K",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 09:00",
+   "zone": "STACK 2K",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 10:00",
+   "zone": "STACK 2K",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 11:00",
+   "zone": "STACK 2K",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 12:00",
+   "zone": "STACK 2K",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 13:00",
+   "zone": "STACK 2K",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 14:00",
+   "zone": "STACK 2K",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 15:00",
+   "zone": "STACK 2K",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 16:00",
+   "zone": "STACK 2K",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 17:00",
+   "zone": "STACK 2K",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 18:00",
+   "zone": "STACK 2K",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 19:00",
+   "zone": "STACK 2K",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 20:00",
+   "zone": "STACK 2K",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 21:00",
+   "zone": "STACK 2K",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 22:00",
+   "zone": "STACK 2K",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 23:00",
+   "zone": "STACK 2K",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 00:00",
+   "zone": "TRIO",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 01:00",
+   "zone": "TRIO",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 02:00",
+   "zone": "TRIO",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 03:00",
+   "zone": "TRIO",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 04:00",
+   "zone": "TRIO",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 05:00",
+   "zone": "TRIO",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 06:00",
+   "zone": "TRIO",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 07:00",
+   "zone": "TRIO",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 08:00",
+   "zone": "TRIO",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 09:00",
+   "zone": "TRIO",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 10:00",
+   "zone": "TRIO",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 11:00",
+   "zone": "TRIO",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 12:00",
+   "zone": "TRIO",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 13:00",
+   "zone": "TRIO",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 14:00",
+   "zone": "TRIO",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 15:00",
+   "zone": "TRIO",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 16:00",
+   "zone": "TRIO",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 17:00",
+   "zone": "TRIO",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 18:00",
+   "zone": "TRIO",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 19:00",
+   "zone": "TRIO",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 20:00",
+   "zone": "TRIO",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 21:00",
+   "zone": "TRIO",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 22:00",
+   "zone": "TRIO",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-16 23:00",
+   "zone": "TRIO",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 00:00",
+   "zone": "DUO",
+   "price": 2300,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 01:00",
+   "zone": "DUO",
+   "price": 2300,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 02:00",
+   "zone": "DUO",
+   "price": 2300,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 03:00",
+   "zone": "DUO",
+   "price": 2300,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 04:00",
+   "zone": "DUO",
+   "price": 2300,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 05:00",
+   "zone": "DUO",
+   "price": 2300,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 06:00",
+   "zone": "DUO",
+   "price": 2300,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 07:00",
+   "zone": "DUO",
+   "price": 2300,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 08:00",
+   "zone": "DUO",
+   "price": 2300,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 09:00",
+   "zone": "DUO",
+   "price": 2300,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 10:00",
+   "zone": "DUO",
+   "price": 2300,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 11:00",
+   "zone": "DUO",
+   "price": 2300,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 12:00",
+   "zone": "DUO",
+   "price": 2300,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 13:00",
+   "zone": "DUO",
+   "price": 2300,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 14:00",
+   "zone": "DUO",
+   "price": 2300,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 15:00",
+   "zone": "DUO",
+   "price": 2300,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 16:00",
+   "zone": "DUO",
+   "price": 2300,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 17:00",
+   "zone": "DUO",
+   "price": 2300,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 18:00",
+   "zone": "DUO",
+   "price": 2300,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 19:00",
+   "zone": "DUO",
+   "price": 2300,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 20:00",
+   "zone": "DUO",
+   "price": 2300,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 21:00",
+   "zone": "DUO",
+   "price": 2300,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 22:00",
+   "zone": "DUO",
+   "price": 2300,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 23:00",
+   "zone": "DUO",
+   "price": 2300,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 00:00",
+   "zone": "SOLO",
+   "price": 2800,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 01:00",
+   "zone": "SOLO",
+   "price": 2800,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 02:00",
+   "zone": "SOLO",
+   "price": 2800,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 03:00",
+   "zone": "SOLO",
+   "price": 2800,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 04:00",
+   "zone": "SOLO",
+   "price": 2800,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 05:00",
+   "zone": "SOLO",
+   "price": 2800,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 06:00",
+   "zone": "SOLO",
+   "price": 2800,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 07:00",
+   "zone": "SOLO",
+   "price": 2800,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 08:00",
+   "zone": "SOLO",
+   "price": 2800,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 09:00",
+   "zone": "SOLO",
+   "price": 2800,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 10:00",
+   "zone": "SOLO",
+   "price": 2800,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 11:00",
+   "zone": "SOLO",
+   "price": 2800,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 12:00",
+   "zone": "SOLO",
+   "price": 2800,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 13:00",
+   "zone": "SOLO",
+   "price": 2800,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 14:00",
+   "zone": "SOLO",
+   "price": 2800,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 15:00",
+   "zone": "SOLO",
+   "price": 2800,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 16:00",
+   "zone": "SOLO",
+   "price": 2800,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 17:00",
+   "zone": "SOLO",
+   "price": 2800,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 18:00",
+   "zone": "SOLO",
+   "price": 2800,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 19:00",
+   "zone": "SOLO",
+   "price": 2800,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 20:00",
+   "zone": "SOLO",
+   "price": 2800,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 21:00",
+   "zone": "SOLO",
+   "price": 2800,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 22:00",
+   "zone": "SOLO",
+   "price": 2800,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 23:00",
+   "zone": "SOLO",
+   "price": 2800,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 00:00",
+   "zone": "STACK",
+   "price": 1900,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 01:00",
+   "zone": "STACK",
+   "price": 1900,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 02:00",
+   "zone": "STACK",
+   "price": 1900,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 03:00",
+   "zone": "STACK",
+   "price": 1900,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 04:00",
+   "zone": "STACK",
+   "price": 1900,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 05:00",
+   "zone": "STACK",
+   "price": 1900,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 06:00",
+   "zone": "STACK",
+   "price": 1900,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 07:00",
+   "zone": "STACK",
+   "price": 1900,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 08:00",
+   "zone": "STACK",
+   "price": 1900,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 09:00",
+   "zone": "STACK",
+   "price": 1900,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 10:00",
+   "zone": "STACK",
+   "price": 1900,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 11:00",
+   "zone": "STACK",
+   "price": 1900,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 12:00",
+   "zone": "STACK",
+   "price": 1900,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 13:00",
+   "zone": "STACK",
+   "price": 1900,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 14:00",
+   "zone": "STACK",
+   "price": 1900,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 15:00",
+   "zone": "STACK",
+   "price": 1900,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 16:00",
+   "zone": "STACK",
+   "price": 1900,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 17:00",
+   "zone": "STACK",
+   "price": 1900,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 18:00",
+   "zone": "STACK",
+   "price": 1900,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 19:00",
+   "zone": "STACK",
+   "price": 1900,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 20:00",
+   "zone": "STACK",
+   "price": 1900,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 21:00",
+   "zone": "STACK",
+   "price": 1900,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 22:00",
+   "zone": "STACK",
+   "price": 1900,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 23:00",
+   "zone": "STACK",
+   "price": 1900,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 00:00",
+   "zone": "STACK 2K",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 01:00",
+   "zone": "STACK 2K",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 02:00",
+   "zone": "STACK 2K",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 03:00",
+   "zone": "STACK 2K",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 04:00",
+   "zone": "STACK 2K",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 05:00",
+   "zone": "STACK 2K",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 06:00",
+   "zone": "STACK 2K",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 07:00",
+   "zone": "STACK 2K",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 08:00",
+   "zone": "STACK 2K",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 09:00",
+   "zone": "STACK 2K",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 10:00",
+   "zone": "STACK 2K",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 11:00",
+   "zone": "STACK 2K",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 12:00",
+   "zone": "STACK 2K",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 13:00",
+   "zone": "STACK 2K",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 14:00",
+   "zone": "STACK 2K",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 15:00",
+   "zone": "STACK 2K",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 16:00",
+   "zone": "STACK 2K",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 17:00",
+   "zone": "STACK 2K",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 18:00",
+   "zone": "STACK 2K",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 19:00",
+   "zone": "STACK 2K",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 20:00",
+   "zone": "STACK 2K",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 21:00",
+   "zone": "STACK 2K",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 22:00",
+   "zone": "STACK 2K",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 23:00",
+   "zone": "STACK 2K",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 00:00",
+   "zone": "TRIO",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 01:00",
+   "zone": "TRIO",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 02:00",
+   "zone": "TRIO",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 03:00",
+   "zone": "TRIO",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 04:00",
+   "zone": "TRIO",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 05:00",
+   "zone": "TRIO",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 06:00",
+   "zone": "TRIO",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 07:00",
+   "zone": "TRIO",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 08:00",
+   "zone": "TRIO",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 09:00",
+   "zone": "TRIO",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 10:00",
+   "zone": "TRIO",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 11:00",
+   "zone": "TRIO",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 12:00",
+   "zone": "TRIO",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 13:00",
+   "zone": "TRIO",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 14:00",
+   "zone": "TRIO",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 15:00",
+   "zone": "TRIO",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 16:00",
+   "zone": "TRIO",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 17:00",
+   "zone": "TRIO",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 18:00",
+   "zone": "TRIO",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 19:00",
+   "zone": "TRIO",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 20:00",
+   "zone": "TRIO",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 21:00",
+   "zone": "TRIO",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 22:00",
+   "zone": "TRIO",
+   "price": 2100,
+   "service_fee": 0
+  },
+  {
+   "start": "2026-11-14 23:00",
+   "zone": "TRIO",
+   "price": 2100,
+   "service_fee": 0
+  }
+ ],
+ "packets": [
+  {
+   "tariff_id": 1,
+   "tariff_name": "3 часа",
+   "start": "2026-11-16 12:00",
+   "minutes": 180,
+   "zone": "DUO",
+   "price": 6300,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 1,
+   "tariff_name": "3 часа",
+   "start": "2026-11-16 12:00",
+   "minutes": 180,
+   "zone": "SOLO",
+   "price": 7800,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 1,
+   "tariff_name": "3 часа",
+   "start": "2026-11-16 12:00",
+   "minutes": 180,
+   "zone": "STACK",
+   "price": 5100,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 1,
+   "tariff_name": "3 часа",
+   "start": "2026-11-16 12:00",
+   "minutes": 180,
+   "zone": "STACK 2K",
+   "price": 5700,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 1,
+   "tariff_name": "3 часа",
+   "start": "2026-11-16 12:00",
+   "minutes": 180,
+   "zone": "TRIO",
+   "price": 5700,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 1,
+   "tariff_name": "3 часа",
+   "start": "2026-11-14 12:00",
+   "minutes": 180,
+   "zone": "DUO",
+   "price": 6300,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 1,
+   "tariff_name": "3 часа",
+   "start": "2026-11-14 12:00",
+   "minutes": 180,
+   "zone": "SOLO",
+   "price": 7800,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 1,
+   "tariff_name": "3 часа",
+   "start": "2026-11-14 12:00",
+   "minutes": 180,
+   "zone": "STACK",
+   "price": 5100,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 1,
+   "tariff_name": "3 часа",
+   "start": "2026-11-14 12:00",
+   "minutes": 180,
+   "zone": "STACK 2K",
+   "price": 5700,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 1,
+   "tariff_name": "3 часа",
+   "start": "2026-11-14 12:00",
+   "minutes": 180,
+   "zone": "TRIO",
+   "price": 5700,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 2,
+   "tariff_name": "5 часов",
+   "start": "2026-11-16 12:00",
+   "minutes": 300,
+   "zone": "DUO",
+   "price": 8900,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 2,
+   "tariff_name": "5 часов",
+   "start": "2026-11-16 12:00",
+   "minutes": 300,
+   "zone": "SOLO",
+   "price": 10500,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 2,
+   "tariff_name": "5 часов",
+   "start": "2026-11-16 12:00",
+   "minutes": 300,
+   "zone": "STACK",
+   "price": 6900,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 2,
+   "tariff_name": "5 часов",
+   "start": "2026-11-16 12:00",
+   "minutes": 300,
+   "zone": "STACK 2K",
+   "price": 7900,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 2,
+   "tariff_name": "5 часов",
+   "start": "2026-11-16 12:00",
+   "minutes": 300,
+   "zone": "TRIO",
+   "price": 7900,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 2,
+   "tariff_name": "5 часов",
+   "start": "2026-11-14 12:00",
+   "minutes": 300,
+   "zone": "DUO",
+   "price": 8900,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 2,
+   "tariff_name": "5 часов",
+   "start": "2026-11-14 12:00",
+   "minutes": 300,
+   "zone": "SOLO",
+   "price": 10500,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 2,
+   "tariff_name": "5 часов",
+   "start": "2026-11-14 12:00",
+   "minutes": 300,
+   "zone": "STACK",
+   "price": 6900,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 2,
+   "tariff_name": "5 часов",
+   "start": "2026-11-14 12:00",
+   "minutes": 300,
+   "zone": "STACK 2K",
+   "price": 7900,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 2,
+   "tariff_name": "5 часов",
+   "start": "2026-11-14 12:00",
+   "minutes": 300,
+   "zone": "TRIO",
+   "price": 7900,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 3,
+   "tariff_name": "Утро (08:00-12:50)",
+   "start": "2026-11-16 08:00",
+   "minutes": 290,
+   "zone": "DUO",
+   "price": 3200,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 3,
+   "tariff_name": "Утро (08:00-12:50)",
+   "start": "2026-11-16 08:00",
+   "minutes": 290,
+   "zone": "SOLO",
+   "price": 4800,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 3,
+   "tariff_name": "Утро (08:00-12:50)",
+   "start": "2026-11-16 08:00",
+   "minutes": 290,
+   "zone": "STACK",
+   "price": 2400,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 3,
+   "tariff_name": "Утро (08:00-12:50)",
+   "start": "2026-11-16 08:00",
+   "minutes": 290,
+   "zone": "STACK 2K",
+   "price": 2900,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 3,
+   "tariff_name": "Утро (08:00-12:50)",
+   "start": "2026-11-16 08:00",
+   "minutes": 290,
+   "zone": "TRIO",
+   "price": 2900,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 3,
+   "tariff_name": "Утро (08:00-12:50)",
+   "start": "2026-11-14 08:00",
+   "minutes": 290,
+   "zone": "DUO",
+   "price": 3200,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 3,
+   "tariff_name": "Утро (08:00-12:50)",
+   "start": "2026-11-14 08:00",
+   "minutes": 290,
+   "zone": "SOLO",
+   "price": 4800,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 3,
+   "tariff_name": "Утро (08:00-12:50)",
+   "start": "2026-11-14 08:00",
+   "minutes": 290,
+   "zone": "STACK",
+   "price": 2400,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 3,
+   "tariff_name": "Утро (08:00-12:50)",
+   "start": "2026-11-14 08:00",
+   "minutes": 290,
+   "zone": "STACK 2K",
+   "price": 2900,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 3,
+   "tariff_name": "Утро (08:00-12:50)",
+   "start": "2026-11-14 08:00",
+   "minutes": 290,
+   "zone": "TRIO",
+   "price": 2900,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 4,
+   "tariff_name": "День (13:00-18:50)",
+   "start": "2026-11-16 13:00",
+   "minutes": 350,
+   "zone": "DUO",
+   "price": 4500,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 4,
+   "tariff_name": "День (13:00-18:50)",
+   "start": "2026-11-16 13:00",
+   "minutes": 350,
+   "zone": "SOLO",
+   "price": 6800,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 4,
+   "tariff_name": "День (13:00-18:50)",
+   "start": "2026-11-16 13:00",
+   "minutes": 350,
+   "zone": "STACK",
+   "price": 3500,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 4,
+   "tariff_name": "День (13:00-18:50)",
+   "start": "2026-11-16 13:00",
+   "minutes": 350,
+   "zone": "STACK 2K",
+   "price": 3900,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 4,
+   "tariff_name": "День (13:00-18:50)",
+   "start": "2026-11-16 13:00",
+   "minutes": 350,
+   "zone": "TRIO",
+   "price": 3900,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 4,
+   "tariff_name": "День (13:00-18:50)",
+   "start": "2026-11-14 13:00",
+   "minutes": 350,
+   "zone": "DUO",
+   "price": 4500,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 4,
+   "tariff_name": "День (13:00-18:50)",
+   "start": "2026-11-14 13:00",
+   "minutes": 350,
+   "zone": "SOLO",
+   "price": 6800,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 4,
+   "tariff_name": "День (13:00-18:50)",
+   "start": "2026-11-14 13:00",
+   "minutes": 350,
+   "zone": "STACK",
+   "price": 3500,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 4,
+   "tariff_name": "День (13:00-18:50)",
+   "start": "2026-11-14 13:00",
+   "minutes": 350,
+   "zone": "STACK 2K",
+   "price": 3900,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 4,
+   "tariff_name": "День (13:00-18:50)",
+   "start": "2026-11-14 13:00",
+   "minutes": 350,
+   "zone": "TRIO",
+   "price": 3900,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 5,
+   "tariff_name": "Полный день (08:00-17:50)",
+   "start": "2026-11-16 08:00",
+   "minutes": 590,
+   "zone": "DUO",
+   "price": 5300,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 5,
+   "tariff_name": "Полный день (08:00-17:50)",
+   "start": "2026-11-16 08:00",
+   "minutes": 590,
+   "zone": "SOLO",
+   "price": 8500,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 5,
+   "tariff_name": "Полный день (08:00-17:50)",
+   "start": "2026-11-16 08:00",
+   "minutes": 590,
+   "zone": "STACK",
+   "price": 4600,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 5,
+   "tariff_name": "Полный день (08:00-17:50)",
+   "start": "2026-11-16 08:00",
+   "minutes": 590,
+   "zone": "STACK 2K",
+   "price": 4900,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 5,
+   "tariff_name": "Полный день (08:00-17:50)",
+   "start": "2026-11-16 08:00",
+   "minutes": 590,
+   "zone": "TRIO",
+   "price": 4900,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 5,
+   "tariff_name": "Полный день (08:00-17:50)",
+   "start": "2026-11-14 08:00",
+   "minutes": 590,
+   "zone": "DUO",
+   "price": 5300,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 5,
+   "tariff_name": "Полный день (08:00-17:50)",
+   "start": "2026-11-14 08:00",
+   "minutes": 590,
+   "zone": "SOLO",
+   "price": 8500,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 5,
+   "tariff_name": "Полный день (08:00-17:50)",
+   "start": "2026-11-14 08:00",
+   "minutes": 590,
+   "zone": "STACK",
+   "price": 4600,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 5,
+   "tariff_name": "Полный день (08:00-17:50)",
+   "start": "2026-11-14 08:00",
+   "minutes": 590,
+   "zone": "STACK 2K",
+   "price": 4900,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 5,
+   "tariff_name": "Полный день (08:00-17:50)",
+   "start": "2026-11-14 08:00",
+   "minutes": 590,
+   "zone": "TRIO",
+   "price": 4900,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 6,
+   "tariff_name": "Ночь (23:00-07:50)",
+   "start": "2026-11-16 23:00",
+   "minutes": 530,
+   "zone": "DUO",
+   "price": 8000,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 6,
+   "tariff_name": "Ночь (23:00-07:50)",
+   "start": "2026-11-16 23:00",
+   "minutes": 530,
+   "zone": "SOLO",
+   "price": 9500,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 6,
+   "tariff_name": "Ночь (23:00-07:50)",
+   "start": "2026-11-16 23:00",
+   "minutes": 530,
+   "zone": "STACK",
+   "price": 6000,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 6,
+   "tariff_name": "Ночь (23:00-07:50)",
+   "start": "2026-11-16 23:00",
+   "minutes": 530,
+   "zone": "STACK 2K",
+   "price": 7000,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 6,
+   "tariff_name": "Ночь (23:00-07:50)",
+   "start": "2026-11-16 23:00",
+   "minutes": 530,
+   "zone": "TRIO",
+   "price": 7000,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 6,
+   "tariff_name": "Ночь (23:00-07:50)",
+   "start": "2026-11-14 23:00",
+   "minutes": 530,
+   "zone": "DUO",
+   "price": 8000,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 6,
+   "tariff_name": "Ночь (23:00-07:50)",
+   "start": "2026-11-14 23:00",
+   "minutes": 530,
+   "zone": "SOLO",
+   "price": 9500,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 6,
+   "tariff_name": "Ночь (23:00-07:50)",
+   "start": "2026-11-14 23:00",
+   "minutes": 530,
+   "zone": "STACK",
+   "price": 6000,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 6,
+   "tariff_name": "Ночь (23:00-07:50)",
+   "start": "2026-11-14 23:00",
+   "minutes": 530,
+   "zone": "STACK 2K",
+   "price": 7000,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 6,
+   "tariff_name": "Ночь (23:00-07:50)",
+   "start": "2026-11-14 23:00",
+   "minutes": 530,
+   "zone": "TRIO",
+   "price": 7000,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 7,
+   "tariff_name": "Турбо ночь (01:00-07:50)",
+   "start": "2026-11-16 01:00",
+   "minutes": 410,
+   "zone": "DUO",
+   "price": 6500,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 7,
+   "tariff_name": "Турбо ночь (01:00-07:50)",
+   "start": "2026-11-16 01:00",
+   "minutes": 410,
+   "zone": "SOLO",
+   "price": 7500,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 7,
+   "tariff_name": "Турбо ночь (01:00-07:50)",
+   "start": "2026-11-16 01:00",
+   "minutes": 410,
+   "zone": "STACK",
+   "price": 4800,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 7,
+   "tariff_name": "Турбо ночь (01:00-07:50)",
+   "start": "2026-11-16 01:00",
+   "minutes": 410,
+   "zone": "STACK 2K",
+   "price": 5500,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 7,
+   "tariff_name": "Турбо ночь (01:00-07:50)",
+   "start": "2026-11-16 01:00",
+   "minutes": 410,
+   "zone": "TRIO",
+   "price": 5500,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 7,
+   "tariff_name": "Турбо ночь (01:00-07:50)",
+   "start": "2026-11-14 01:00",
+   "minutes": 410,
+   "zone": "DUO",
+   "price": 6500,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 7,
+   "tariff_name": "Турбо ночь (01:00-07:50)",
+   "start": "2026-11-14 01:00",
+   "minutes": 410,
+   "zone": "SOLO",
+   "price": 7500,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 7,
+   "tariff_name": "Турбо ночь (01:00-07:50)",
+   "start": "2026-11-14 01:00",
+   "minutes": 410,
+   "zone": "STACK",
+   "price": 4800,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 7,
+   "tariff_name": "Турбо ночь (01:00-07:50)",
+   "start": "2026-11-14 01:00",
+   "minutes": 410,
+   "zone": "STACK 2K",
+   "price": 5500,
+   "service_fee": 0
+  },
+  {
+   "tariff_id": 7,
+   "tariff_name": "Турбо ночь (01:00-07:50)",
+   "start": "2026-11-14 01:00",
+   "minutes": 410,
+   "zone": "TRIO",
+   "price": 5500,
+   "service_fee": 0
+  }
+ ]
+}
