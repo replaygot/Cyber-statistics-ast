@@ -11,6 +11,8 @@ on:
 permissions:
   contents: write
 
+# Запуски сбора идут строго по одному: следующий ждёт, пока предыдущий не отправит данные.
+# Отменять идущий запуск нельзя — потеряются его замеры.
 concurrency:
   group: collect
   cancel-in-progress: false
@@ -38,7 +40,12 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
+      # ref: main — брать main на момент старта задачи, а не коммит, на котором запуск был поставлен в очередь.
+      # Иначе запуск, ждавший в очереди concurrency, стартует со старого коммита без замеров предыдущего
+      # запуска и при push упирается в конфликт в occupancy.csv и SUMMARY.md.
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Collect occupancy
         run: |
@@ -69,14 +76,5 @@ jobs:
 
       - name: Commit data
         if: always()
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898099+github-actions[bot]@users.noreply.github.com"
-          git add data
-          if git diff --cached --quiet; then echo "Нет новых данных"; exit 0; fi
-          git commit -q -m "data: $(date -u +%FT%TZ)"
-          for i in 1 2 3; do
-            git pull -q --rebase origin main && git push -q origin HEAD:main && exit 0
-            sleep 5
-          done
-          exit 1
+        # Отправка с повторами; при конфликте в occupancy.csv/SUMMARY.md они пересобираются из raw поверх свежего main.
+        run: bash collector/commit_data.sh
