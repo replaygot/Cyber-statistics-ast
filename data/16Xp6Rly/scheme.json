@@ -206,7 +206,7 @@
    "client": {
     "id": 14,
     "name": "14",
-    "number": null
+    "number": "14"
    }
   },
   {
@@ -324,19 +324,6 @@
    }
   },
   {
-   "UUID": "3A1E0522-84BD-25B9-8721-1DDFA40B781F",
-   "text": "22",
-   "display": "tablet",
-   "scheme_type": "seat",
-   "y": 14.5,
-   "x": 12.125,
-   "width": 1,
-   "height": 1,
-   "border_radius": 8,
-   "uuid": "3A1E0522-84BD-25B9-8721-1DDFA40B781F",
-   "client": []
-  },
-  {
    "UUID": "0B143B00-5600-3B0F-140B-00560F3B140B",
    "text": "21",
    "display": "tablet",
@@ -405,6 +392,19 @@
     "block_color": "#FFFFFF",
     "text_color": "#FFFFFF"
    }
+  },
+  {
+   "UUID": "3A1E0522-84BD-25B9-8721-1DDFA40B781F",
+   "text": "22",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 14.5,
+   "x": 12.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "uuid": "3A1E0522-84BD-25B9-8721-1DDFA40B781F",
+   "client": []
   },
   {
    "display": "tablet",
@@ -1006,7 +1006,7 @@
    "client": {
     "id": 14,
     "name": "14",
-    "number": null
+    "number": "14"
    }
   },
   {
@@ -1124,19 +1124,6 @@
    }
   },
   {
-   "UUID": "3A1E0522-84BD-25B9-8721-1DDFA40B781F",
-   "text": "22",
-   "display": "mobile",
-   "scheme_type": "seat",
-   "y": 14.5,
-   "x": 12.125,
-   "width": 1,
-   "height": 1,
-   "border_radius": 8,
-   "uuid": "3A1E0522-84BD-25B9-8721-1DDFA40B781F",
-   "client": []
-  },
-  {
    "UUID": "0B143B00-5600-3B0F-140B-00560F3B140B",
    "text": "21",
    "display": "mobile",
@@ -1205,6 +1192,19 @@
     "block_color": "#FFFFFF",
     "text_color": "#FFFFFF"
    }
+  },
+  {
+   "UUID": "3A1E0522-84BD-25B9-8721-1DDFA40B781F",
+   "text": "22",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 14.5,
+   "x": 12.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "uuid": "3A1E0522-84BD-25B9-8721-1DDFA40B781F",
+   "client": []
   },
   {
    "display": "mobile",
