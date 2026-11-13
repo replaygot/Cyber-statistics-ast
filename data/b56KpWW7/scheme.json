@@ -1458,9 +1458,9 @@
   {
    "display": "tablet",
    "scheme_type": "text",
-   "text": "SOLO\nAMD Ryzen 7 9850X3D\nRTX 5080 Ultra\nASUS OLED 26,5” 720Hz\nМышь Logitech G Pro X2 SUPERSTRIKE\nНаушники HyperX Cloud III S Wireless\nКлавиатура Wooting  80HE\nКресло Secretlab TITAN Evo PGL Edition",
-   "y": 25.25,
-   "x": 1,
+   "text": "SOLO\nAMD Ryzen 7 9850X3D\nRTX 5080 Ultra\nASUS OLED 26,5” 720Hz\nМышь Logitech G Pro X2 SUPERSTRIKE\nНаушники HyperX Cloud III S Wireless\nLogitech G Pro X3 Lightspeed \nКлавиатура Wooting  80HE\nКресло Secretlab TITAN Evo PGL Edition",
+   "y": 24.875,
+   "x": 0.875,
    "font_size": 15
   },
   {
@@ -1932,7 +1932,7 @@
   {
    "display": "tablet",
    "scheme_type": "text",
-   "text": "DUO • TRIO\nAMD Ryzen 7 9800X3D\nRTX 5070\nASUS 610 Hz 24,1”\nМышь Logitech G Pro X2 SUPERSTRIKE\nНаушники HyperX Cloud III S Wireless\nКлавиатура Logitech G Pro X TKL RAPID Magenta\nКресло Secretlab TITAN Evo PGL Edition",
+   "text": "DUO • TRIO\nAMD Ryzen 7 9800X3D\nRTX 5070\nASUS 610 Hz 24,1”\nМышь Logitech G Pro X3 SUPERSTRIKE\nНаушники HyperX Cloud III S Wireless\nКлавиатура Logitech G Pro X2 RAPID Magenta\nКресло Secretlab TITAN Evo PGL Edition",
    "y": 21.5,
    "x": 8.375,
    "font_size": 15
@@ -1984,7 +1984,7 @@
   {
    "display": "tablet",
    "scheme_type": "text",
-   "text": "BOOTCAMP 1–2 \nAMD Ryzen 7 9800X3D\nRTX 5070\nZOWIE 600 Hz 24,1”\nМышь Logitech G Pro X2 SUPERSTRIKE\nНаушники HyperX Cloud III S Wireless\nКлавиатура Logitech G Pro X TKL RAPID Magenta\nКресло Secretlab TITAN Evo PGL Edition",
+   "text": "BOOTCAMP 1–2 \nAMD Ryzen 7 9800X3D\nRTX 5070\nZOWIE 600 Hz 24,1”\nМышь Logitech G Pro X3 SUPERSTRIKE\nНаушники HyperX Cloud III S Wireless\nКлавиатура Logitech G Pro X2  RAPID Magenta\nКресло Secretlab TITAN Evo PGL Edition",
    "y": 25.25,
    "x": 8.375,
    "font_size": 15
@@ -3456,9 +3456,9 @@
   {
    "display": "mobile",
    "scheme_type": "text",
-   "text": "SOLO\nAMD Ryzen 7 9850X3D\nRTX 5080 Ultra\nASUS OLED 26,5” 720Hz\nМышь Logitech G Pro X2 SUPERSTRIKE\nНаушники HyperX Cloud III S Wireless\nКлавиатура Wooting  80HE\nКресло Secretlab TITAN Evo PGL Edition",
-   "y": 25.25,
-   "x": 1,
+   "text": "SOLO\nAMD Ryzen 7 9850X3D\nRTX 5080 Ultra\nASUS OLED 26,5” 720Hz\nМышь Logitech G Pro X2 SUPERSTRIKE\nНаушники HyperX Cloud III S Wireless\nLogitech G Pro X3 Lightspeed \nКлавиатура Wooting  80HE\nКресло Secretlab TITAN Evo PGL Edition",
+   "y": 24.875,
+   "x": 0.875,
    "font_size": 15
   },
   {
@@ -3930,7 +3930,7 @@
   {
    "display": "mobile",
    "scheme_type": "text",
-   "text": "DUO • TRIO\nAMD Ryzen 7 9800X3D\nRTX 5070\nASUS 610 Hz 24,1”\nМышь Logitech G Pro X2 SUPERSTRIKE\nНаушники HyperX Cloud III S Wireless\nКлавиатура Logitech G Pro X TKL RAPID Magenta\nКресло Secretlab TITAN Evo PGL Edition",
+   "text": "DUO • TRIO\nAMD Ryzen 7 9800X3D\nRTX 5070\nASUS 610 Hz 24,1”\nМышь Logitech G Pro X3 SUPERSTRIKE\nНаушники HyperX Cloud III S Wireless\nКлавиатура Logitech G Pro X2 RAPID Magenta\nКресло Secretlab TITAN Evo PGL Edition",
    "y": 21.5,
    "x": 8.375,
    "font_size": 15
@@ -3982,7 +3982,7 @@
   {
    "display": "mobile",
    "scheme_type": "text",
-   "text": "BOOTCAMP 1–2 \nAMD Ryzen 7 9800X3D\nRTX 5070\nZOWIE 600 Hz 24,1”\nМышь Logitech G Pro X2 SUPERSTRIKE\nНаушники HyperX Cloud III S Wireless\nКлавиатура Logitech G Pro X TKL RAPID Magenta\nКресло Secretlab TITAN Evo PGL Edition",
+   "text": "BOOTCAMP 1–2 \nAMD Ryzen 7 9800X3D\nRTX 5070\nZOWIE 600 Hz 24,1”\nМышь Logitech G Pro X3 SUPERSTRIKE\nНаушники HyperX Cloud III S Wireless\nКлавиатура Logitech G Pro X2  RAPID Magenta\nКресло Secretlab TITAN Evo PGL Edition",
    "y": 25.25,
    "x": 8.375,
    "font_size": 15
