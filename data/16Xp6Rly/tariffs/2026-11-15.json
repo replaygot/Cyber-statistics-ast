@@ -1,0 +1,174 @@
+{
+ "2026-11-15 08:00": {
+  "data": {
+   "tariffs": [
+    {
+     "discount_percent": null,
+     "minutes_default_duration": 60,
+     "default_price": 1300,
+     "id": 1,
+     "tariff_name": "1 час",
+     "type": "basic",
+     "minutes_duration": null
+    },
+    {
+     "discount_percent": 23,
+     "minutes_default_duration": 180,
+     "default_price": 3000,
+     "id": 15,
+     "tariff_name": "Пакет на 3 часа (сгорает)",
+     "type": "packet",
+     "minutes_duration": 180
+    },
+    {
+     "discount_percent": 37,
+     "minutes_default_duration": 300,
+     "default_price": 4100,
+     "id": 16,
+     "tariff_name": "Пакет на 5 часов (сгорает)",
+     "type": "packet",
+     "minutes_duration": 300
+    },
+    {
+     "discount_percent": 76,
+     "minutes_default_duration": 0,
+     "default_price": 1500,
+     "id": 4,
+     "tariff_name": "Пакет Утро (8:00-12:45)",
+     "type": "packet",
+     "minutes_duration": 285
+    },
+    {
+     "discount_percent": 70,
+     "minutes_default_duration": 0,
+     "default_price": 3800,
+     "id": 6,
+     "tariff_name": "Пакет Полный День (08:00-17:45)",
+     "type": "packet",
+     "minutes_duration": 585
+    }
+   ],
+   "next_available_time": "2026-11-16T00:00:00+05:00"
+  }
+ },
+ "2026-11-15 12:00": {
+  "data": {
+   "tariffs": [
+    {
+     "discount_percent": null,
+     "minutes_default_duration": 60,
+     "default_price": 1300,
+     "id": 1,
+     "tariff_name": "1 час",
+     "type": "basic",
+     "minutes_duration": null
+    },
+    {
+     "discount_percent": 23,
+     "minutes_default_duration": 180,
+     "default_price": 3000,
+     "id": 15,
+     "tariff_name": "Пакет на 3 часа (сгорает)",
+     "type": "packet",
+     "minutes_duration": 180
+    },
+    {
+     "discount_percent": 37,
+     "minutes_default_duration": 300,
+     "default_price": 4100,
+     "id": 16,
+     "tariff_name": "Пакет на 5 часов (сгорает)",
+     "type": "packet",
+     "minutes_duration": 300
+    },
+    {
+     "discount_percent": null,
+     "minutes_default_duration": 0,
+     "default_price": 1500,
+     "id": 4,
+     "tariff_name": "Пакет Утро (8:00-12:45)",
+     "type": "packet",
+     "minutes_duration": 45
+    },
+    {
+     "discount_percent": 49,
+     "minutes_default_duration": 0,
+     "default_price": 3800,
+     "id": 6,
+     "tariff_name": "Пакет Полный День (08:00-17:45)",
+     "type": "packet",
+     "minutes_duration": 345
+    }
+   ],
+   "next_available_time": "2026-11-16T00:00:00+05:00"
+  }
+ },
+ "2026-11-15 18:00": {
+  "data": {
+   "tariffs": [
+    {
+     "discount_percent": null,
+     "minutes_default_duration": 60,
+     "default_price": 1300,
+     "id": 1,
+     "tariff_name": "1 час",
+     "type": "basic",
+     "minutes_duration": null
+    },
+    {
+     "discount_percent": 23,
+     "minutes_default_duration": 180,
+     "default_price": 3000,
+     "id": 15,
+     "tariff_name": "Пакет на 3 часа (сгорает)",
+     "type": "packet",
+     "minutes_duration": 180
+    },
+    {
+     "discount_percent": 37,
+     "minutes_default_duration": 300,
+     "default_price": 4100,
+     "id": 16,
+     "tariff_name": "Пакет на 5 часов (сгорает)",
+     "type": "packet",
+     "minutes_duration": 300
+    }
+   ],
+   "next_available_time": "2026-11-16T00:00:00+05:00"
+  }
+ },
+ "2026-11-15 23:00": {
+  "data": {
+   "tariffs": [
+    {
+     "discount_percent": null,
+     "minutes_default_duration": 60,
+     "default_price": 1300,
+     "id": 1,
+     "tariff_name": "1 час",
+     "type": "basic",
+     "minutes_duration": null
+    },
+    {
+     "discount_percent": 23,
+     "minutes_default_duration": 180,
+     "default_price": 3000,
+     "id": 15,
+     "tariff_name": "Пакет на 3 часа (сгорает)",
+     "type": "packet",
+     "minutes_duration": 180
+    },
+    {
+     "discount_percent": 37,
+     "minutes_default_duration": 300,
+     "default_price": 4100,
+     "id": 16,
+     "tariff_name": "Пакет на 5 часов (сгорает)",
+     "type": "packet",
+     "minutes_duration": 300
+    }
+   ],
+   "next_available_time": "2026-11-16T00:00:00+05:00"
+  }
+ }
+}
