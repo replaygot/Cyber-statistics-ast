@@ -36,7 +36,7 @@
    }
   },
   {
-   "UUID": "676AAA86-B9E2-A90C-9976-05A71589CEF1",
+   "UUID": "03560230-040F-0530-2B06-670700080009",
    "text": "36",
    "color": "#ff1b1b",
    "display": "tablet",
@@ -46,10 +46,11 @@
    "width": 1,
    "height": 1,
    "border_radius": 8,
+   "uuid": "03560230-040F-0530-2B06-670700080009",
    "client": {
     "id": 34,
     "name": "36",
-    "number": null
+    "number": "36"
    }
   },
   {
@@ -1936,7 +1937,7 @@
    }
   },
   {
-   "UUID": "676AAA86-B9E2-A90C-9976-05A71589CEF1",
+   "UUID": "03560230-040F-0530-2B06-670700080009",
    "text": "36",
    "color": "#ff1b1b",
    "display": "mobile",
@@ -1946,10 +1947,11 @@
    "width": 1,
    "height": 1,
    "border_radius": 8,
+   "uuid": "03560230-040F-0530-2B06-670700080009",
    "client": {
     "id": 34,
     "name": "36",
-    "number": null
+    "number": "36"
    }
   },
   {
