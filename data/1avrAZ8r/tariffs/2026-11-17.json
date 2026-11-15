@@ -1,0 +1,219 @@
+{
+ "2026-11-17 08:00": {
+  "data": {
+   "tariffs": [
+    {
+     "discount_percent": null,
+     "minutes_default_duration": 60,
+     "default_price": 1000,
+     "id": 1,
+     "tariff_name": "Базовый тариф",
+     "type": "basic",
+     "minutes_duration": null
+    },
+    {
+     "discount_percent": 17,
+     "minutes_default_duration": 180,
+     "default_price": 2850,
+     "id": 2,
+     "tariff_name": "Пакет на 3 часа (сгорает)",
+     "type": "packet",
+     "minutes_duration": 180
+    },
+    {
+     "discount_percent": 33,
+     "minutes_default_duration": 240,
+     "default_price": 3500,
+     "id": 22,
+     "tariff_name": "Пакет 4 часа (сгорает)",
+     "type": "packet",
+     "minutes_duration": 240
+    },
+    {
+     "discount_percent": 38,
+     "minutes_default_duration": 300,
+     "default_price": 4000,
+     "id": 10,
+     "tariff_name": "Пакет на 5 часов (сгорает)",
+     "type": "packet",
+     "minutes_duration": 300
+    },
+    {
+     "discount_percent": 79,
+     "minutes_default_duration": 0,
+     "default_price": 1000,
+     "id": 12,
+     "tariff_name": "Пакет Утро (8:00-12:00)",
+     "type": "packet",
+     "minutes_duration": 240
+    },
+    {
+     "discount_percent": 77,
+     "minutes_default_duration": 0,
+     "default_price": 2700,
+     "id": 14,
+     "tariff_name": "Пакет Полный День (08:00-17:50)",
+     "type": "packet",
+     "minutes_duration": 590
+    }
+   ],
+   "next_available_time": "2026-11-18T00:00:00+05:00"
+  }
+ },
+ "2026-11-17 12:00": {
+  "data": {
+   "tariffs": [
+    {
+     "discount_percent": null,
+     "minutes_default_duration": 60,
+     "default_price": 1000,
+     "id": 1,
+     "tariff_name": "Базовый тариф",
+     "type": "basic",
+     "minutes_duration": null
+    },
+    {
+     "discount_percent": 17,
+     "minutes_default_duration": 180,
+     "default_price": 2850,
+     "id": 2,
+     "tariff_name": "Пакет на 3 часа (сгорает)",
+     "type": "packet",
+     "minutes_duration": 180
+    },
+    {
+     "discount_percent": 33,
+     "minutes_default_duration": 240,
+     "default_price": 3500,
+     "id": 22,
+     "tariff_name": "Пакет 4 часа (сгорает)",
+     "type": "packet",
+     "minutes_duration": 240
+    },
+    {
+     "discount_percent": 38,
+     "minutes_default_duration": 300,
+     "default_price": 4000,
+     "id": 10,
+     "tariff_name": "Пакет на 5 часов (сгорает)",
+     "type": "packet",
+     "minutes_duration": 300
+    },
+    {
+     "discount_percent": 62,
+     "minutes_default_duration": 0,
+     "default_price": 2700,
+     "id": 14,
+     "tariff_name": "Пакет Полный День (08:00-17:50)",
+     "type": "packet",
+     "minutes_duration": 350
+    },
+    {
+     "discount_percent": 70,
+     "minutes_default_duration": 0,
+     "default_price": 2100,
+     "id": 28,
+     "tariff_name": "Топ День(12:00 - 18:00)",
+     "type": "packet",
+     "minutes_duration": 360
+    }
+   ],
+   "next_available_time": "2026-11-18T00:00:00+05:00"
+  }
+ },
+ "2026-11-17 18:00": {
+  "data": {
+   "tariffs": [
+    {
+     "discount_percent": null,
+     "minutes_default_duration": 60,
+     "default_price": 1000,
+     "id": 1,
+     "tariff_name": "Базовый тариф",
+     "type": "basic",
+     "minutes_duration": null
+    },
+    {
+     "discount_percent": 17,
+     "minutes_default_duration": 180,
+     "default_price": 2850,
+     "id": 2,
+     "tariff_name": "Пакет на 3 часа (сгорает)",
+     "type": "packet",
+     "minutes_duration": 180
+    },
+    {
+     "discount_percent": 33,
+     "minutes_default_duration": 240,
+     "default_price": 3500,
+     "id": 22,
+     "tariff_name": "Пакет 4 часа (сгорает)",
+     "type": "packet",
+     "minutes_duration": 240
+    },
+    {
+     "discount_percent": 38,
+     "minutes_default_duration": 300,
+     "default_price": 4000,
+     "id": 10,
+     "tariff_name": "Пакет на 5 часов (сгорает)",
+     "type": "packet",
+     "minutes_duration": 300
+    }
+   ],
+   "next_available_time": "2026-11-18T00:00:00+05:00"
+  }
+ },
+ "2026-11-17 23:00": {
+  "data": {
+   "tariffs": [
+    {
+     "discount_percent": null,
+     "minutes_default_duration": 60,
+     "default_price": 1000,
+     "id": 1,
+     "tariff_name": "Базовый тариф",
+     "type": "basic",
+     "minutes_duration": null
+    },
+    {
+     "discount_percent": 17,
+     "minutes_default_duration": 180,
+     "default_price": 2850,
+     "id": 2,
+     "tariff_name": "Пакет на 3 часа (сгорает)",
+     "type": "packet",
+     "minutes_duration": 180
+    },
+    {
+     "discount_percent": 33,
+     "minutes_default_duration": 240,
+     "default_price": 3500,
+     "id": 22,
+     "tariff_name": "Пакет 4 часа (сгорает)",
+     "type": "packet",
+     "minutes_duration": 240
+    },
+    {
+     "discount_percent": 38,
+     "minutes_default_duration": 300,
+     "default_price": 4000,
+     "id": 10,
+     "tariff_name": "Пакет на 5 часов (сгорает)",
+     "type": "packet",
+     "minutes_duration": 300
+    },
+    {
+     "discount_percent": 68,
+     "minutes_default_duration": 0,
+     "default_price": 3500,
+     "id": 16,
+     "tariff_name": "Пакет Ночь (23:00-7:50)",
+     "type": "packet",
+     "minutes_duration": 530
+    }
+   ],
+   "next_available_time": "2026-11-18T00:00:00+05:00"
+  }
+ }
+}
