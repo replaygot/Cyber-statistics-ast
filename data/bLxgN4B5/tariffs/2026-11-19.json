@@ -1,0 +1,120 @@
+{
+ "2026-11-19 08:00": {
+  "data": {
+   "tariffs": [
+    {
+     "discount_percent": null,
+     "minutes_default_duration": 60,
+     "default_price": 2000,
+     "id": 1,
+     "tariff_name": "Базовый тариф",
+     "type": "basic",
+     "minutes_duration": null
+    },
+    {
+     "discount_percent": 75,
+     "minutes_default_duration": 0,
+     "default_price": 2000,
+     "id": 24,
+     "tariff_name": "Утро ( 8:00 - 12:00 )",
+     "type": "packet",
+     "minutes_duration": 240
+    },
+    {
+     "discount_percent": 75,
+     "minutes_default_duration": 0,
+     "default_price": 5000,
+     "id": 28,
+     "tariff_name": "С утра до вечера ( 8:00 - 18:00 )",
+     "type": "packet",
+     "minutes_duration": 600
+    }
+   ],
+   "next_available_time": "2026-11-20T18:00:00+05:00"
+  }
+ },
+ "2026-11-19 12:00": {
+  "data": {
+   "tariffs": [
+    {
+     "discount_percent": null,
+     "minutes_default_duration": 60,
+     "default_price": 2000,
+     "id": 1,
+     "tariff_name": "Базовый тариф",
+     "type": "basic",
+     "minutes_duration": null
+    },
+    {
+     "discount_percent": 50,
+     "minutes_default_duration": 0,
+     "default_price": 4000,
+     "id": 25,
+     "tariff_name": "Обед ( 11:00 - 16:00 )",
+     "type": "packet",
+     "minutes_duration": 240
+    },
+    {
+     "discount_percent": 64,
+     "minutes_default_duration": 0,
+     "default_price": 5000,
+     "id": 26,
+     "tariff_name": "День ( 12:00 - 19:00 )",
+     "type": "packet",
+     "minutes_duration": 420
+    },
+    {
+     "discount_percent": 58,
+     "minutes_default_duration": 0,
+     "default_price": 5000,
+     "id": 28,
+     "tariff_name": "С утра до вечера ( 8:00 - 18:00 )",
+     "type": "packet",
+     "minutes_duration": 360
+    }
+   ],
+   "next_available_time": "2026-11-20T18:00:00+05:00"
+  }
+ },
+ "2026-11-19 18:00": {
+  "data": {
+   "tariffs": [
+    {
+     "discount_percent": null,
+     "minutes_default_duration": 60,
+     "default_price": 2000,
+     "id": 1,
+     "tariff_name": "Базовый тариф",
+     "type": "basic",
+     "minutes_duration": null
+    }
+   ],
+   "next_available_time": "2026-11-20T18:00:00+05:00"
+  }
+ },
+ "2026-11-19 23:00": {
+  "data": {
+   "tariffs": [
+    {
+     "discount_percent": null,
+     "minutes_default_duration": 60,
+     "default_price": 2000,
+     "id": 1,
+     "tariff_name": "Базовый тариф",
+     "type": "basic",
+     "minutes_duration": null
+    },
+    {
+     "discount_percent": 72,
+     "minutes_default_duration": 0,
+     "default_price": 5000,
+     "id": 22,
+     "tariff_name": "Ночь ( 22:00 - 8:00 )",
+     "type": "packet",
+     "minutes_duration": 540
+    }
+   ],
+   "next_available_time": "2026-11-20T18:00:00+05:00"
+  }
+ }
+}
