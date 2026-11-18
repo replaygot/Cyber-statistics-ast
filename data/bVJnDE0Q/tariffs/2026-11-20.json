@@ -1,0 +1,201 @@
+{
+ "2026-11-20 08:00": {
+  "data": {
+   "tariffs": [
+    {
+     "discount_percent": null,
+     "minutes_default_duration": 60,
+     "default_price": 1200,
+     "id": 1,
+     "tariff_name": "Базовый тариф",
+     "type": "basic",
+     "minutes_duration": null
+    },
+    {
+     "discount_percent": 33,
+     "minutes_default_duration": 180,
+     "default_price": 2400,
+     "id": 17,
+     "tariff_name": "3 часа МП",
+     "type": "packet",
+     "minutes_duration": 180
+    },
+    {
+     "discount_percent": 40,
+     "minutes_default_duration": 300,
+     "default_price": 3600,
+     "id": 18,
+     "tariff_name": "5 часов МП",
+     "type": "packet",
+     "minutes_duration": 300
+    },
+    {
+     "discount_percent": 79,
+     "minutes_default_duration": 0,
+     "default_price": 1500,
+     "id": 9,
+     "tariff_name": "Утро",
+     "type": "packet",
+     "minutes_duration": 360
+    },
+    {
+     "discount_percent": 75,
+     "minutes_default_duration": 0,
+     "default_price": 4000,
+     "id": 19,
+     "tariff_name": "Полный день",
+     "type": "packet",
+     "minutes_duration": 720
+    },
+    {
+     "discount_percent": null,
+     "minutes_default_duration": 0,
+     "default_price": 3000,
+     "id": 12,
+     "tariff_name": "Турбо ночь",
+     "type": "packet",
+     "minutes_duration": 120
+    }
+   ],
+   "next_available_time": "2026-11-21T00:00:00+05:00"
+  }
+ },
+ "2026-11-20 12:00": {
+  "data": {
+   "tariffs": [
+    {
+     "discount_percent": null,
+     "minutes_default_duration": 60,
+     "default_price": 1200,
+     "id": 1,
+     "tariff_name": "Базовый тариф",
+     "type": "basic",
+     "minutes_duration": null
+    },
+    {
+     "discount_percent": 33,
+     "minutes_default_duration": 180,
+     "default_price": 2400,
+     "id": 17,
+     "tariff_name": "3 часа МП",
+     "type": "packet",
+     "minutes_duration": 180
+    },
+    {
+     "discount_percent": 40,
+     "minutes_default_duration": 300,
+     "default_price": 3600,
+     "id": 18,
+     "tariff_name": "5 часов МП",
+     "type": "packet",
+     "minutes_duration": 300
+    },
+    {
+     "discount_percent": 38,
+     "minutes_default_duration": 0,
+     "default_price": 1500,
+     "id": 9,
+     "tariff_name": "Утро",
+     "type": "packet",
+     "minutes_duration": 120
+    },
+    {
+     "discount_percent": 72,
+     "minutes_default_duration": 0,
+     "default_price": 2000,
+     "id": 10,
+     "tariff_name": "День",
+     "type": "packet",
+     "minutes_duration": 360
+    }
+   ],
+   "next_available_time": "2026-11-21T00:00:00+05:00"
+  }
+ },
+ "2026-11-20 18:00": {
+  "data": {
+   "tariffs": [
+    {
+     "discount_percent": null,
+     "minutes_default_duration": 60,
+     "default_price": 1200,
+     "id": 1,
+     "tariff_name": "Базовый тариф",
+     "type": "basic",
+     "minutes_duration": null
+    },
+    {
+     "discount_percent": 33,
+     "minutes_default_duration": 180,
+     "default_price": 2400,
+     "id": 17,
+     "tariff_name": "3 часа МП",
+     "type": "packet",
+     "minutes_duration": 180
+    },
+    {
+     "discount_percent": 40,
+     "minutes_default_duration": 300,
+     "default_price": 3600,
+     "id": 18,
+     "tariff_name": "5 часов МП",
+     "type": "packet",
+     "minutes_duration": 300
+    },
+    {
+     "discount_percent": null,
+     "minutes_default_duration": 0,
+     "default_price": 2500,
+     "id": 16,
+     "tariff_name": "Турбо день",
+     "type": "packet",
+     "minutes_duration": 120
+    }
+   ],
+   "next_available_time": "2026-11-21T00:00:00+05:00"
+  }
+ },
+ "2026-11-20 23:00": {
+  "data": {
+   "tariffs": [
+    {
+     "discount_percent": null,
+     "minutes_default_duration": 60,
+     "default_price": 1200,
+     "id": 1,
+     "tariff_name": "Базовый тариф",
+     "type": "basic",
+     "minutes_duration": null
+    },
+    {
+     "discount_percent": 33,
+     "minutes_default_duration": 180,
+     "default_price": 2400,
+     "id": 17,
+     "tariff_name": "3 часа МП",
+     "type": "packet",
+     "minutes_duration": 180
+    },
+    {
+     "discount_percent": 40,
+     "minutes_default_duration": 300,
+     "default_price": 3600,
+     "id": 18,
+     "tariff_name": "5 часов МП",
+     "type": "packet",
+     "minutes_duration": 300
+    },
+    {
+     "discount_percent": 67,
+     "minutes_default_duration": 0,
+     "default_price": 6000,
+     "id": 11,
+     "tariff_name": "Ночь",
+     "type": "packet",
+     "minutes_duration": 540
+    }
+   ],
+   "next_available_time": "2026-11-21T00:00:00+05:00"
+  }
+ }
+}
