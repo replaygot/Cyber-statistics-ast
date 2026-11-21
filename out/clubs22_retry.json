@@ -1,0 +1,56 @@
+{
+ "YwQ7AOma": {
+  "ya_coords": {
+   "lat": "51.133516",
+   "lon": "71.394736"
+  },
+  "longitude": "71.394736",
+  "latitude": "51.133516",
+  "net_code": null,
+  "phone": "+77079903010",
+  "logo_image_url": "https://booking.langame.ru/images/default_logo.svg?v=2",
+  "logo_image_png_url": "https://dev.booking.langame.ru/images/default_logo.png",
+  "full_address": "улица Е-900, 4, Астана, Казахстан",
+  "name": "URSA GREEN LINE",
+  "website": null,
+  "telegram": null,
+  "vk": null,
+  "youtube": null
+ },
+ "YNo8l6DA": {
+  "ya_coords": {
+   "lat": "51.111138",
+   "lon": "71.397838"
+  },
+  "longitude": "71.397838",
+  "latitude": "51.111138",
+  "net_code": null,
+  "phone": "+77080165223",
+  "logo_image_url": "https://booking.langame.ru/images/default_logo.svg?v=2",
+  "logo_image_png_url": "https://dev.booking.langame.ru/images/default_logo.png",
+  "full_address": "проспект Туран, 55/5, Астана, Казахстан",
+  "name": "TOPGAME ARENATOWERS",
+  "website": null,
+  "telegram": null,
+  "vk": null,
+  "youtube": null
+ },
+ "bAaJQgP9": {
+  "ya_coords": {
+   "lat": "51.129549",
+   "lon": "71.418267"
+  },
+  "longitude": "71.418267",
+  "latitude": "51.129549",
+  "net_code": null,
+  "phone": "+77081184318",
+  "logo_image_url": "https://booking.langame.ru/images/default_logo.svg?v=2",
+  "logo_image_png_url": "https://dev.booking.langame.ru/images/default_logo.png",
+  "full_address": "улица Достык, 1, Астана, Казахстан",
+  "name": "TOPGAME DOSTYK",
+  "website": null,
+  "telegram": null,
+  "vk": null,
+  "youtube": null
+ }
+}
