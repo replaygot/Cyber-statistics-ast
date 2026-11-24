@@ -2452,9 +2452,9 @@
   {
    "display": "tablet",
    "scheme_type": "text",
-   "text": "HyperX Alloy Rise 75",
+   "text": "Mchose Mix 87",
    "y": 19.125,
-   "x": 5.25,
+   "x": 5.625,
    "font_size": 15
   },
   {
@@ -2532,9 +2532,9 @@
   {
    "display": "tablet",
    "scheme_type": "text",
-   "text": "Logitech Superlight 2",
+   "text": "Logitech PRO X2 SUPERSTRIKE",
    "y": 1.625,
-   "x": 19.125,
+   "x": 18.5,
    "font_size": 15
   },
   {
@@ -4989,9 +4989,9 @@
   {
    "display": "mobile",
    "scheme_type": "text",
-   "text": "HyperX Alloy Rise 75",
+   "text": "Mchose Mix 87",
    "y": 19.125,
-   "x": 5.25,
+   "x": 5.625,
    "font_size": 15
   },
   {
@@ -5069,9 +5069,9 @@
   {
    "display": "mobile",
    "scheme_type": "text",
-   "text": "Logitech Superlight 2",
+   "text": "Logitech PRO X2 SUPERSTRIKE",
    "y": 1.625,
-   "x": 19.125,
+   "x": 18.5,
    "font_size": 15
   }
  ]
