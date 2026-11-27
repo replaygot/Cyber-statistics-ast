@@ -36,7 +36,7 @@
    }
   },
   {
-   "UUID": "03560230-040F-0530-2B06-670700080009",
+   "UUID": "676AAA86-B9E2-A90C-9976-05A71589CEF1",
    "text": "36",
    "color": "#ff1b1b",
    "display": "tablet",
@@ -46,7 +46,7 @@
    "width": 1,
    "height": 1,
    "border_radius": 8,
-   "uuid": "03560230-040F-0530-2B06-670700080009",
+   "uuid": "676AAA86-B9E2-A90C-9976-05A71589CEF1",
    "client": {
     "id": 34,
     "name": "36",
@@ -360,7 +360,7 @@
    }
   },
   {
-   "UUID": "D98C1DD4-008F-04B2-E980-0998ECF8427E",
+   "UUID": "165547BF-F19C-48EE-5D66-8E39656264B5",
    "text": "57",
    "color": "#ff1b1b",
    "display": "tablet",
@@ -582,23 +582,6 @@
    }
   },
   {
-   "UUID": "2F15E6A7-C3AA-514A-AF40-B8F10F7018D8",
-   "text": "3",
-   "color": "#313eff",
-   "display": "tablet",
-   "scheme_type": "seat",
-   "y": 19.125,
-   "x": 4.125,
-   "width": 1,
-   "height": 1,
-   "border_radius": 8,
-   "client": {
-    "id": 5,
-    "name": "03",
-    "number": "3"
-   }
-  },
-  {
    "UUID": "12F4170D-7743-544A-6F33-C9843C355656",
    "text": "5",
    "color": "#313eff",
@@ -634,7 +617,7 @@
    }
   },
   {
-   "UUID": "03FF0210-04E0-05EB-D606-F20700080009",
+   "UUID": "465F1F8C-1BE8-A065-AECA-C12841216874",
    "text": "7",
    "color": "#313eff",
    "display": "tablet",
@@ -874,7 +857,7 @@
    }
   },
   {
-   "UUID": "03560230-040F-0530-2606-CB0700080009",
+   "UUID": "4A7D6C52-74CC-C171-9DFD-EF15FCB982E5",
    "text": "24",
    "color": "#313eff",
    "display": "tablet",
@@ -884,32 +867,14 @@
    "width": 1,
    "height": 1,
    "border_radius": 8,
-   "uuid": "03560230-040F-0530-2606-CB0700080009",
    "client": {
     "id": 23,
     "name": "24",
-    "number": null
+    "number": "24"
    }
   },
   {
-   "UUID": "FB79B512-F3A6-E224-98C7-95D25C885AB9",
-   "text": "25",
-   "color": "#313eff",
-   "display": "tablet",
-   "scheme_type": "seat",
-   "y": 10.625,
-   "x": 2.125,
-   "width": 1,
-   "height": 1,
-   "border_radius": 8,
-   "client": {
-    "id": 24,
-    "name": "25",
-    "number": null
-   }
-  },
-  {
-   "UUID": "03560230-040F-0530-2D06-360700080009",
+   "UUID": "77B7A993-77C3-A7B0-9437-5FAFE75FB24B",
    "text": "15",
    "color": "#313eff",
    "display": "tablet",
@@ -919,11 +884,11 @@
    "width": 1,
    "height": 1,
    "border_radius": 8,
-   "uuid": "03560230-040F-0530-2D06-360700080009",
+   "uuid": "77B7A993-77C3-A7B0-9437-5FAFE75FB24B",
    "client": {
     "id": 51,
     "name": "15",
-    "number": null
+    "number": "15"
    }
   },
   {
@@ -945,7 +910,7 @@
    }
   },
   {
-   "UUID": "03FF0210-04E0-05EA-5606-A70700080009",
+   "UUID": "0C4F0ECE-8C8C-D5E1-8665-BA937A962E25",
    "text": "1",
    "color": "#0830f7",
    "display": "tablet",
@@ -955,7 +920,6 @@
    "width": 1,
    "height": 1,
    "border_radius": 8,
-   "uuid": "03FF0210-04E0-05EA-5606-A70700080009",
    "client": {
     "id": 72,
     "name": "01",
@@ -980,6 +944,58 @@
    }
   },
   {
+   "UUID": "2F15E6A7-C3AA-514A-AF40-B8F10F7018D8",
+   "text": "3",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 19.125,
+   "x": 4.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "uuid": "2F15E6A7-C3AA-514A-AF40-B8F10F7018D8",
+   "color": "#313eff",
+   "client": {
+    "id": 82,
+    "name": "03",
+    "number": "3"
+   }
+  },
+  {
+   "UUID": "1AF1AF43-26CE-1456-E76C-53FAB3FF394A",
+   "text": "25",
+   "color": "#313eff",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 10.625,
+   "x": 2.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 83,
+    "name": "25",
+    "number": "25"
+   }
+  },
+  {
+   "UUID": "FB79B512-F3A6-E224-98C7-95D25C885AB9",
+   "text": "44",
+   "color": "#8dff1b",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 8.375,
+   "x": 10.375,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 24,
+    "name": "44",
+    "number": "44"
+   }
+  },
+  {
    "UUID": "86F6665D-4776-AE9E-2AEB-BC644EDCFB14",
    "text": "43",
    "color": "#8dff1b",
@@ -993,23 +1009,6 @@
    "client": {
     "id": 41,
     "name": "43",
-    "number": null
-   }
-  },
-  {
-   "UUID": "DC50743C-4331-10F4-D84F-090DCCD1BC05",
-   "text": "44",
-   "color": "#8dff1b",
-   "display": "tablet",
-   "scheme_type": "seat",
-   "y": 8.375,
-   "x": 10.375,
-   "width": 1,
-   "height": 1,
-   "border_radius": 8,
-   "client": {
-    "id": 42,
-    "name": "44",
     "number": null
    }
   },
@@ -1031,7 +1030,7 @@
    }
   },
   {
-   "UUID": "47BA99A0-3E6A-1447-3BD6-EF8CEC1B2CC7",
+   "UUID": "B754DD6D-1CFC-85D1-B34D-6089EDB20DC0",
    "text": "46",
    "color": "#8dff1b",
    "display": "tablet",
@@ -1041,10 +1040,11 @@
    "width": 1,
    "height": 1,
    "border_radius": 8,
+   "uuid": "B754DD6D-1CFC-85D1-B34D-6089EDB20DC0",
    "client": {
     "id": 44,
     "name": "46",
-    "number": null
+    "number": "46"
    }
   },
   {
@@ -1937,7 +1937,7 @@
    }
   },
   {
-   "UUID": "03560230-040F-0530-2B06-670700080009",
+   "UUID": "676AAA86-B9E2-A90C-9976-05A71589CEF1",
    "text": "36",
    "color": "#ff1b1b",
    "display": "mobile",
@@ -1947,7 +1947,7 @@
    "width": 1,
    "height": 1,
    "border_radius": 8,
-   "uuid": "03560230-040F-0530-2B06-670700080009",
+   "uuid": "676AAA86-B9E2-A90C-9976-05A71589CEF1",
    "client": {
     "id": 34,
     "name": "36",
@@ -2261,7 +2261,7 @@
    }
   },
   {
-   "UUID": "D98C1DD4-008F-04B2-E980-0998ECF8427E",
+   "UUID": "165547BF-F19C-48EE-5D66-8E39656264B5",
    "text": "57",
    "color": "#ff1b1b",
    "display": "mobile",
@@ -2483,23 +2483,6 @@
    }
   },
   {
-   "UUID": "2F15E6A7-C3AA-514A-AF40-B8F10F7018D8",
-   "text": "3",
-   "color": "#313eff",
-   "display": "mobile",
-   "scheme_type": "seat",
-   "y": 19.125,
-   "x": 4.125,
-   "width": 1,
-   "height": 1,
-   "border_radius": 8,
-   "client": {
-    "id": 5,
-    "name": "03",
-    "number": "3"
-   }
-  },
-  {
    "UUID": "12F4170D-7743-544A-6F33-C9843C355656",
    "text": "5",
    "color": "#313eff",
@@ -2535,7 +2518,7 @@
    }
   },
   {
-   "UUID": "03FF0210-04E0-05EB-D606-F20700080009",
+   "UUID": "465F1F8C-1BE8-A065-AECA-C12841216874",
    "text": "7",
    "color": "#313eff",
    "display": "mobile",
@@ -2775,7 +2758,7 @@
    }
   },
   {
-   "UUID": "03560230-040F-0530-2606-CB0700080009",
+   "UUID": "4A7D6C52-74CC-C171-9DFD-EF15FCB982E5",
    "text": "24",
    "color": "#313eff",
    "display": "mobile",
@@ -2785,32 +2768,14 @@
    "width": 1,
    "height": 1,
    "border_radius": 8,
-   "uuid": "03560230-040F-0530-2606-CB0700080009",
    "client": {
     "id": 23,
     "name": "24",
-    "number": null
+    "number": "24"
    }
   },
   {
-   "UUID": "FB79B512-F3A6-E224-98C7-95D25C885AB9",
-   "text": "25",
-   "color": "#313eff",
-   "display": "mobile",
-   "scheme_type": "seat",
-   "y": 10.625,
-   "x": 2.125,
-   "width": 1,
-   "height": 1,
-   "border_radius": 8,
-   "client": {
-    "id": 24,
-    "name": "25",
-    "number": null
-   }
-  },
-  {
-   "UUID": "03560230-040F-0530-2D06-360700080009",
+   "UUID": "77B7A993-77C3-A7B0-9437-5FAFE75FB24B",
    "text": "15",
    "color": "#313eff",
    "display": "mobile",
@@ -2820,11 +2785,11 @@
    "width": 1,
    "height": 1,
    "border_radius": 8,
-   "uuid": "03560230-040F-0530-2D06-360700080009",
+   "uuid": "77B7A993-77C3-A7B0-9437-5FAFE75FB24B",
    "client": {
     "id": 51,
     "name": "15",
-    "number": null
+    "number": "15"
    }
   },
   {
@@ -2846,7 +2811,7 @@
    }
   },
   {
-   "UUID": "03FF0210-04E0-05EA-5606-A70700080009",
+   "UUID": "0C4F0ECE-8C8C-D5E1-8665-BA937A962E25",
    "text": "1",
    "color": "#0830f7",
    "display": "mobile",
@@ -2856,7 +2821,6 @@
    "width": 1,
    "height": 1,
    "border_radius": 8,
-   "uuid": "03FF0210-04E0-05EA-5606-A70700080009",
    "client": {
     "id": 72,
     "name": "01",
@@ -2881,6 +2845,58 @@
    }
   },
   {
+   "UUID": "2F15E6A7-C3AA-514A-AF40-B8F10F7018D8",
+   "text": "3",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 19.125,
+   "x": 4.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "uuid": "2F15E6A7-C3AA-514A-AF40-B8F10F7018D8",
+   "color": "#313eff",
+   "client": {
+    "id": 82,
+    "name": "03",
+    "number": "3"
+   }
+  },
+  {
+   "UUID": "1AF1AF43-26CE-1456-E76C-53FAB3FF394A",
+   "text": "25",
+   "color": "#313eff",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 10.625,
+   "x": 2.125,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 83,
+    "name": "25",
+    "number": "25"
+   }
+  },
+  {
+   "UUID": "FB79B512-F3A6-E224-98C7-95D25C885AB9",
+   "text": "44",
+   "color": "#8dff1b",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 8.375,
+   "x": 10.375,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 24,
+    "name": "44",
+    "number": "44"
+   }
+  },
+  {
    "UUID": "86F6665D-4776-AE9E-2AEB-BC644EDCFB14",
    "text": "43",
    "color": "#8dff1b",
@@ -2894,23 +2910,6 @@
    "client": {
     "id": 41,
     "name": "43",
-    "number": null
-   }
-  },
-  {
-   "UUID": "DC50743C-4331-10F4-D84F-090DCCD1BC05",
-   "text": "44",
-   "color": "#8dff1b",
-   "display": "mobile",
-   "scheme_type": "seat",
-   "y": 8.375,
-   "x": 10.375,
-   "width": 1,
-   "height": 1,
-   "border_radius": 8,
-   "client": {
-    "id": 42,
-    "name": "44",
     "number": null
    }
   },
@@ -2932,7 +2931,7 @@
    }
   },
   {
-   "UUID": "47BA99A0-3E6A-1447-3BD6-EF8CEC1B2CC7",
+   "UUID": "B754DD6D-1CFC-85D1-B34D-6089EDB20DC0",
    "text": "46",
    "color": "#8dff1b",
    "display": "mobile",
@@ -2942,10 +2941,11 @@
    "width": 1,
    "height": 1,
    "border_radius": 8,
+   "uuid": "B754DD6D-1CFC-85D1-B34D-6089EDB20DC0",
    "client": {
     "id": 44,
     "name": "46",
-    "number": null
+    "number": "46"
    }
   },
   {

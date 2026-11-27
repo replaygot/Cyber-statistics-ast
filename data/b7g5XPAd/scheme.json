@@ -341,6 +341,23 @@
    }
   },
   {
+   "UUID": "A0E73D00-5600-3D0F-E7A0-00560F3DE7A0",
+   "text": "55",
+   "color": "#c8c688",
+   "display": "tablet",
+   "scheme_type": "seat",
+   "y": 14.5,
+   "x": 16.25,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 50,
+    "name": "63",
+    "number": null
+   }
+  },
+  {
    "UUID": "68E83D00-5600-3D0F-E868-00560F3DE868",
    "text": "56",
    "color": "#c8c688",
@@ -2165,15 +2182,6 @@
    "scheme_type": "block",
    "y": 3.75,
    "x": 14.875,
-   "width": 1,
-   "height": 1,
-   "border_radius": 8
-  },
-  {
-   "display": "tablet",
-   "scheme_type": "block",
-   "y": 14.5,
-   "x": 16.25,
    "width": 1,
    "height": 1,
    "border_radius": 8
@@ -2708,6 +2716,23 @@
    }
   },
   {
+   "UUID": "A0E73D00-5600-3D0F-E7A0-00560F3DE7A0",
+   "text": "55",
+   "color": "#c8c688",
+   "display": "mobile",
+   "scheme_type": "seat",
+   "y": 14.5,
+   "x": 16.25,
+   "width": 1,
+   "height": 1,
+   "border_radius": 8,
+   "client": {
+    "id": 50,
+    "name": "63",
+    "number": null
+   }
+  },
+  {
    "UUID": "68E83D00-5600-3D0F-E868-00560F3DE868",
    "text": "56",
    "color": "#c8c688",
@@ -4532,15 +4557,6 @@
    "scheme_type": "block",
    "y": 3.75,
    "x": 14.875,
-   "width": 1,
-   "height": 1,
-   "border_radius": 8
-  },
-  {
-   "display": "mobile",
-   "scheme_type": "block",
-   "y": 14.5,
-   "x": 16.25,
    "width": 1,
    "height": 1,
    "border_radius": 8
